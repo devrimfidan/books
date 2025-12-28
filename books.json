@@ -1,236 +1,3068 @@
 [
   {
-    "title": "The Phoenix Project",
-    "author": "Gene Kim",
-    "year": 2013,
-    "rating": 4.5
+    "title": "Generative AI",
+    "author": "Harvard Business Review",
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 3.8
   },
   {
-    "title": "The Unicorn Project",
-    "author": "Gene Kim",
-    "year": 2019,
-    "rating": 4.3
+    "title": "How AI Will Change Your Life",
+    "author": "Patrick Dixon",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
   },
   {
-    "title": "The DevOps Handbook",
-    "author": "Gene Kim",
-    "year": 2016,
-    "rating": 4.6
+    "title": "A Brief History of Artificial Intelligence",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence",
+    "year": 2021,
+    "rating": 4.2
   },
   {
-    "title": "Accelerate",
-    "author": "Nicole Forsgren",
-    "year": 2018,
-    "rating": 4.5
-  },
-  {
-    "title": "The Goal",
-    "author": "Eliyahu M. Goldratt",
-    "year": 1984,
-    "rating": 4.4
-  },
-  {
-    "title": "Site Reliability Engineering",
-    "author": "Betsy Beyer",
-    "year": 2016,
-    "rating": 4.4
-  },
-  {
-    "title": "The Site Reliability Workbook",
-    "author": "Betsy Beyer",
-    "year": 2018,
-    "rating": 4.3
-  },
-  {
-    "title": "Continuous Delivery",
-    "author": "Jez Humble",
-    "year": 2010,
-    "rating": 4.5
-  },
-  {
-    "title": "Release It!",
-    "author": "Michael T. Nygard",
-    "year": 2007,
-    "rating": 4.4
-  },
-  {
-    "title": "The Lean Startup",
-    "author": "Eric Ries",
-    "year": 2011,
-    "rating": 4.3
-  },
-  {
-    "title": "Thinking, Fast and Slow",
-    "author": "Daniel Kahneman",
-    "year": 2011,
-    "rating": 4.5
-  },
-  {
-    "title": "The Design of Everyday Things",
-    "author": "Don Norman",
-    "year": 1988,
-    "rating": 4.4
-  },
-  {
-    "title": "Don't Make Me Think",
-    "author": "Steve Krug",
-    "year": 2000,
-    "rating": 4.5
-  },
-  {
-    "title": "The Innovator's Dilemma",
-    "author": "Clayton M. Christensen",
-    "year": 1997,
-    "rating": 4.3
-  },
-  {
-    "title": "Zero to One",
-    "author": "Peter Thiel",
-    "year": 2014,
-    "rating": 4.4
-  },
-  {
-    "title": "The Hard Thing About Hard Things",
-    "author": "Ben Horowitz",
-    "year": 2014,
-    "rating": 4.5
-  },
-  {
-    "title": "Good to Great",
-    "author": "Jim Collins",
-    "year": 2001,
-    "rating": 4.4
-  },
-  {
-    "title": "The Mythical Man-Month",
-    "author": "Frederick P. Brooks Jr.",
-    "year": 1975,
-    "rating": 4.3
-  },
-  {
-    "title": "Code Complete",
-    "author": "Steve McConnell",
-    "year": 1993,
-    "rating": 4.5
-  },
-  {
-    "title": "Clean Code",
-    "author": "Robert C. Martin",
-    "year": 2008,
-    "rating": 4.6
-  },
-  {
-    "title": "The Pragmatic Programmer",
-    "author": "Andy Hunt",
-    "year": 1999,
-    "rating": 4.6
-  },
-  {
-    "title": "Refactoring",
-    "author": "Martin Fowler",
-    "year": 1999,
-    "rating": 4.5
-  },
-  {
-    "title": "Design Patterns",
-    "author": "Erich Gamma",
-    "year": 1994,
-    "rating": 4.4
-  },
-  {
-    "title": "Domain-Driven Design",
-    "author": "Eric Evans",
-    "year": 2003,
-    "rating": 4.3
-  },
-  {
-    "title": "Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones",
-    "author": "James Clear",
-    "year": 2018,
-    "rating": 4.6
-  },
-  {
-    "title": "Manage Your Day-to-Day",
-    "author": "Jocelyn K. Glei",
-    "year": 2013,
+    "title": "The Age of AI: And Our Human Future",
+    "author": "Henry Kissinger",
+    "category": "Artificial Intelligence",
+    "year": 2021,
     "rating": 4.0
   },
   {
-    "title": "The Get Things Done Book",
-    "author": "Mikael Krogerus",
+    "title": "Co-Intelligence: Living and Working With AI",
+    "author": "Ethan Mollick",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "AI Needs You: How We Can Change AI's Future and Save Our Own",
+    "author": "Verity Harding",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
+  },
+  {
+    "title": "The Road to Conscious Machines",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "The Atlas of AI",
+    "author": "Kate Crawford",
+    "category": "Artificial Intelligence",
+    "year": 2021,
+    "rating": 4.2
+  },
+  {
+    "title": "Only Humans Need Apply: Winners and Losers in the Age of Smart Machines",
+    "author": "Thomas H. Davenport",
+    "category": "Artificial Intelligence",
+    "year": 2016,
+    "rating": 3.7
+  },
+  {
+    "title": "Code-Dependent",
+    "author": "Madhumita Murgia",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "Artificial Intelligence",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence",
     "year": 2020,
     "rating": 3.9
   },
   {
-    "title": "Four Thousand Weeks",
-    "author": "Oliver Burkeman",
-    "year": 2021,
+    "title": "The Coming Wave",
+    "author": "Mustafa Suleyman; Michael Bhaskar",
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "Brave New Words",
+    "author": "Sal Khan",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Machines of Loving Grace",
+    "author": "John Markoff",
+    "category": "Artificial Intelligence",
+    "year": 2015,
+    "rating": 3.8
+  },
+  {
+    "title": "Human Compatible",
+    "author": "Stuart Russell",
+    "category": "Artificial Intelligence",
+    "year": 2019,
     "rating": 4.3
   },
   {
-    "title": "Meditations for Mortals",
-    "author": "Oliver Burkeman",
+    "title": "Hello World: Being Human in the Age of Algorithms",
+    "author": "Hannah Fry",
+    "category": "Artificial Intelligence",
+    "year": 2018,
+    "rating": 4.1
+  },
+  {
+    "title": "You Look Like a Thing and I Love You",
+    "author": "Janelle Shane",
+    "category": "Artificial Intelligence",
+    "year": 2019,
+    "rating": 3.9
+  },
+  {
+    "title": "Deep Utopia",
+    "author": "Nick Bostrom",
+    "category": "Artificial Intelligence",
     "year": 2024,
     "rating": 4.2
   },
   {
+    "title": "The Singularity Is Nearer",
+    "author": "Ray Kurzweil",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Human Frontiers",
+    "author": "Michael Bhaskar",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.8
+  },
+  {
+    "title": "How to Stay Smart in a Smart World",
+    "author": "Gerd Gigerenzer",
+    "category": "Artificial Intelligence",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "Superintelligence",
+    "author": "Nick Bostrom",
+    "category": "Artificial Intelligence",
+    "year": 2014,
+    "rating": 4.1
+  },
+  {
+    "title": "Nexus",
+    "author": "Yuval Noah Harari",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "The Unaccountability Machine",
+    "author": "Ben Davies",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
+  },
+  {
+    "title": "Technology Is Not the Problem",
+    "author": "Timandra Harkness",
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 3.7
+  },
+  {
+    "title": "Cofounder.AI",
+    "author": "Clarence Wooten",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.8
+  },
+  {
+    "title": "Superagency",
+    "author": "Reid Hoffman",
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Little Bosses Everywhere",
+    "author": "Bridget Read",
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "The 90 Day Brand Plan",
+    "author": "Dain Walker",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Bullshit Jobs",
+    "author": "David Graeber",
+    "category": "Startups & Business",
+    "year": 2018,
+    "rating": 4.1
+  },
+  {
+    "title": "Measure What Matters",
+    "author": "John Doerr",
+    "category": "Startups & Business",
+    "year": 2018,
+    "rating": 4.0
+  },
+  {
+    "title": "Outcomes Over Output: Why customer behavior is the key metric for business success",
+    "author": "Josh Seiden",
+    "category": "Startups & Business",
+    "year": 2019,
+    "rating": 4.3
+  },
+  {
+    "title": "How Big Things Get Done",
+    "author": "Bent Flyvbjerg",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "100M Offers Made Easy: Create Your Own Irresistible Offers by Turning ChatGPT into Alex Hormozi",
+    "author": "Ben Preston",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "$100M Offers: How To Make Offers So Good People Feel Stupid Saying No",
+    "author": "Alex Hormozi",
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.8
+  },
+  {
+    "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff",
+    "author": "Alex Hormozi",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.7
+  },
+  {
+    "title": "Million Dollar Weekend",
+    "author": "Noah Kagan",
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.6
+  },
+  {
+    "title": "The Art of Starting",
+    "author": "Iona Mathieson",
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Start. Scale. Exit. Repeat.",
+    "author": "Colin C. Campbell",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "The Rise of China, Inc",
+    "author": "Shaomin Li",
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 4.1
+  },
+  {
+    "title": "100 Business Tools for Success",
+    "author": "Jeremy Kourdi",
+    "category": "Startups & Business",
+    "year": 2020,
+    "rating": 3.9
+  },
+  {
+    "title": "The Song of Significance",
+    "author": "Seth Godin",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "Start From Zero: Build Your Own Business and Experience True Freedom",
+    "author": "Dane Maxwell",
+    "category": "Startups & Business",
+    "year": 2020,
+    "rating": 4.4
+  },
+  {
+    "title": "Trajectory",
+    "author": "Dave Parker",
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "The Minimalist Entrepreneur: How Great Founders Do More With Less",
+    "author": "Sahil Lavingia",
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.2
+  },
+  {
+    "title": "Company of One",
+    "author": "Paul Jarvis",
+    "category": "Startups & Business",
+    "year": 2019,
+    "rating": 4.4
+  },
+  {
+    "title": "Lean Startup, to Lean Company, to Rich Exit",
+    "author": "Kenan E. Sahin",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "category": "Startups & Business",
+    "year": 2014,
+    "rating": 4.5
+  },
+  {
+    "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+    "author": "Eric Ries",
+    "category": "Startups & Business",
+    "year": 2011,
+    "rating": 4.5
+  },
+  {
+    "title": "Hacking the Startup Paradox: 20 Strategies to Build a Business from Scratch",
+    "author": "Jeff Nelson",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "HBR at 100",
+    "author": "Harvard Business Review",
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 4.6
+  },
+  {
+    "title": "The Startup Lifecycle",
+    "author": "Gregory Shepard",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "The Personal MBA",
+    "author": "Josh Kaufman",
+    "category": "Startups & Business",
+    "year": 2010,
+    "rating": 4.6
+  },
+  {
+    "title": "The 100 Best Business Books of All Time: What They Say, Why They Matter, and How They Can Help You",
+    "author": "Jack Covert",
+    "category": "Startups & Business",
+    "year": 2009,
+    "rating": 4.1
+  },
+  {
+    "title": "An MBA in a Book",
+    "author": "Xander Cansell",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+    "author": "Alexander Osterwalder",
+    "category": "Startups & Business",
+    "year": 2010,
+    "rating": 4.6
+  },
+  {
+    "title": "Get Backed: Craft Your Story, Build the Perfect Pitch Deck, and Launch the Venture of Your Dreams",
+    "author": "Evan Baehr",
+    "category": "Startups & Business",
+    "year": 2015,
+    "rating": 4.4
+  },
+  {
+    "title": "Disciplined Entrepreneurship Expanded & Updated",
+    "author": "Bill Aulet",
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.7
+  },
+  {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "category": "Startups & Business",
+    "year": 2015,
+    "rating": 4.6
+  },
+  {
+    "title": "HBR's 10 Must Reads 2025",
+    "author": "Harvard Business Review",
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
+    "title": "What's Your Dream?: Find Your Passion. Love Your Work. Build a Richer Life.",
+    "author": "Simon Squibb",
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.8
+  },
+  {
+    "title": "The Product Manager's Desk Reference, Third Edition",
+    "author": "Steven Haines",
+    "category": "Product & Engineering",
+    "year": 2023,
+    "rating": 4.3
+  },
+  {
+    "title": "The Product Manager's Survival Guide",
+    "author": "Steven Haines",
+    "category": "Product & Engineering",
+    "year": 2013,
+    "rating": 4.2
+  },
+  {
+    "title": "An Elegant Puzzle: Systems of Engineering Management",
+    "author": "Will Larson",
+    "category": "Product & Engineering",
+    "year": 2019,
+    "rating": 4.4
+  },
+  {
+    "title": "The Art of Leadership",
+    "author": "Michael Lopp",
+    "category": "Product & Engineering",
+    "year": 2020,
+    "rating": 4.5
+  },
+  {
+    "title": "The Software Developer's Career Handbook",
+    "author": "Michael Lopp",
+    "category": "Product & Engineering",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "Software Engineering",
+    "author": "Ravi Sechi",
+    "category": "Product & Engineering",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Python Programming (for Raymond Rhine)",
+    "author": "S. Sridhar",
+    "category": "Product & Engineering",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "50 Algorithms Every Programmer Should Know",
+    "author": "Imran Ahmad",
+    "category": "Product & Engineering",
+    "year": 2020,
+    "rating": 4.3
+  },
+  {
+    "title": "Source Code",
+    "author": "Bill Gates",
+    "category": "Product & Engineering",
+    "year": 2025,
+    "rating": 4.5
+  },
+  {
+    "title": "Python for Cybersecurity",
+    "author": "Howard E. Poston III",
+    "category": "Product & Engineering",
+    "year": 2022,
+    "rating": 4.4
+  },
+  {
+    "title": "Python for Excel",
+    "author": "Felix Zumstein",
+    "category": "Product & Engineering",
+    "year": 2021,
+    "rating": 4.5
+  },
+  {
+    "title": "Impact-first Product Teams",
+    "author": "Matt LeMay",
+    "category": "Product & Engineering",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Read Write Own",
+    "author": "Chris Dixon",
+    "category": "Product & Engineering",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "Visual Collaboration",
+    "author": "Ole Qvist-Sorensen",
+    "category": "Marketing & Communication",
+    "year": 2019,
+    "rating": 4.3
+  },
+  {
+    "title": "The Design Thinking Playbook",
+    "author": "Michael Lewrick",
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.5
+  },
+  {
+    "title": "Careless People",
+    "author": "Sarah Wynn-Williams",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Using Behavioral Science in Marketing: Drive Customer Action and Loyalty by Prompting Instinctive Responses",
+    "author": "Nancy Harhut",
+    "category": "Marketing & Communication",
+    "year": 2022,
+    "rating": 4.6
+  },
+  {
+    "title": "This Is Marketing",
+    "author": "Seth Godin",
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.4
+  },
+  {
+    "title": "Tell Your Story",
+    "author": "Alex Fairfax",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Stories Sell",
+    "author": "Hanimneyen Yazar",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Best Story Wins",
+    "author": "Mark Edwards",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Do Story: How to Tell Your Story So the World Listens",
+    "author": "Bobette Buster",
+    "category": "Marketing & Communication",
+    "year": 2013,
+    "rating": 4.5
+  },
+  {
+    "title": "The Perfect Story",
+    "author": "Karen Eber",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "Telling Your Story, Building Your Brand",
+    "author": "Henry Wong",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "First You Write a Sentence: The Elements of Reading, Writing ... and Life",
+    "author": "Joe Moran",
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.2
+  },
+  {
+    "title": "Copywriting Third Edition",
+    "author": "Giles Linkwood; Mark Shaw",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.3
+  },
+  {
+    "title": "A Self-Help Guide for Copywriters",
+    "author": "Dan Nelken",
+    "category": "Marketing & Communication",
+    "year": 2021,
+    "rating": 4.7
+  },
+  {
+    "title": "It was the best of Sentences, it was the worst of sentences",
+    "author": "June Casagrande",
+    "category": "Marketing & Communication",
+    "year": 2010,
+    "rating": 4.4
+  },
+  {
+    "title": "Win Bigly",
+    "author": "Scott Adams",
+    "category": "Marketing & Communication",
+    "year": 2017,
+    "rating": 4.3
+  },
+  {
+    "title": "Simply Put: Why Clear Messages Win—and How to Design Them",
+    "author": "Ben Guttmann",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "Written",
+    "author": "Bec Evans",
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "How to Go to Work",
+    "author": "Lucy Clayton",
+    "category": "Leadership & Career",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "The Pathless Path",
+    "author": "Paul Millerd",
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.6
+  },
+  {
+    "title": "Who Gets Promoted, Who Doesn't, and Why",
+    "author": "Donald Asher",
+    "category": "Leadership & Career",
+    "year": 2014,
+    "rating": 4.3
+  },
+  {
+    "title": "The Anxious Achiever",
+    "author": "Morra Aarons-Mele",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Making Work Visible",
+    "author": "Dominica DeGrandis",
+    "category": "Leadership & Career",
+    "year": 2017,
+    "rating": 4.4
+  },
+  {
+    "title": "Getting (More Of) What You Want",
+    "author": "Margaret A. Neale; Thomas Z. Lys",
+    "category": "Leadership & Career",
+    "year": 2015,
+    "rating": 4.3
+  },
+  {
+    "title": "Reverse the Search",
+    "author": "Madeline Mann",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "Reskilling and Upskilling",
+    "author": "Harvard Business Review",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Love + Work: How to Find What You Love, Love What You Do, and Do It for the Rest of Your Life",
+    "author": "Marcus Buckingham",
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.2
+  },
+  {
+    "title": "You're the Boss",
+    "author": "Sabina Nawaz",
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "Ping",
+    "author": "Andrew Brodsky",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Managing Up",
+    "author": "Melody Wilding",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.3
+  },
+  {
+    "title": "You Coach You",
+    "author": "Helen Tupper",
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.4
+  },
+  {
+    "title": "Choose Trust",
+    "author": "Stuart Maister",
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Economics",
+    "author": "The Economist",
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "The Capitalist Manifesto",
+    "author": "Johan Norberg",
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "Finance for the People",
+    "author": "Paco de Leon",
+    "category": "Money & Finance",
+    "year": 2022,
+    "rating": 4.5
+  },
+  {
+    "title": "What They Don't Teach You About Money",
+    "author": "Steven Barrett",
+    "category": "Money & Finance",
+    "year": 2022,
+    "rating": 4.3
+  },
+  {
+    "title": "The State of Economics, the State of the World",
+    "author": "Kaushik Basu",
+    "category": "Money & Finance",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "The Economics Book (Big Ideas Simply Explained)",
+    "author": "DK Publishing",
+    "category": "Money & Finance",
+    "year": 2012,
+    "rating": 4.6
+  },
+  {
+    "title": "Simply Economics",
+    "author": "Dorling Kindersley",
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "The Millionaire Fastlane",
+    "author": "MJ DeMarco",
+    "category": "Money & Finance",
+    "year": 2011,
+    "rating": 4.6
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "Money & Finance",
+    "year": 2020,
+    "rating": 4.7
+  },
+  {
+    "title": "Slow Productivity",
+    "author": "Cal Newport",
+    "category": "Productivity & Habits",
+    "year": 2024,
+    "rating": 4.4
+  },
+  {
+    "title": "Ideas Are Your Only Currency",
+    "author": "David Judkins",
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Getting Things Done: The Art of Stress-Free Productivity",
+    "author": "David Allen",
+    "category": "Productivity & Habits",
+    "year": 2001,
+    "rating": 4.5
+  },
+  {
+    "title": "The Getting Things Done Workbook",
+    "author": "David Allen",
+    "category": "Productivity & Habits",
+    "year": 2019,
+    "rating": 4.3
+  },
+  {
+    "title": "Hooked (Summary)",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Indistractable",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits",
+    "year": 2019,
+    "rating": 4.1
+  },
+  {
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits",
+    "year": 2014,
+    "rating": 4.5
+  },
+  {
+    "title": "Do It Today: Overcome Procrastination, Improve Productivity, and Achieve More Meaningful Things",
+    "author": "Darius Foroux",
+    "category": "Productivity & Habits",
+    "year": 2018,
+    "rating": 4.4
+  },
+  {
+    "title": "The Grid",
+    "author": "Matt Watkinson",
+    "category": "Productivity & Habits",
+    "year": 2017,
+    "rating": 4.3
+  },
+  {
+    "title": "The Communication Book",
+    "author": "Mikael Krogerus",
+    "category": "Productivity & Habits",
+    "year": 2018,
+    "rating": 4.1
+  },
+  {
+    "title": "Feel-good Productivity",
+    "author": "Ali Abdaal",
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.7
+  },
+  {
+    "title": "Hello, Habits",
+    "author": "Yumiko Sasaki",
+    "category": "Productivity & Habits",
+    "year": 2021,
+    "rating": 4.2
+  },
+  {
+    "title": "Do Nothing",
+    "author": "Celeste Headlee",
+    "category": "Productivity & Habits",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "Goodbye, Things: On Minimalist Living",
+    "author": "Fumio Sasaki",
+    "category": "Productivity & Habits",
+    "year": 2015,
+    "rating": 4.5
+  },
+  {
+    "title": "Master of Change",
+    "author": "Brad Stulberg",
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Stolen Focus",
+    "author": "Johann Hari",
+    "category": "Productivity & Habits",
+    "year": 2022,
+    "rating": 4.3
+  },
+  {
+    "title": "Mind Management, Not Time Management",
+    "author": "David Kadavy",
+    "category": "Productivity & Habits",
+    "year": 2020,
+    "rating": 4.5
+  },
+  {
+    "title": "Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones",
+    "author": "James Clear",
+    "category": "Productivity & Habits",
+    "year": 2018,
+    "rating": 4.8
+  },
+  {
+    "title": "Manage Your Day-to-Day",
+    "author": "Jocelyn K. Glei",
+    "category": "Productivity & Habits",
+    "year": 2013,
+    "rating": 4.2
+  },
+  {
+    "title": "The Get Things Done Book",
+    "author": "Mikael Krogerus",
+    "category": "Productivity & Habits",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "Four Thousand Weeks",
+    "author": "Oliver Burkeman",
+    "category": "Productivity & Habits",
+    "year": 2021,
+    "rating": 4.6
+  },
+  {
+    "title": "Meditations for Mortals",
+    "author": "Oliver Burkeman",
+    "category": "Productivity & Habits",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
     "title": "Click",
     "author": "Jake Knapp",
-    "year": 2022,
+    "category": "Productivity & Habits",
+    "year": 2023,
     "rating": 4.0
   },
   {
     "title": "The Not-To-Do List",
     "author": "Rolf Dobelli",
-    "year": 2022,
-    "rating": 3.8
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "52 Secrets for Goal-Setting and Goal-Getting",
     "author": "Debra Eckerling",
-    "year": 2017,
-    "rating": 3.7
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "HELP!",
     "author": "Oliver Burkeman",
+    "category": "Productivity & Habits",
     "year": 2011,
-    "rating": 3.9
+    "rating": 4.0
   },
   {
     "title": "The ONE Thing",
     "author": "Gary Keller",
+    "category": "Productivity & Habits",
     "year": 2013,
-    "rating": 4.2
+    "rating": 4.6
   },
   {
     "title": "Tidy Up Your Life",
     "author": "Tyler Moore",
-    "year": 2021,
-    "rating": 3.8
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "Framers",
     "author": "Kenneth Cukier",
+    "category": "Thinking & Decision Making",
     "year": 2021,
     "rating": 4.1
   },
   {
     "title": "Data Is Everybody's Business",
     "author": "Barbara H. Wixom",
+    "category": "Thinking & Decision Making",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.2
   },
   {
     "title": "The Practice of Not Thinking",
     "author": "Hynosuke Koike",
+    "category": "Thinking & Decision Making",
     "year": 2021,
-    "rating": 3.9
+    "rating": 4.3
   },
   {
     "title": "The Art of Thinking Clearly",
     "author": "Rolf Dobelli",
+    "category": "Thinking & Decision Making",
+    "year": 2013,
+    "rating": 4.4
+  },
+  {
+    "title": "Thinking in Bets",
+    "author": "Annie Duke",
+    "category": "Thinking & Decision Making",
+    "year": 2018,
+    "rating": 4.4
+  },
+  {
+    "title": "The Great Mental Models, Volume 4",
+    "author": "Shane Parrish",
+    "category": "Thinking & Decision Making",
+    "year": 2024,
+    "rating": 4.8
+  },
+  {
+    "title": "The Great Mental Models: General Thinking Concepts",
+    "author": "Shane Parrish",
+    "category": "Thinking & Decision Making",
+    "year": 2019,
+    "rating": 4.7
+  },
+  {
+    "title": "Great Thinkers",
+    "author": "Great Thinkers",
+    "category": "Thinking & Decision Making",
+    "year": 2016,
+    "rating": 4.5
+  },
+  {
+    "title": "The Question Book",
+    "author": "Mikael Krogerus",
+    "category": "Thinking & Decision Making",
+    "year": 2012,
+    "rating": 4.0
+  },
+  {
+    "title": "The Decision Book",
+    "author": "Mikael Krogerus",
+    "category": "Thinking & Decision Making",
+    "year": 2011,
+    "rating": 4.1
+  },
+  {
+    "title": "Supercommunicators",
+    "author": "Charles Duhigg",
+    "category": "Psychology & Behavior",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
+    "title": "Revenge of the Tipping Point",
+    "author": "Malcolm Gladwell",
+    "category": "Psychology & Behavior",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Optimal",
+    "author": "Daniel Goleman",
+    "category": "Psychology & Behavior",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "Emotional Intelligence",
+    "author": "Daniel Goleman",
+    "category": "Psychology & Behavior",
+    "year": 1995,
+    "rating": 4.5
+  },
+  {
+    "title": "The Domesticated Brain",
+    "author": "Bruce Hood",
+    "category": "Psychology & Behavior",
+    "year": 2014,
+    "rating": 4.0
+  },
+  {
+    "title": "Chatter",
+    "author": "Ethan Kross",
+    "category": "Psychology & Behavior",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "The New Psychology",
+    "author": "Adrian Furnham",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Intimate Strangers",
+    "author": "Andreea Deciu Ritivoi",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Science of Happiness",
+    "author": "Bruce Hood",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The 9 Types of Difficult People",
+    "author": "Nick Robinson",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Subliminal",
+    "author": "Leonard Mlodinow",
+    "category": "Psychology & Behavior",
+    "year": 2012,
+    "rating": 4.1
+  },
+  {
+    "title": "Switch on Your Brain",
+    "author": "Allan Parker",
+    "category": "Psychology & Behavior",
+    "year": 2013,
+    "rating": 4.7
+  },
+  {
+    "title": "The Brain Fitness Book",
+    "author": "Rita Carter",
+    "category": "Psychology & Behavior",
+    "year": 2021,
+    "rating": 4.2
+  },
+  {
+    "title": "Brainjacking",
+    "author": "Brian Clegg",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Why We Remember",
+    "author": "Charan Ranganath",
+    "category": "Psychology & Behavior",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "Psychology",
+    "author": "Fiona Starr",
+    "category": "Psychology & Behavior",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Social Skills Guidebook",
+    "author": "Chris MacLeod MSW",
+    "category": "Communication Skills",
+    "year": 2016,
+    "rating": 4.3
+  },
+  {
+    "title": "Great Chat",
+    "author": "Sam Smith",
+    "category": "Communication Skills",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "How to Talk to Absolutely Anyone",
+    "author": "Mark Rhodes",
+    "category": "Communication Skills",
     "year": 2013,
     "rating": 4.2
+  },
+  {
+    "title": "Crucial Conversations",
+    "author": "Joseph Grenny",
+    "category": "Communication Skills",
+    "year": 2002,
+    "rating": 4.5
+  },
+  {
+    "title": "Verbal Judo: The Gentle Art of Persuasion",
+    "author": "George J. Thompson PhD",
+    "category": "Communication Skills",
+    "year": 1993,
+    "rating": 4.5
+  },
+  {
+    "title": "Talk",
+    "author": "Alison Wood Brooks",
+    "category": "Communication Skills",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "BOLD: 212 Charisma and Small Talk Tips",
+    "author": "Tycho Press",
+    "category": "Communication Skills",
+    "year": 2013,
+    "rating": 4.0
+  },
+  {
+    "title": "Think Faster, Talk Smarter",
+    "author": "Matt Abrahams",
+    "category": "Communication Skills",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "The Art of Explanation",
+    "author": "Ros Atkins",
+    "category": "Communication Skills",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "Make it Clear",
+    "author": "Patrick Henry Winston",
+    "category": "Communication Skills",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "Getting Along: How to Work with Anyone (Even Difficult People)",
+    "author": "Amy Gallo",
+    "category": "Communication Skills",
+    "year": 2022,
+    "rating": 4.3
+  },
+  {
+    "title": "Think Remarkable",
+    "author": "Guy Kawasaki",
+    "category": "Self-Improvement",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Rewire",
+    "author": "Nicole Vignola",
+    "category": "Self-Improvement",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
+    "title": "The High 5 Habit",
+    "author": "Mel Robbins",
+    "category": "Self-Improvement",
+    "year": 2021,
+    "rating": 4.1
+  },
+  {
+    "title": "The Second Mountain",
+    "author": "David Brooks",
+    "category": "Self-Improvement",
+    "year": 2019,
+    "rating": 4.2
+  },
+  {
+    "title": "How to Know a Person",
+    "author": "David Brooks",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "Life Is Short And So Is This Book",
+    "author": "Peter Atkins",
+    "category": "Self-Improvement",
+    "year": 2011,
+    "rating": 4.1
+  },
+  {
+    "title": "12 Rules for Life An Antidote to Chaos",
+    "author": "Jordan B. Peterson",
+    "category": "Self-Improvement",
+    "year": 2018,
+    "rating": 4.5
+  },
+  {
+    "title": "Mindwandering",
+    "author": "Moona Bal",
+    "category": "Self-Improvement",
+    "year": 2022,
+    "rating": 4.0
+  },
+  {
+    "title": "Build the Life You Want",
+    "author": "Arthur C. Brooks",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "I'm Ok, You're OK",
+    "author": "Thomas A. Harris",
+    "category": "Self-Improvement",
+    "year": 1967,
+    "rating": 4.0
+  },
+  {
+    "title": "How to Fail at Almost Everything and Still Win Big",
+    "author": "Scott Adams",
+    "category": "Self-Improvement",
+    "year": 2013,
+    "rating": 4.4
+  },
+  {
+    "title": "F*ck Feelings",
+    "author": "Michael Bennett MD",
+    "category": "Self-Improvement",
+    "year": 2015,
+    "rating": 4.1
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "category": "Self-Improvement",
+    "year": 1936,
+    "rating": 4.7
+  },
+  {
+    "title": "How to Be Interesting",
+    "author": "Jessica Hagy",
+    "category": "Self-Improvement",
+    "year": 2013,
+    "rating": 4.0
+  },
+  {
+    "title": "Too Late to Awaken",
+    "author": "Slavoj Zizek",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "How to Be an Adult in Relationships",
+    "author": "David Richo",
+    "category": "Self-Improvement",
+    "year": 2002,
+    "rating": 4.6
+  },
+  {
+    "title": "Nasıl Sıradışı Olunur",
+    "author": "Brendon Burchard",
+    "category": "Self-Improvement",
+    "year": 2017,
+    "rating": 4.6
+  },
+  {
+    "title": "The Smart Solution Book",
+    "author": "David Cotton",
+    "category": "Self-Improvement",
+    "year": 2016,
+    "rating": 4.0
+  },
+  {
+    "title": "How to Be Resilient",
+    "author": "Gail Gazelle MD",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Lonely Less",
+    "author": "Gill Hasson",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Lessons for Living",
+    "author": "Phil Stutz",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.3
+  },
+  {
+    "title": "Progress: Ten Reasons to Look Forward to the Future",
+    "author": "Johan Norberg",
+    "category": "Self-Improvement",
+    "year": 2016,
+    "rating": 4.3
+  },
+  {
+    "title": "Reset",
+    "author": "Dan Heath",
+    "category": "Self-Improvement",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Third Perspective",
+    "author": "Africa Brooke",
+    "category": "Self-Improvement",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Dilbert 2.0: The Dot-com Bubble",
+    "author": "Scott Adams",
+    "category": "Self-Improvement",
+    "year": 2008,
+    "rating": 4.4
+  },
+  {
+    "title": "Dilbert 2.0: The Boom Years",
+    "author": "Scott Adams",
+    "category": "Self-Improvement",
+    "year": 2008,
+    "rating": 4.4
+  },
+  {
+    "title": "Lost Connections",
+    "author": "Johann Hari",
+    "category": "Mental Health",
+    "year": 2018,
+    "rating": 4.3
+  },
+  {
+    "title": "Anxiety",
+    "author": "Deepak Chopra",
+    "category": "Mental Health",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Get Out of My Head",
+    "author": "Meredith Arthur",
+    "category": "Mental Health",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "Post-traumatic",
+    "author": "Gabriel V. Johnson",
+    "category": "Mental Health",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Find Your Path Through Anxiety",
+    "author": "Richard Gilpin",
+    "category": "Mental Health",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Body",
+    "author": "Bill Bryson",
+    "category": "Fitness & Body",
+    "year": 2019,
+    "rating": 4.6
+  },
+  {
+    "title": "Strength Training for Seniors",
+    "author": "Camilla Clarke",
+    "category": "Fitness & Body",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "Men's Health Home Workout Bible",
+    "author": "Lou Schuler",
+    "category": "Fitness & Body",
+    "year": 2002,
+    "rating": 4.4
+  },
+  {
+    "title": "The Men's Health Big Book of Exercises",
+    "author": "Adam Campbell",
+    "category": "Fitness & Body",
+    "year": 2009,
+    "rating": 4.6
+  },
+  {
+    "title": "In Praise of Home Cooking",
+    "author": "Liana Krissoff",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "What's for Dinner in One Pot?",
+    "author": "Sarah Rossi",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Kid Kitchen",
+    "author": "Heather Staller",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Love Your Lunchbox",
+    "author": "James Ramsden",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Australian Women's Weekly Quick & Easy",
+    "author": "DK",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Let's Eat",
+    "author": "Dan Pelosi",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "5-Ingredient Clean Eating Cookbook",
+    "author": "Sneezana Paucinac",
+    "category": "Nutrition & Cooking",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Meditation for the Real World",
+    "author": "Ann Swanson",
+    "category": "Mindfulness & Meditation",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "Meditations: A New Translation",
+    "author": "Marcus Aurelius; Gregory Hays",
+    "category": "Mindfulness & Meditation",
+    "year": 2002,
+    "rating": 4.6
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "category": "Mindfulness & Meditation",
+    "year": 180,
+    "rating": 4.6
+  },
+  {
+    "title": "The Brain Health Puzzle Book",
+    "author": "Dr Tim Beanland",
+    "category": "Mindfulness & Meditation",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Parenting the First Twelve Years",
+    "author": "Victoria L. Cooper; Heather Montgomery; Kieron Sheehy",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Good Enough Parent",
+    "author": "The School of Life",
+    "category": "Parenting & Kids",
+    "year": 2021,
+    "rating": 4.4
+  },
+  {
+    "title": "Screen Kids",
+    "author": "Gary Chapman",
+    "category": "Parenting & Kids",
+    "year": 2020,
+    "rating": 4.2
+  },
+  {
+    "title": "The Anxious Generation",
+    "author": "Jonathan Haidt",
+    "category": "Parenting & Kids",
+    "year": 2024,
+    "rating": 4.6
+  },
+  {
+    "title": "The Child Code",
+    "author": "Danielle Dick PhD",
+    "category": "Parenting & Kids",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Peaceful Parent, Happy Kids",
+    "author": "Laura Markham",
+    "category": "Parenting & Kids",
+    "year": 2012,
+    "rating": 4.6
+  },
+  {
+    "title": "Let's Talk About Aging Parents",
+    "author": "Laura Tamblyn Watts",
+    "category": "Parenting & Kids",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Don't Let Your Emotions Run Your Life for Kids",
+    "author": "Jennifer J. Solin",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Resilience Workbook for Kids",
+    "author": "Caren Baruch-Feldman",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Social Skills Activities for Kids",
+    "author": "Natasha Daniels LCSW",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Five Principles of Parenting",
+    "author": "Aliza Pressman",
+    "category": "Parenting & Kids",
+    "year": 2024,
+    "rating": 4.4
+  },
+  {
+    "title": "Raising Good Humans",
+    "author": "Hunter Clarke-Fields",
+    "category": "Parenting & Kids",
+    "year": 2019,
+    "rating": 4.5
+  },
+  {
+    "title": "A Parent's Guide to Self-Regulation",
+    "author": "Amber Thornton",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Explosive Child",
+    "author": "Ross W. Greene PhD",
+    "category": "Parenting & Kids",
+    "year": 1998,
+    "rating": 4.5
+  },
+  {
+    "title": "Bağırmayan Anne Baba Olmak",
+    "author": "Hal Edward Runkel",
+    "category": "Parenting & Kids",
+    "year": 2016,
+    "rating": 4.4
+  },
+  {
+    "title": "Screamfree Parenting",
+    "author": "Hal Edward Runkel",
+    "category": "Parenting & Kids",
+    "year": 2005,
+    "rating": 4.4
+  },
+  {
+    "title": "Anger Management for Parents with Kids 3-7",
+    "author": "SpreadLife Publishing",
+    "category": "Parenting & Kids",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Book You Wish Your Parents Had Read",
+    "author": "Philippa Perry",
+    "category": "Parenting & Kids",
+    "year": 2019,
+    "rating": 4.4
+  },
+  {
+    "title": "What Every Parent Needs to Know",
+    "author": "Margot Sunderland",
+    "category": "Parenting & Kids",
+    "year": 2006,
+    "rating": 4.3
+  },
+  {
+    "title": "Learning How to Learn",
+    "author": "Barbara Oakley",
+    "category": "Parenting & Kids",
+    "year": 2018,
+    "rating": 4.6
+  },
+  {
+    "title": "The Seven Principles for Making Marriage Work",
+    "author": "John Gottman",
+    "category": "Marriage & Partnership",
+    "year": 1999,
+    "rating": 4.6
+  },
+  {
+    "title": "The Love Prescription",
+    "author": "John Gottman PhD",
+    "category": "Marriage & Partnership",
+    "year": 2022,
+    "rating": 4.4
+  },
+  {
+    "title": "5 Traits of a Healthy Family",
+    "author": "Gary Chapman",
+    "category": "Marriage & Partnership",
+    "year": 2013,
+    "rating": 4.6
+  },
+  {
+    "title": "Things I Wish I'd Known Before We Got Married",
+    "author": "Gary D. Chapman",
+    "category": "Marriage & Partnership",
+    "year": 2010,
+    "rating": 4.6
+  },
+  {
+    "title": "The Rough Patch",
+    "author": "Daphne de Marneffe PhD",
+    "category": "Marriage & Partnership",
+    "year": 2018,
+    "rating": 4.2
+  },
+  {
+    "title": "Twenty-one Truths About Love",
+    "author": "Matthew Dicks",
+    "category": "Marriage & Partnership",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Science of Sex",
+    "author": "Kate Moyle",
+    "category": "Marriage & Partnership",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Come Together",
+    "author": "Emily Nagoski PhD",
+    "category": "Marriage & Partnership",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "Slow Sex",
+    "author": "Nicole Daedone",
+    "category": "Marriage & Partnership",
+    "year": 2011,
+    "rating": 4.1
+  },
+  {
+    "title": "Good Sex",
+    "author": "Candice Nicole Hargons",
+    "category": "Marriage & Partnership",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "She Comes First",
+    "author": "Ian Kerner",
+    "category": "Marriage & Partnership",
+    "year": 2004,
+    "rating": 4.4
+  },
+  {
+    "title": "How to Love Better",
+    "author": "Yung Pueblo",
+    "category": "Marriage & Partnership",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Love Life",
+    "author": "Matthew Hussey",
+    "category": "Marriage & Partnership",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
+    "title": "Everything I Know About Love",
+    "author": "Dolly Alderton",
+    "category": "Marriage & Partnership",
+    "year": 2018,
+    "rating": 4.2
+  },
+  {
+    "title": "Conversations on Love",
+    "author": "Natasha Lunn",
+    "category": "Relationships & People",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Infectious Generosity",
+    "author": "Chris Anderson",
+    "category": "Relationships & People",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Coffee Nerd",
+    "author": "Ruth Brown",
+    "category": "Coffee Culture",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "How to Taste Coffee",
+    "author": "Jessica Easto",
+    "category": "Coffee Culture",
+    "year": 2017,
+    "rating": 4.4
+  },
+  {
+    "title": "Stuff Every Coffee Lover Should Know",
+    "author": "Candace Rose Rardon",
+    "category": "Coffee Culture",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "How to Make Coffee",
+    "author": "Lani Kingston",
+    "category": "Coffee Culture",
+    "year": 2015,
+    "rating": 4.2
+  },
+  {
+    "title": "Coffee",
+    "author": "Robert W. Thurston",
+    "category": "Coffee Culture",
+    "year": 2013,
+    "rating": 4.0
+  },
+  {
+    "title": "How to make the best coffee at home",
+    "author": "James Hoffmann",
+    "category": "Coffee Culture",
+    "year": 2022,
+    "rating": 4.7
+  },
+  {
+    "title": "The World Atlas of Coffee",
+    "author": "James Hoffmann",
+    "category": "Coffee Culture",
+    "year": 2014,
+    "rating": 4.8
+  },
+  {
+    "title": "The Best of Jimseven 2004 - 2015",
+    "author": "James Hoffmann",
+    "category": "Coffee Culture",
+    "year": 2017,
+    "rating": 4.5
+  },
+  {
+    "title": "The Coffee Dictionary",
+    "author": "Maxwell Colonna-Dashwood",
+    "category": "Coffee Culture",
+    "year": 2017,
+    "rating": 4.5
+  },
+  {
+    "title": "Craft Coffee",
+    "author": "Jessica Easto; Andreas Willhoff",
+    "category": "Coffee Culture",
+    "year": 2017,
+    "rating": 4.6
+  },
+  {
+    "title": "Fika: The Art of The Swedish Coffee Break",
+    "author": "Anna Brones",
+    "category": "Coffee Culture",
+    "year": 2015,
+    "rating": 4.4
+  },
+  {
+    "title": "English Made Easy Volume One",
+    "author": "Jonathan Crichton",
+    "category": "Language Learning",
+    "year": 2015,
+    "rating": 4.3
+  },
+  {
+    "title": "English Vocabulary Builder Workbook",
+    "author": "Jackie Bolen",
+    "category": "Language Learning",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "HarperCollins Spanish-English College Dictionary",
+    "author": "HarperCollins Publishers",
+    "category": "Language Learning",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "101 Conversations in Simple Spanish",
+    "author": "Olly Richards",
+    "category": "Language Learning",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Grammar for Grown-ups",
+    "author": "Mark Peters",
+    "category": "Language Learning",
+    "year": 2013,
+    "rating": 4.0
+  },
+  {
+    "title": "COBUILD Advanced Learner's Dictionary",
+    "author": "Collins",
+    "category": "Language Learning",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "The Right Word",
+    "author": "Bloomsbury Publishing",
+    "category": "Language Learning",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The You You Are",
+    "author": "Dr. Ricken Lazlo Hale PhD",
+    "category": "Contemporary Fiction",
+    "year": 2022,
+    "rating": 5.0
+  },
+  {
+    "title": "Cold Nights of Childhood",
+    "author": "Tezer Özlü",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Satanic Verses",
+    "author": "Salman Rushdie",
+    "category": "Contemporary Fiction",
+    "year": 1988,
+    "rating": 3.9
+  },
+  {
+    "title": "Shame",
+    "author": "Salman Rushdie",
+    "category": "Contemporary Fiction",
+    "year": 1983,
+    "rating": 3.8
+  },
+  {
+    "title": "Midnight's children",
+    "author": "Salman Rushdie",
+    "category": "Contemporary Fiction",
+    "year": 1981,
+    "rating": 4.0
+  },
+  {
+    "title": "Nocturnes",
+    "author": "Kazuo Ishiguro",
+    "category": "Contemporary Fiction",
+    "year": 2009,
+    "rating": 3.7
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "category": "Contemporary Fiction",
+    "year": 2005,
+    "rating": 4.1
+  },
+  {
+    "title": "Assembly",
+    "author": "Natasha Brown",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 3.8
+  },
+  {
+    "title": "Good Material",
+    "author": "Dolly Alderton",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "The Ministry of Time",
+    "author": "Kaliane Bradley",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "The Hotel Avocado",
+    "author": "Bob Mortimer",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "I Hope This Finds You Well",
+    "author": "Natalie Sue",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "Prophet Song",
+    "author": "Paul Lynch",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 3.9
+  },
+  {
+    "title": "Yellowface",
+    "author": "R. F. Kuang",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 3.8
+  },
+  {
+    "title": "The Idiot",
+    "author": "Elif Batuman",
+    "category": "Contemporary Fiction",
+    "year": 2017,
+    "rating": 3.7
+  },
+  {
+    "title": "Mr Salary",
+    "author": "Sally Rooney",
+    "category": "Contemporary Fiction",
+    "year": 2019,
+    "rating": 3.6
+  },
+  {
+    "title": "Mr. Loverman",
+    "author": "Bernardine Evaristo",
+    "category": "Contemporary Fiction",
+    "year": 2013,
+    "rating": 4.0
+  },
+  {
+    "title": "Evenings and Weekends",
+    "author": "Olivia McKenna",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 3.9
+  },
+  {
+    "title": "Bird Milk & Mosquito Bones",
+    "author": "Sayaka Murata",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Harlem Shuffle",
+    "author": "Colson Whitehead",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 3.8
+  },
+  {
+    "title": "Nightbitch",
+    "author": "Rachel Yoder",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 3.6
+  },
+  {
+    "title": "Funny Story",
+    "author": "Emily Henry",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "Either/Or",
+    "author": "Elif Batuman",
+    "category": "Contemporary Fiction",
+    "year": 2022,
+    "rating": 3.9
+  },
+  {
+    "title": "Days at the Morisaki Bookshop",
+    "author": "Satoshi Yagisawa",
+    "category": "Contemporary Fiction",
+    "year": 2010,
+    "rating": 4.0
+  },
+  {
+    "title": "There Are Rivers in the Sky",
+    "author": "Elif Shafak",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "We Solve Murders",
+    "author": "Richard Osman",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "A Little Luck",
+    "author": "Claudia Piñeiro",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Cat Who Caught a Killer",
+    "author": "L. P. Shearer",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Homeland Elegies",
+    "author": "Ayad Akhtar",
+    "category": "Contemporary Fiction",
+    "year": 2020,
+    "rating": 4.1
+  },
+  {
+    "title": "The Luminaries",
+    "author": "Eleanor Catton",
+    "category": "Contemporary Fiction",
+    "year": 2013,
+    "rating": 3.7
+  },
+  {
+    "title": "Insatiable",
+    "author": "Daisy Buchanan",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 3.8
+  },
+  {
+    "title": "The South",
+    "author": "J.G. Ballard",
+    "category": "Contemporary Fiction",
+    "year": 1990,
+    "rating": 3.5
+  },
+  {
+    "title": "intermezzo",
+    "author": "Sally Rooney",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "The Wedding People",
+    "author": "Alison Espach",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "More Days at the Morisaki Bookshop",
+    "author": "Satoshi Yagisawa",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Greek Lessons",
+    "author": "Han Kang",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 3.7
+  },
+  {
+    "title": "Seven Voices",
+    "author": "Juan Gelman",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Orbital",
+    "author": "Samantha Harvey",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 3.9
+  },
+  {
+    "title": "A Great Country",
+    "author": "Shilpi Somaya Gowda",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "The Thursday Murder Club",
+    "author": "Richard Osman",
+    "category": "Contemporary Fiction",
+    "year": 2020,
+    "rating": 4.3
+  },
+  {
+    "title": "Parade",
+    "author": "Rachel Cusk",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 3.8
+  },
+  {
+    "title": "Submit",
+    "author": "Sonnet",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "The Woman in the Purple Skirt",
+    "author": "Natsuko Imamura",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 3.6
+  },
+  {
+    "title": "Kediler Daır",
+    "author": "Doris Lessing",
+    "category": "Contemporary Fiction",
+    "year": 2002,
+    "rating": 3.8
+  },
+  {
+    "title": "The Lost Bookshop",
+    "author": "Evie Woods",
+    "category": "Contemporary Fiction",
+    "year": 2023,
+    "rating": 4.2
+  },
+  {
+    "title": "Things Fall Apart / Arrow of God / No Longer at Ease",
+    "author": "Chinua Achebe",
+    "category": "Contemporary Fiction",
+    "year": 1958,
+    "rating": 4.2
+  },
+  {
+    "title": "African Stories",
+    "author": "Doris Lessing",
+    "category": "Contemporary Fiction",
+    "year": 1964,
+    "rating": 4.0
+  },
+  {
+    "title": "Beyaz Kale",
+    "author": "Orhan Pamuk",
+    "category": "Contemporary Fiction",
+    "year": 1985,
+    "rating": 3.7
+  },
+  {
+    "title": "Yeni Hayat",
+    "author": "Orhan Pamuk",
+    "category": "Contemporary Fiction",
+    "year": 1994,
+    "rating": 3.6
+  },
+  {
+    "title": "Kara Kitap",
+    "author": "Orhan Pamuk",
+    "category": "Contemporary Fiction",
+    "year": 1990,
+    "rating": 3.9
+  },
+  {
+    "title": "Hamnet",
+    "author": "Maggie O'Farrell",
+    "category": "Contemporary Fiction",
+    "year": 2020,
+    "rating": 4.2
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "category": "Contemporary Fiction",
+    "year": 2018,
+    "rating": 4.4
+  },
+  {
+    "title": "The Shadow King",
+    "author": "Maaza Mengiste",
+    "category": "Contemporary Fiction",
+    "year": 2019,
+    "rating": 3.9
+  },
+  {
+    "title": "1Q84",
+    "author": "Haruki Murakami",
+    "category": "Contemporary Fiction",
+    "year": 2009,
+    "rating": 3.9
+  },
+  {
+    "title": "Ermiş",
+    "author": "Halil Cibran",
+    "category": "Contemporary Fiction",
+    "year": 1923,
+    "rating": 4.5
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "category": "Contemporary Fiction",
+    "year": 2006,
+    "rating": 4.0
+  },
+  {
+    "title": "Gece Yarısı Kütüphanesi",
+    "author": "Matt Haig",
+    "category": "Contemporary Fiction",
+    "year": 2020,
+    "rating": 4.0
+  },
+  {
+    "title": "The Annotated Lolita",
+    "author": "Vladimir Nabokov",
+    "category": "Contemporary Fiction",
+    "year": 1991,
+    "rating": 4.0
+  },
+  {
+    "title": "The Island of Missing Trees",
+    "author": "Elif Shafak",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Everything Is Tuberculosis",
+    "author": "John Green",
+    "category": "Contemporary Fiction",
+    "year": 2025,
+    "rating": 4.0
+  },
+  {
+    "title": "Knife",
+    "author": "Salman Rushdie",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "The Wall",
+    "author": "John Lanchester",
+    "category": "Contemporary Fiction",
+    "year": 2019,
+    "rating": 3.8
+  },
+  {
+    "title": "Beacon 23: The Complete Novel",
+    "author": "Hugh Howey",
+    "category": "Contemporary Fiction",
+    "year": 2015,
+    "rating": 4.0
+  },
+  {
+    "title": "The end of eternity",
+    "author": "Isaac Asimov",
+    "category": "Contemporary Fiction",
+    "year": 1955,
+    "rating": 4.3
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "category": "Contemporary Fiction",
+    "year": 2021,
+    "rating": 4.7
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Contemporary Fiction",
+    "year": 1965,
+    "rating": 4.6
+  },
+  {
+    "title": "Heretics of Dune",
+    "author": "Frank Herbert",
+    "category": "Contemporary Fiction",
+    "year": 1984,
+    "rating": 4.1
+  },
+  {
+    "title": "God Emperor of Dune",
+    "author": "Frank Herbert",
+    "category": "Contemporary Fiction",
+    "year": 1981,
+    "rating": 4.1
+  },
+  {
+    "title": "All Systems Red",
+    "author": "Martha Wells",
+    "category": "Contemporary Fiction",
+    "year": 2017,
+    "rating": 4.2
+  },
+  {
+    "title": "The Hobbit: Illustrated by the Author",
+    "author": "J.R.R. Tolkien",
+    "category": "Contemporary Fiction",
+    "year": 1937,
+    "rating": 4.7
+  },
+  {
+    "title": "The Illustrated The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "category": "Contemporary Fiction",
+    "year": 1954,
+    "rating": 4.8
+  },
+  {
+    "title": "The Hobbit: Enhanced Edition",
+    "author": "J.R.R. Tolkien; Alan Lee",
+    "category": "Contemporary Fiction",
+    "year": 1937,
+    "rating": 4.7
+  },
+  {
+    "title": "Ends and Means",
+    "author": "Aldous Huxley",
+    "category": "Contemporary Fiction",
+    "year": 1937,
+    "rating": 4.0
+  },
+  {
+    "title": "You Are Here",
+    "author": "David Nicholls",
+    "category": "Contemporary Fiction",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "Erotic Stories for Punjabi Widows",
+    "author": "Balli Kaur Jaswal",
+    "category": "Contemporary Fiction",
+    "year": 2017,
+    "rating": 3.8
+  },
+  {
+    "title": "Quichotte",
+    "author": "Salman Rushdie",
+    "category": "Contemporary Fiction",
+    "year": 2019,
+    "rating": 3.6
+  },
+  {
+    "title": "The Annotated Alice",
+    "author": "Lewis Carroll",
+    "category": "Contemporary Fiction",
+    "year": 1960,
+    "rating": 4.5
+  },
+  {
+    "title": "The Philosophy Book",
+    "author": "DK",
+    "category": "Ideas & Society",
+    "year": 2011,
+    "rating": 4.4
+  },
+  {
+    "title": "The Essential Stoic",
+    "author": "Epictetus",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Turkish Awakening",
+    "author": "Anna Scott",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Divorce of Nations",
+    "author": "João Vale de Almeida",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "LSE International Studies: Before the West",
+    "author": "Ayşe Zarakol",
+    "category": "Ideas & Society",
+    "year": 2022,
+    "rating": 4.1
+  },
+  {
+    "title": "Demokrasi Nedir?",
+    "author": "Aydın Touraine",
+    "category": "Ideas & Society",
+    "year": 1994,
+    "rating": 4.0
+  },
+  {
+    "title": "The Politics Book",
+    "author": "DK",
+    "category": "Ideas & Society",
+    "year": 2013,
+    "rating": 4.4
+  },
+  {
+    "title": "Londoners",
+    "author": "Craig Taylor",
+    "category": "Ideas & Society",
+    "year": 2011,
+    "rating": 4.2
+  },
+  {
+    "title": "A Map Is Only One Story",
+    "author": "Nicole Chung",
+    "category": "Ideas & Society",
+    "year": 2020,
+    "rating": 4.0
+  },
+  {
+    "title": "Inside Story",
+    "author": "Phoebe Webster",
+    "category": "Ideas & Society",
+    "year": 2020,
+    "rating": 3.8
+  },
+  {
+    "title": "Latin American Politics and Society",
+    "author": "Gerardo L. Munck",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "How to Win an Information War",
+    "author": "Peter Pomerantsev",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Tyranny of the Minority",
+    "author": "Steven Levitsky; Daniel Ziblatt",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "On Tyranny",
+    "author": "Timothy Snyder",
+    "category": "Ideas & Society",
+    "year": 2017,
+    "rating": 4.6
+  },
+  {
+    "title": "War",
+    "author": "Bob Woodward",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.3
+  },
+  {
+    "title": "To Run the World",
+    "author": "Sergey Radchenko",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "On China",
+    "author": "Henry Kissinger",
+    "category": "Ideas & Society",
+    "year": 2011,
+    "rating": 4.2
+  },
+  {
+    "title": "Essentials of UK Politics",
+    "author": "Andrew Heywood",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "Essentials of Political Ideas",
+    "author": "Andrew Heywood",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "Counter-Intelligence",
+    "author": "Robert Hannigan",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Rational Choice and Democratic Government",
+    "author": "Tibor Rutar",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Politics On the Edge",
+    "author": "Rory Stewart",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "Why Do They Vote That Way?",
+    "author": "Jonathan Haidt",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "How They Broke Britain",
+    "author": "James O'Brien",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.6
+  },
+  {
+    "title": "Values, Voice and Virtue",
+    "author": "Matthew Goodwin",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.1
+  },
+  {
+    "title": "Not the End of the World",
+    "author": "Hannah Ritchie",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.4
+  },
+  {
+    "title": "Open",
+    "author": "Johan Norberg",
+    "category": "Ideas & Society",
+    "year": 2020,
+    "rating": 4.3
+  },
+  {
+    "title": "The Anthropologists",
+    "author": "Turgul Savaş",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "This Is Not Propaganda",
+    "author": "Peter Pomerantsev",
+    "category": "Ideas & Society",
+    "year": 2019,
+    "rating": 4.3
+  },
+  {
+    "title": "Big Caesars and Little Caesars",
+    "author": "Ferdinand Mount",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Chokepoints",
+    "author": "Edward Fishman",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Nasıl Bir Zamanda Yaşıyoruz",
+    "author": "Jacques Rancière",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Barack Obama Speeches",
+    "author": "Barack Obama",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.5
+  },
+  {
+    "title": "The Origins of Totalitarianism",
+    "author": "Hannah Arendt",
+    "category": "Ideas & Society",
+    "year": 1951,
+    "rating": 4.3
+  },
+  {
+    "title": "Modern Dünyanın Sorunları Karşısında Antropoloji",
+    "author": "Claude Levi-Strauss",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Irk, Tarih ve Kültür",
+    "author": "Claude Levi-Strauss",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Other",
+    "author": "Ryszard Kapuscinski",
+    "category": "Ideas & Society",
+    "year": 2008,
+    "rating": 4.1
+  },
+  {
+    "title": "Nobody Leaves",
+    "author": "Ryszard Kapuściński",
+    "category": "Ideas & Society",
+    "year": 2019,
+    "rating": 4.0
+  },
+  {
+    "title": "Seeing Things as They Are",
+    "author": "George Orwell",
+    "category": "Ideas & Society",
+    "year": 2016,
+    "rating": 4.4
+  },
+  {
+    "title": "Free: A Child and a Country at the End of History",
+    "author": "Lea Ypi",
+    "category": "Ideas & Society",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Power and Progress",
+    "author": "Daron Acemoglu; Simon Johnson",
+    "category": "Ideas & Society",
+    "year": 2023,
+    "rating": 4.4
+  },
+  {
+    "title": "A Brief History of the World in 47 Borders",
+    "author": "Jona Elledge",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.1
+  },
+  {
+    "title": "Rinsed",
+    "author": "Geoff White",
+    "category": "Ideas & Society",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Empireland",
+    "author": "Sathnam Sanghera",
+    "category": "History & Culture",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Empire: How Britain Made the Modern World",
+    "author": "Niall Ferguson",
+    "category": "History & Culture",
+    "year": 2003,
+    "rating": 4.1
+  },
+  {
+    "title": "The Empire Project",
+    "author": "John Darwin",
+    "category": "History & Culture",
+    "year": 2009,
+    "rating": 4.2
+  },
+  {
+    "title": "History of Britain and Ireland",
+    "author": "Dorling Kindersley",
+    "category": "History & Culture",
+    "year": 2014,
+    "rating": 4.5
+  },
+  {
+    "title": "Lion and the Tiger: The Rise and Fall of the British Raj",
+    "author": "Denis Judd",
+    "category": "History & Culture",
+    "year": 2004,
+    "rating": 4.0
+  },
+  {
+    "title": "London",
+    "author": "Paul Knox",
+    "category": "History & Culture",
+    "year": 2015,
+    "rating": 4.0
+  },
+  {
+    "title": "When We Cease to Understand the World",
+    "author": "Benjamin Labatut",
+    "category": "History & Culture",
+    "year": 2020,
+    "rating": 4.2
+  },
+  {
+    "title": "Your Cheeky Guide to the Roman Empire",
+    "author": "Peta Greenfield",
+    "category": "History & Culture",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "Troy",
+    "author": "Stephen Fry",
+    "category": "History & Culture",
+    "year": 2020,
+    "rating": 4.4
+  },
+  {
+    "title": "Odyssey",
+    "author": "Stephen Fry",
+    "category": "History & Culture",
+    "year": 2024,
+    "rating": 4.5
+  },
+  {
+    "title": "Seven Pillars of Wisdom",
+    "author": "T.E. Lawrence",
+    "category": "History & Culture",
+    "year": 1922,
+    "rating": 4.3
+  },
+  {
+    "title": "The Soccer War",
+    "author": "Ryszard Kapuscinski",
+    "category": "History & Culture",
+    "year": 1978,
+    "rating": 4.1
+  },
+  {
+    "title": "Open Veins of Latin America",
+    "author": "Eduardo Galeano",
+    "category": "History & Culture",
+    "year": 1971,
+    "rating": 4.3
+  },
+  {
+    "title": "The Latin Americans: Their Love-Hate Relationship With the United States",
+    "author": "Carlos Rangel",
+    "category": "History & Culture",
+    "year": 1977,
+    "rating": 4.0
+  },
+  {
+    "title": "Del buen salvaje al buen revolucionario",
+    "author": "Carlos Rangel",
+    "category": "History & Culture",
+    "year": 1976,
+    "rating": 4.0
+  },
+  {
+    "title": "Bolívar: American Liberator",
+    "author": "Marie Arana",
+    "category": "History & Culture",
+    "year": 2013,
+    "rating": 4.4
+  },
+  {
+    "title": "The Motorcycle Diaries",
+    "author": "Ernesto Che Guevara",
+    "category": "History & Culture",
+    "year": 1993,
+    "rating": 4.3
+  },
+  {
+    "title": "The World in Books",
+    "author": "Kenneth C. Davis",
+    "category": "History & Culture",
+    "year": 2020,
+    "rating": 4.0
+  },
+  {
+    "title": "Writers Who Changed History",
+    "author": "DK",
+    "category": "History & Culture",
+    "year": 2019,
+    "rating": 4.4
+  },
+  {
+    "title": "Art, Annotated",
+    "author": "DK",
+    "category": "History & Culture",
+    "year": 2020,
+    "rating": 4.3
+  },
+  {
+    "title": "The Man from the Future",
+    "author": "Ananyo Bhattacharya",
+    "category": "History & Culture",
+    "year": 2022,
+    "rating": 4.4
+  },
+  {
+    "title": "Avoid Boring People: Lessons from a Life in Science",
+    "author": "James D. Watson",
+    "category": "History & Culture",
+    "year": 2007,
+    "rating": 3.8
+  },
+  {
+    "title": "My Mother and I",
+    "author": "Ingrid Seward",
+    "category": "History & Culture",
+    "year": 2024,
+    "rating": 4.0
+  },
+  {
+    "title": "A Promised Land",
+    "author": "Barack Obama",
+    "category": "History & Culture",
+    "year": 2020,
+    "rating": 4.5
+  },
+  {
+    "title": "Boys in Zinc",
+    "author": "Svetlana Alexievich",
+    "category": "History & Culture",
+    "year": 1989,
+    "rating": 4.4
+  },
+  {
+    "title": "The Unwomanly Face of War",
+    "author": "Svetlana Alexievich",
+    "category": "History & Culture",
+    "year": 1985,
+    "rating": 4.4
+  },
+  {
+    "title": "Atlas of Unexpected Places",
+    "author": "Travis Elborough",
+    "category": "History & Culture",
+    "year": 2021,
+    "rating": 4.3
+  },
+  {
+    "title": "Shah of Shahs",
+    "author": "Ryszard Kapuscinski",
+    "category": "History & Culture",
+    "year": 1982,
+    "rating": 4.3
+  },
+  {
+    "title": "The Rise and Fall of the British Nation",
+    "author": "David Edgerton",
+    "category": "History & Culture",
+    "year": 2018,
+    "rating": 4.1
+  },
+  {
+    "title": "The Music of the Primes",
+    "author": "Marcus du Sautoy",
+    "category": "Science & Nature",
+    "year": 2003,
+    "rating": 4.4
+  },
+  {
+    "title": "The Art of Uncertainty",
+    "author": "David Spiegelhalter",
+    "category": "Science & Nature",
+    "year": 2024,
+    "rating": 4.2
+  },
+  {
+    "title": "Our Universe",
+    "author": "DK Publishing",
+    "category": "Science & Nature",
+    "year": 2022,
+    "rating": 4.5
+  },
+  {
+    "title": "Significant Figures",
+    "author": "Ian Stewart",
+    "category": "Science & Nature",
+    "year": 2017,
+    "rating": 4.1
+  },
+  {
+    "title": "Drawing Digital",
+    "author": "Lisa Bardot",
+    "category": "Science & Nature",
+    "year": 2023,
+    "rating": 4.3
+  },
+  {
+    "title": "Home The Way We Live Now",
+    "author": "Kate Watson-Smyth",
+    "category": "Science & Nature",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "Good Housekeeping Organize Your Life",
+    "author": "Good Housekeeping",
+    "category": "Science & Nature",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Art of Influence",
+    "author": "Ryuho Okawa",
+    "category": "Science & Nature",
+    "year": 2023,
+    "rating": 4.0
+  },
+  {
+    "title": "The Mountains of My Life",
+    "author": "Walter Bonatti",
+    "category": "Science & Nature",
+    "year": 2001,
+    "rating": 4.5
   }
 ]
