@@ -2,3067 +2,4819 @@
   {
     "title": "Generative AI",
     "author": "Harvard Business Review",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2023,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Paperback",
+    "description": "Insights on how generative AI is reshaping business and creativity."
   },
   {
     "title": "How AI Will Change Your Life",
     "author": "Patrick Dixon",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "A futurist's perspective on the impact of AI on daily life."
   },
   {
     "title": "A Brief History of Artificial Intelligence",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2021,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Hard Cover",
+    "description": "A historical overview of AI development and its future implications."
   },
   {
     "title": "The Age of AI: And Our Human Future",
     "author": "Henry Kissinger",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2021,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Apple Books",
+    "description": "Three leading thinkers explore what AI means for human society."
   },
   {
     "title": "Co-Intelligence: Living and Working With AI",
     "author": "Ethan Mollick",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "A guide to collaborating effectively with artificial intelligence."
   },
   {
     "title": "AI Needs You: How We Can Change AI's Future and Save Our Own",
     "author": "Verity Harding",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Audiobook",
+    "description": "Why the human element is crucial in the development of AI."
   },
   {
     "title": "The Road to Conscious Machines",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 312,
+    "platform": "Paperback",
+    "description": "An exploration of the path towards machines with consciousness."
   },
   {
     "title": "The Atlas of AI",
     "author": "Kate Crawford",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2021,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Hard Cover",
+    "description": "Mapping the physical and human costs of artificial intelligence."
   },
   {
     "title": "Only Humans Need Apply: Winners and Losers in the Age of Smart Machines",
     "author": "Thomas H. Davenport",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2016,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Kindle",
+    "description": "Strategies for thriving in a workplace augmented by smart machines."
   },
   {
     "title": "Code-Dependent",
     "author": "Madhumita Murgia",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Paperback",
+    "description": "Living in the shadow of AI: stories from around the world."
   },
   {
     "title": "Artificial Intelligence",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2020,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Audible",
+    "description": "A comprehensive introduction to the field of AI."
   },
   {
     "title": "The Coming Wave",
     "author": "Mustafa Suleyman; Michael Bhaskar",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "Technology, power, and the twenty-first century's greatest dilemma."
   },
   {
     "title": "Brave New Words",
     "author": "Sal Khan",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Kindle",
+    "description": "How AI will revolutionize education and learning."
   },
   {
     "title": "Machines of Loving Grace",
     "author": "John Markoff",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2015,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "The quest for common ground between humans and robots."
   },
   {
     "title": "Human Compatible",
     "author": "Stuart Russell",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2019,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Paperback",
+    "description": "Artificial intelligence and the problem of control."
   },
   {
     "title": "Hello World: Being Human in the Age of Algorithms",
     "author": "Hannah Fry",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2018,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Audible",
+    "description": "A tour of the good, the bad, and the ugly of algorithms."
   },
   {
     "title": "You Look Like a Thing and I Love You",
     "author": "Janelle Shane",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2019,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Kindle",
+    "description": "How artificial intelligence works and why it's making the world a weirder place."
   },
   {
     "title": "Deep Utopia",
     "author": "Nick Bostrom",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 520,
+    "platform": "Hard Cover",
+    "description": "Life and meaning in a solved world."
   },
   {
     "title": "The Singularity Is Nearer",
     "author": "Ray Kurzweil",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "When we merge with AI."
   },
   {
     "title": "Human Frontiers",
     "author": "Michael Bhaskar",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "The future of big ideas in an age of small thinking."
   },
   {
     "title": "How to Stay Smart in a Smart World",
     "author": "Gerd Gigerenzer",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "Why human intelligence is still essential in the age of AI."
   },
   {
     "title": "Superintelligence",
     "author": "Nick Bostrom",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2014,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Audible",
+    "description": "Paths, dangers, and strategies for a future with superintelligence."
   },
   {
     "title": "Nexus",
     "author": "Yuval Noah Harari",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 450,
+    "platform": "Hard Cover",
+    "description": "A brief history of information networks from the Stone Age to AI."
   },
   {
     "title": "The Unaccountability Machine",
     "author": "Ben Davies",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 290,
+    "platform": "Kindle",
+    "description": "Why big systems make terrible decisions and how to fix them."
   },
   {
     "title": "Technology Is Not the Problem",
     "author": "Timandra Harkness",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2023,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Why we are blaming the wrong things for our social ills."
   },
   {
     "title": "Cofounder.AI",
     "author": "Clarence Wooten",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "How AI is changing the landscape for startup founders."
   },
   {
     "title": "Superagency",
     "author": "Reid Hoffman",
-    "category": "Artificial Intelligence",
+    "topics": "Artificial Intelligence",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 310,
+    "platform": "Hard Cover",
+    "description": "Unlocking your potential in the age of AI."
   },
   {
     "title": "Little Bosses Everywhere",
     "author": "Bridget Read",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "An examination of modern management culture."
   },
   {
     "title": "The 90 Day Brand Plan",
     "author": "Dain Walker",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 210,
+    "platform": "Kindle",
+    "description": "A step-by-step guide to building a powerful brand in 90 days."
   },
   {
     "title": "Bullshit Jobs",
     "author": "David Graeber",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2018,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 368,
+    "platform": "Audible",
+    "description": "A theory describing existing meaningless jobs and their societal harm."
   },
   {
     "title": "Measure What Matters",
     "author": "John Doerr",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2018,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "How Google, Bono, and the Gates Foundation rock the world with OKRs."
   },
   {
-    "title": "Outcomes Over Output: Why customer behavior is the key metric for business success",
+    "title": "Outcomes Over Output",
     "author": "Josh Seiden",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2019,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 140,
+    "platform": "Kindle",
+    "description": "Why customer behavior is the key metric for business success."
   },
   {
     "title": "How Big Things Get Done",
     "author": "Bent Flyvbjerg",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Paperback",
+    "description": "The surprising factors that determine the fate of every project."
   },
   {
-    "title": "100M Offers Made Easy: Create Your Own Irresistible Offers by Turning ChatGPT into Alex Hormozi",
+    "title": "100M Offers Made Easy",
     "author": "Ben Preston",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Create irresistible offers by turning ChatGPT into Alex Hormozi."
   },
   {
-    "title": "$100M Offers: How To Make Offers So Good People Feel Stupid Saying No",
+    "title": "$100M Offers",
     "author": "Alex Hormozi",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2021,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 218,
+    "platform": "Paperback",
+    "description": "How to make offers so good people feel stupid saying no."
   },
   {
-    "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff",
+    "title": "$100M Leads",
     "author": "Alex Hormozi",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "How to get strangers to want to buy your stuff."
   },
   {
     "title": "Million Dollar Weekend",
     "author": "Noah Kagan",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2024,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Audiobook",
+    "description": "The surprisingly simple way to launch a 7-figure business in 48 hours."
   },
   {
     "title": "The Art of Starting",
     "author": "Iona Mathieson",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Practical advice for beginning your entrepreneurial journey."
   },
   {
     "title": "Start. Scale. Exit. Repeat.",
     "author": "Colin C. Campbell",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 290,
+    "platform": "Hard Cover",
+    "description": "Serial entrepreneurs' secrets to building valuable companies."
   },
   {
     "title": "The Rise of China, Inc",
     "author": "Shaomin Li",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2022,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "How the Chinese Communist Party transformed China into a giant corporation."
   },
   {
     "title": "100 Business Tools for Success",
     "author": "Jeremy Kourdi",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2020,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "Essential models and methods for business management."
   },
   {
     "title": "The Song of Significance",
     "author": "Seth Godin",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Audible",
+    "description": "A new manifesto for teams and leaders who want to make a difference."
   },
   {
-    "title": "Start From Zero: Build Your Own Business and Experience True Freedom",
+    "title": "Start From Zero",
     "author": "Dane Maxwell",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2020,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Build your own business and experience true freedom."
   },
   {
     "title": "Trajectory",
     "author": "Dave Parker",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 260,
+    "platform": "Kindle",
+    "description": "Startup ideation to product-market fit."
   },
   {
-    "title": "The Minimalist Entrepreneur: How Great Founders Do More With Less",
+    "title": "The Minimalist Entrepreneur",
     "author": "Sahil Lavingia",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2021,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "How great founders do more with less."
   },
   {
     "title": "Company of One",
     "author": "Paul Jarvis",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2019,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Audiobook",
+    "description": "Why staying small is the next big thing for business."
   },
   {
     "title": "Lean Startup, to Lean Company, to Rich Exit",
     "author": "Kenan E. Sahin",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 230,
+    "platform": "Kindle",
+    "description": "Guidelines for growing a lean business."
   },
   {
     "title": "Zero to One",
     "author": "Peter Thiel",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2014,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Hard Cover",
+    "description": "Notes on startups, or how to build the future."
   },
   {
-    "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+    "title": "The Lean Startup",
     "author": "Eric Ries",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2011,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "How today's entrepreneurs use continuous innovation to create radically successful businesses."
   },
   {
-    "title": "Hacking the Startup Paradox: 20 Strategies to Build a Business from Scratch",
+    "title": "Hacking the Startup Paradox",
     "author": "Jeff Nelson",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "20 strategies to build a business from scratch."
   },
   {
     "title": "HBR at 100",
     "author": "Harvard Business Review",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2022,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "The most influential and innovative management ideas from the last century."
   },
   {
     "title": "The Startup Lifecycle",
     "author": "Gregory Shepard",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Navigating the predictable stages of startup growth."
   },
   {
     "title": "The Personal MBA",
     "author": "Josh Kaufman",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2010,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 496,
+    "platform": "Paperback",
+    "description": "Master the art of business without the crushing debt of business school."
   },
   {
-    "title": "The 100 Best Business Books of All Time: What They Say, Why They Matter, and How They Can Help You",
+    "title": "The 100 Best Business Books of All Time",
     "author": "Jack Covert",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2009,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 368,
+    "platform": "Paperback",
+    "description": "What they say, why they matter, and how they can help you."
   },
   {
     "title": "An MBA in a Book",
     "author": "Xander Cansell",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Key business concepts condensed into a single volume."
   },
   {
-    "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+    "title": "Business Model Generation",
     "author": "Alexander Osterwalder",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2010,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "A handbook for visionaries, game changers, and challengers."
   },
   {
-    "title": "Get Backed: Craft Your Story, Build the Perfect Pitch Deck, and Launch the Venture of Your Dreams",
+    "title": "Get Backed",
     "author": "Evan Baehr",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2015,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Hard Cover",
+    "description": "Craft your story, build the perfect pitch deck, and launch your venture."
   },
   {
-    "title": "Disciplined Entrepreneurship Expanded & Updated",
+    "title": "Disciplined Entrepreneurship Expanded",
     "author": "Bill Aulet",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2024,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "24 steps to a successful startup."
   },
   {
     "title": "The Lean Product Playbook",
     "author": "Dan Olsen",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2015,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "How to innovate with minimum viable products and rapid customer feedback."
   },
   {
     "title": "HBR's 10 Must Reads 2025",
     "author": "Harvard Business Review",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Paperback",
+    "description": "The definitive management ideas of the year from HBR."
   },
   {
-    "title": "What's Your Dream?: Find Your Passion. Love Your Work. Build a Richer Life.",
+    "title": "What's Your Dream?",
     "author": "Simon Squibb",
-    "category": "Startups & Business",
+    "topics": "Startups & Business",
     "year": 2023,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "Find your passion, love your work, and build a richer life."
   },
   {
-    "title": "The Product Manager's Desk Reference, Third Edition",
+    "title": "The Product Manager's Desk Reference",
     "author": "Steven Haines",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2023,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 800,
+    "platform": "Hard Cover",
+    "description": "A comprehensive guide to product management."
   },
   {
     "title": "The Product Manager's Survival Guide",
     "author": "Steven Haines",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2013,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "Everything you need to know to succeed as a product manager."
   },
   {
-    "title": "An Elegant Puzzle: Systems of Engineering Management",
+    "title": "An Elegant Puzzle",
     "author": "Will Larson",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2019,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Hard Cover",
+    "description": "Systems of engineering management."
   },
   {
     "title": "The Art of Leadership",
     "author": "Michael Lopp",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2020,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Small things, done well, that matter in engineering leadership."
   },
   {
     "title": "The Software Developer's Career Handbook",
     "author": "Michael Lopp",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Paperback",
+    "description": "A guide to navigating a career in software development."
   },
   {
     "title": "Software Engineering",
     "author": "Ravi Sechi",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Kindle",
+    "description": "Modern practices in software engineering."
   },
   {
-    "title": "Python Programming (for Raymond Rhine)",
+    "title": "Python Programming",
     "author": "S. Sridhar",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Paperback",
+    "description": "Comprehensive guide to Python programming."
   },
   {
     "title": "50 Algorithms Every Programmer Should Know",
     "author": "Imran Ahmad",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2020,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 380,
+    "platform": "Kindle",
+    "description": "Algorithm techniques for solving complex problems."
   },
   {
     "title": "Source Code",
     "author": "Bill Gates",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2025,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "A memoir of the early days of the computer revolution."
   },
   {
     "title": "Python for Cybersecurity",
     "author": "Howard E. Poston III",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2022,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "Using Python for network security and analysis."
   },
   {
     "title": "Python for Excel",
     "author": "Felix Zumstein",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2021,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 310,
+    "platform": "Paperback",
+    "description": "A modern environment for automation and data analysis."
   },
   {
     "title": "Impact-first Product Teams",
     "author": "Matt LeMay",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Focusing on what truly matters in product development."
   },
   {
     "title": "Read Write Own",
     "author": "Chris Dixon",
-    "category": "Product & Engineering",
+    "topics": "Product & Engineering",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "Building the next era of the internet."
   },
   {
     "title": "Visual Collaboration",
     "author": "Ole Qvist-Sorensen",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2019,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 260,
+    "platform": "Paperback",
+    "description": "A powerful toolkit for improving meetings, projects, and processes."
   },
   {
     "title": "The Design Thinking Playbook",
     "author": "Michael Lewrick",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2018,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "Mindful digital transformation of teams, products, services, businesses."
   },
   {
     "title": "Careless People",
     "author": "Sarah Wynn-Williams",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Murder, mayhem, and the invention of The Great Gatsby."
   },
   {
-    "title": "Using Behavioral Science in Marketing: Drive Customer Action and Loyalty by Prompting Instinctive Responses",
+    "title": "Using Behavioral Science in Marketing",
     "author": "Nancy Harhut",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2022,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "Drive customer action and loyalty by prompting instinctive responses."
   },
   {
     "title": "This Is Marketing",
     "author": "Seth Godin",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2018,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Audiobook",
+    "description": "You can't be seen until you learn to see."
   },
   {
     "title": "Tell Your Story",
     "author": "Alex Fairfax",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "A guide to crafting compelling personal narratives."
   },
   {
     "title": "Stories Sell",
     "author": "Hanimneyen Yazar",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "Using storytelling to boost your business."
   },
   {
     "title": "Best Story Wins",
     "author": "Mark Edwards",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 210,
+    "platform": "Kindle",
+    "description": "How to unlock the power of storytelling in business."
   },
   {
-    "title": "Do Story: How to Tell Your Story So the World Listens",
+    "title": "Do Story",
     "author": "Bobette Buster",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2013,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 120,
+    "platform": "Paperback",
+    "description": "How to tell your story so the world listens."
   },
   {
     "title": "The Perfect Story",
     "author": "Karen Eber",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Hard Cover",
+    "description": "How to tell stories that inform, influence, and inspire."
   },
   {
     "title": "Telling Your Story, Building Your Brand",
     "author": "Henry Wong",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 190,
+    "platform": "Kindle",
+    "description": "Strategies for personal branding through storytelling."
   },
   {
-    "title": "First You Write a Sentence: The Elements of Reading, Writing ... and Life",
+    "title": "First You Write a Sentence",
     "author": "Joe Moran",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2018,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "The elements of reading, writing... and life."
   },
   {
     "title": "Copywriting Third Edition",
     "author": "Giles Linkwood; Mark Shaw",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 260,
+    "platform": "Kindle",
+    "description": "Successful writing for design, advertising, and marketing."
   },
   {
     "title": "A Self-Help Guide for Copywriters",
     "author": "Dan Nelken",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2021,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "A step-by-step guide to writing better copy, faster."
   },
   {
     "title": "It was the best of Sentences, it was the worst of sentences",
     "author": "June Casagrande",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2010,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "A writer's guide to crafting killer sentences."
   },
   {
     "title": "Win Bigly",
     "author": "Scott Adams",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2017,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Audible",
+    "description": "Persuasion in a world where facts don't matter."
   },
   {
-    "title": "Simply Put: Why Clear Messages Win—and How to Design Them",
+    "title": "Simply Put",
     "author": "Ben Guttmann",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Hard Cover",
+    "description": "Why clear messages win—and how to design them."
   },
   {
     "title": "Written",
     "author": "Bec Evans",
-    "category": "Marketing & Communication",
+    "topics": "Marketing & Communication",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "How to keep writing and build a habit that lasts."
   },
   {
     "title": "How to Go to Work",
     "author": "Lucy Clayton",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "The honest advice no one ever tells you at the start of your career."
   },
   {
     "title": "The Pathless Path",
     "author": "Paul Millerd",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2022,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "Imagining a new story for work and life."
   },
   {
     "title": "Who Gets Promoted, Who Doesn't, and Why",
     "author": "Donald Asher",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2014,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "12 proven strategies to advance your career."
   },
   {
     "title": "The Anxious Achiever",
     "author": "Morra Aarons-Mele",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Audible",
+    "description": "Turn your biggest fears into your leadership superpower."
   },
   {
     "title": "Making Work Visible",
     "author": "Dominica DeGrandis",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2017,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "Exposing time theft to optimize work & flow."
   },
   {
     "title": "Getting (More Of) What You Want",
     "author": "Margaret A. Neale; Thomas Z. Lys",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2015,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "How the secrets of economics and psychology can help you negotiate anything."
   },
   {
     "title": "Reverse the Search",
     "author": "Madeline Mann",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "A modern guide to landing your dream job."
   },
   {
     "title": "Reskilling and Upskilling",
     "author": "Harvard Business Review",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Paperback",
+    "description": "Future-proofing your workforce."
   },
   {
-    "title": "Love + Work: How to Find What You Love, Love What You Do, and Do It for the Rest of Your Life",
+    "title": "Love + Work",
     "author": "Marcus Buckingham",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2022,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Hard Cover",
+    "description": "How to find what you love, love what you do, and do it for the rest of your life."
   },
   {
     "title": "You're the Boss",
     "author": "Sabina Nawaz",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Taking ownership of your career and life."
   },
   {
     "title": "Ping",
     "author": "Andrew Brodsky",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Paperback",
+    "description": "The art of effective communication in the digital age."
   },
   {
     "title": "Managing Up",
     "author": "Melody Wilding",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Kindle",
+    "description": "How to move up, win at work, and succeed with any type of boss."
   },
   {
     "title": "You Coach You",
     "author": "Helen Tupper",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2022,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "How to overcome challenges and reach your career goals."
   },
   {
     "title": "Choose Trust",
     "author": "Stuart Maister",
-    "category": "Leadership & Career",
+    "topics": "Leadership & Career",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Why trust is the key to business success."
   },
   {
     "title": "Economics",
     "author": "The Economist",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Paperback",
+    "description": "An introductory guide to economics."
   },
   {
     "title": "The Capitalist Manifesto",
     "author": "Johan Norberg",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "Why the free market is the only way to save the world."
   },
   {
     "title": "Finance for the People",
     "author": "Paco de Leon",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2022,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Kindle",
+    "description": "Getting a grip on your finances."
   },
   {
     "title": "What They Don't Teach You About Money",
     "author": "Steven Barrett",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2022,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Seven habits to unlock financial independence."
   },
   {
     "title": "The State of Economics, the State of the World",
     "author": "Kaushik Basu",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "Leading economists address the most pressing challenges of our time."
   },
   {
-    "title": "The Economics Book (Big Ideas Simply Explained)",
+    "title": "The Economics Book",
     "author": "DK Publishing",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2012,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "Big ideas simply explained."
   },
   {
     "title": "Simply Economics",
     "author": "Dorling Kindersley",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Kindle",
+    "description": "Economics explained in a simple way."
   },
   {
     "title": "The Millionaire Fastlane",
     "author": "MJ DeMarco",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2011,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "Crack the code to wealth and live rich for a lifetime."
   },
   {
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
-    "category": "Money & Finance",
+    "topics": "Money & Finance",
     "year": 2020,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 252,
+    "platform": "Audible",
+    "description": "Timeless lessons on wealth, greed, and happiness."
   },
   {
     "title": "Slow Productivity",
     "author": "Cal Newport",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2024,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Hard Cover",
+    "description": "The lost art of accomplishment without burnout."
   },
   {
     "title": "Ideas Are Your Only Currency",
     "author": "David Judkins",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "How to turn your ideas into reality."
   },
   {
-    "title": "Getting Things Done: The Art of Stress-Free Productivity",
+    "title": "Getting Things Done",
     "author": "David Allen",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2001,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Paperback",
+    "description": "The art of stress-free productivity."
   },
   {
     "title": "The Getting Things Done Workbook",
     "author": "David Allen",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2019,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "10 moves to stress-free productivity."
   },
   {
     "title": "Hooked (Summary)",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 50,
+    "platform": "Kindle",
+    "description": "Summary of Hooked: How to Build Habit-Forming Products."
   },
   {
     "title": "Indistractable",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2019,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Audible",
+    "description": "How to control your attention and choose your life."
   },
   {
     "title": "Hooked",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2014,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "How to build habit-forming products."
   },
   {
-    "title": "Do It Today: Overcome Procrastination, Improve Productivity, and Achieve More Meaningful Things",
+    "title": "Do It Today",
     "author": "Darius Foroux",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2018,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Kindle",
+    "description": "Overcome procrastination, improve productivity, and achieve more."
   },
   {
     "title": "The Grid",
     "author": "Matt Watkinson",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2017,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "The decision-making tool for every business."
   },
   {
     "title": "The Communication Book",
     "author": "Mikael Krogerus",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2018,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Hard Cover",
+    "description": "44 ideas for better conversations every day."
   },
   {
     "title": "Feel-good Productivity",
     "author": "Ali Abdaal",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Hard Cover",
+    "description": "How to do more of what matters to you."
   },
   {
     "title": "Hello, Habits",
     "author": "Yumiko Sasaki",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2021,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "A minimalist's guide to a better life."
   },
   {
     "title": "Do Nothing",
     "author": "Celeste Headlee",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Audible",
+    "description": "How to break away from overworking, overdoing, and underliving."
   },
   {
-    "title": "Goodbye, Things: On Minimalist Living",
+    "title": "Goodbye, Things",
     "author": "Fumio Sasaki",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2015,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Paperback",
+    "description": "The new Japanese minimalism."
   },
   {
     "title": "Master of Change",
     "author": "Brad Stulberg",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "How to excel when everything is changing."
   },
   {
     "title": "Stolen Focus",
     "author": "Johann Hari",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2022,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 368,
+    "platform": "Audible",
+    "description": "Why you can't pay attention--and how to think deeply again."
   },
   {
     "title": "Mind Management, Not Time Management",
     "author": "David Kadavy",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2020,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "Productivity when creativity matters."
   },
   {
-    "title": "Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones",
+    "title": "Atomic Habits",
     "author": "James Clear",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2018,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "An easy and proven way to build good habits and break bad ones."
   },
   {
     "title": "Manage Your Day-to-Day",
     "author": "Jocelyn K. Glei",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2013,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "Build your routine, find your focus, and sharpen your creative mind."
   },
   {
     "title": "The Get Things Done Book",
     "author": "Mikael Krogerus",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Kindle",
+    "description": "41 simple ways to get more out of life."
   },
   {
     "title": "Four Thousand Weeks",
     "author": "Oliver Burkeman",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2021,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Audible",
+    "description": "Time management for mortals."
   },
   {
     "title": "Meditations for Mortals",
     "author": "Oliver Burkeman",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Four weeks to embrace your limitations."
   },
   {
     "title": "Click",
     "author": "Jake Knapp",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "Finding the flow in work and life."
   },
   {
     "title": "The Not-To-Do List",
     "author": "Rolf Dobelli",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "What to stop doing to achieve success."
   },
   {
     "title": "52 Secrets for Goal-Setting and Goal-Getting",
     "author": "Debra Eckerling",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 210,
+    "platform": "Paperback",
+    "description": "Weekly tips to help you reach your goals."
   },
   {
     "title": "HELP!",
     "author": "Oliver Burkeman",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2011,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Kindle",
+    "description": "How to become slightly happier and get a bit more done."
   },
   {
     "title": "The ONE Thing",
     "author": "Gary Keller",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2013,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Hard Cover",
+    "description": "The surprisingly simple truth behind extraordinary results."
   },
   {
     "title": "Tidy Up Your Life",
     "author": "Tyler Moore",
-    "category": "Productivity & Habits",
+    "topics": "Productivity & Habits",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Organizing your space to clear your mind."
   },
   {
     "title": "Framers",
     "author": "Kenneth Cukier",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2021,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "Human advantage in an age of technology and turmoil."
   },
   {
     "title": "Data Is Everybody's Business",
     "author": "Barbara H. Wixom",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Hard Cover",
+    "description": "The fundamentals of data monetization."
   },
   {
     "title": "The Practice of Not Thinking",
     "author": "Hynosuke Koike",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "A guide to stopping overthinking and finding peace."
   },
   {
     "title": "The Art of Thinking Clearly",
     "author": "Rolf Dobelli",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2013,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 384,
+    "platform": "Paperback",
+    "description": "Better thinking, better decisions."
   },
   {
     "title": "Thinking in Bets",
     "author": "Annie Duke",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2018,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Audible",
+    "description": "Making smarter decisions when you don't have all the facts."
   },
   {
     "title": "The Great Mental Models, Volume 4",
     "author": "Shane Parrish",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2024,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "Economics and systems."
   },
   {
-    "title": "The Great Mental Models: General Thinking Concepts",
+    "title": "The Great Mental Models",
     "author": "Shane Parrish",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2019,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "General thinking concepts."
   },
   {
     "title": "Great Thinkers",
     "author": "Great Thinkers",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2016,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "Simple tools from 60 great thinkers to improve your life today."
   },
   {
     "title": "The Question Book",
     "author": "Mikael Krogerus",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2012,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Kindle",
+    "description": "What makes you tick?"
   },
   {
     "title": "The Decision Book",
     "author": "Mikael Krogerus",
-    "category": "Thinking & Decision Making",
+    "topics": "Thinking & Decision Making",
     "year": 2011,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Paperback",
+    "description": "50 models for strategic thinking."
   },
   {
     "title": "Supercommunicators",
     "author": "Charles Duhigg",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Audible",
+    "description": "How to unlock the secret language of connection."
   },
   {
     "title": "Revenge of the Tipping Point",
     "author": "Malcolm Gladwell",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "Overstories, superspreaders, and the rise of social engineering."
   },
   {
     "title": "Optimal",
     "author": "Daniel Goleman",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "How to sustain personal and organizational excellence every day."
   },
   {
     "title": "Emotional Intelligence",
     "author": "Daniel Goleman",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 1995,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 384,
+    "platform": "Paperback",
+    "description": "Why it can matter more than IQ."
   },
   {
     "title": "The Domesticated Brain",
     "author": "Bruce Hood",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2014,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "A pelican introduction to the brain."
   },
   {
     "title": "Chatter",
     "author": "Ethan Kross",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Audible",
+    "description": "The voice in our head, why it matters, and how to harness it."
   },
   {
     "title": "The New Psychology",
     "author": "Adrian Furnham",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "A guide to the latest thinking in psychology."
   },
   {
     "title": "Intimate Strangers",
     "author": "Andreea Deciu Ritivoi",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "The psychology of feeling like an outsider."
   },
   {
     "title": "The Science of Happiness",
     "author": "Bruce Hood",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 260,
+    "platform": "Paperback",
+    "description": "Seven lessons for living well."
   },
   {
     "title": "The 9 Types of Difficult People",
     "author": "Nick Robinson",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "How to handle challenging personalities."
   },
   {
     "title": "Subliminal",
     "author": "Leonard Mlodinow",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2012,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Paperback",
+    "description": "How your unconscious mind rules your behavior."
   },
   {
     "title": "Switch on Your Brain",
     "author": "Allan Parker",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2013,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "The key to peak happiness, thinking, and health."
   },
   {
     "title": "The Brain Fitness Book",
     "author": "Rita Carter",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2021,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Hard Cover",
+    "description": "Games and exercises to keep your mind sharp."
   },
   {
     "title": "Brainjacking",
     "author": "Brian Clegg",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "The science of persuasion and influence."
   },
   {
     "title": "Why We Remember",
     "author": "Charan Ranganath",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Hard Cover",
+    "description": "Unlocking memory's power to hold on to what matters."
   },
   {
     "title": "Psychology",
     "author": "Fiona Starr",
-    "category": "Psychology & Behavior",
+    "topics": "Psychology & Behavior",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "A complete introduction to the human mind."
   },
   {
     "title": "The Social Skills Guidebook",
     "author": "Chris MacLeod MSW",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2016,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "Manage shyness, improve your conversations, and make friends."
   },
   {
     "title": "Great Chat",
     "author": "Sam Smith",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Master the art of small talk."
   },
   {
     "title": "How to Talk to Absolutely Anyone",
     "author": "Mark Rhodes",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2013,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Kindle",
+    "description": "Confident communication in every situation."
   },
   {
     "title": "Crucial Conversations",
     "author": "Joseph Grenny",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2002,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "Tools for talking when stakes are high."
   },
   {
-    "title": "Verbal Judo: The Gentle Art of Persuasion",
+    "title": "Verbal Judo",
     "author": "George J. Thompson PhD",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 1993,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "The gentle art of persuasion."
   },
   {
     "title": "Talk",
     "author": "Alison Wood Brooks",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Hard Cover",
+    "description": "The science of conversation and the art of being heard."
   },
   {
-    "title": "BOLD: 212 Charisma and Small Talk Tips",
+    "title": "BOLD",
     "author": "Tycho Press",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2013,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "212 charisma and small talk tips."
   },
   {
     "title": "Think Faster, Talk Smarter",
     "author": "Matt Abrahams",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Audible",
+    "description": "How to speak successfully when you're put on the spot."
   },
   {
     "title": "The Art of Explanation",
     "author": "Ros Atkins",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Hard Cover",
+    "description": "How to communicate with clarity and impact."
   },
   {
     "title": "Make it Clear",
     "author": "Patrick Henry Winston",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "Speak and write to persuade and inform."
   },
   {
-    "title": "Getting Along: How to Work with Anyone (Even Difficult People)",
+    "title": "Getting Along",
     "author": "Amy Gallo",
-    "category": "Communication Skills",
+    "topics": "Communication Skills",
     "year": 2022,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "How to work with anyone (even difficult people)."
   },
   {
     "title": "Think Remarkable",
     "author": "Guy Kawasaki",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Hard Cover",
+    "description": "9 paths to transform your life and make a difference."
   },
   {
     "title": "Rewire",
     "author": "Nicole Vignola",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "Break free from old habits and rewire your brain."
   },
   {
     "title": "The High 5 Habit",
     "author": "Mel Robbins",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2021,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Audible",
+    "description": "Take control of your life with one simple habit."
   },
   {
     "title": "The Second Mountain",
     "author": "David Brooks",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2019,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 384,
+    "platform": "Hard Cover",
+    "description": "The quest for a moral life."
   },
   {
     "title": "How to Know a Person",
     "author": "David Brooks",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "The art of seeing others deeply and being deeply seen."
   },
   {
     "title": "Life Is Short And So Is This Book",
     "author": "Peter Atkins",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2011,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 100,
+    "platform": "Paperback",
+    "description": "Brief thoughts on making the most of your life."
   },
   {
-    "title": "12 Rules for Life An Antidote to Chaos",
+    "title": "12 Rules for Life",
     "author": "Jordan B. Peterson",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2018,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 448,
+    "platform": "Audible",
+    "description": "An antidote to chaos."
   },
   {
     "title": "Mindwandering",
     "author": "Moona Bal",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2022,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "How spontaneous thought drives creativity and meaning."
   },
   {
     "title": "Build the Life You Want",
     "author": "Arthur C. Brooks",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Hard Cover",
+    "description": "The art and science of getting happier."
   },
   {
     "title": "I'm Ok, You're OK",
     "author": "Thomas A. Harris",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 1967,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "A practical guide to transactional analysis."
   },
   {
     "title": "How to Fail at Almost Everything and Still Win Big",
     "author": "Scott Adams",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2013,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Kindle",
+    "description": "Kind of the story of my life."
   },
   {
     "title": "F*ck Feelings",
     "author": "Michael Bennett MD",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2015,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 384,
+    "platform": "Audible",
+    "description": "One shrink's practical advice for managing all life's impossible problems."
   },
   {
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 1936,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "The classic guide to improving your social skills."
   },
   {
     "title": "How to Be Interesting",
     "author": "Jessica Hagy",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2013,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Kindle",
+    "description": "10 simple steps to a more interesting life."
   },
   {
     "title": "Too Late to Awaken",
     "author": "Slavoj Zizek",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "What lies ahead when there is no future?"
   },
   {
     "title": "How to Be an Adult in Relationships",
     "author": "David Richo",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2002,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Audible",
+    "description": "The five keys to mindful loving."
   },
   {
     "title": "Nasıl Sıradışı Olunur",
     "author": "Brendon Burchard",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2017,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "Turkish",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "High Performance Habits (Turkish Edition)."
   },
   {
     "title": "The Smart Solution Book",
     "author": "David Cotton",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2016,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "68 tools for brainstorming, problem solving and decision making."
   },
   {
     "title": "How to Be Resilient",
     "author": "Gail Gazelle MD",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Paperback",
+    "description": "Building strength and flexibility in tough times."
   },
   {
     "title": "Lonely Less",
     "author": "Gill Hasson",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "How to connect with others and feel less alone."
   },
   {
     "title": "Lessons for Living",
     "author": "Phil Stutz",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Hard Cover",
+    "description": "What only a therapist knows."
   },
   {
-    "title": "Progress: Ten Reasons to Look Forward to the Future",
+    "title": "Progress",
     "author": "Johan Norberg",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2016,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "Ten reasons to look forward to the future."
   },
   {
     "title": "Reset",
     "author": "Dan Heath",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "How to restart your life and work."
   },
   {
     "title": "The Third Perspective",
     "author": "Africa Brooke",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 260,
+    "platform": "Paperback",
+    "description": "Navigating polarized times with grace."
   },
   {
     "title": "Dilbert 2.0: The Dot-com Bubble",
     "author": "Scott Adams",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2008,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Humorous take on office life during the dot-com era."
   },
   {
     "title": "Dilbert 2.0: The Boom Years",
     "author": "Scott Adams",
-    "category": "Self-Improvement",
+    "topics": "Self-Improvement",
     "year": 2008,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "More humor from the corporate world."
   },
   {
     "title": "Lost Connections",
     "author": "Johann Hari",
-    "category": "Mental Health",
+    "topics": "Mental Health",
     "year": 2018,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Audible",
+    "description": "Uncovering the real causes of depression – and the unexpected solutions."
   },
   {
     "title": "Anxiety",
     "author": "Deepak Chopra",
-    "category": "Mental Health",
+    "topics": "Mental Health",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Paperback",
+    "description": "A holistic approach to healing anxiety."
   },
   {
     "title": "Get Out of My Head",
     "author": "Meredith Arthur",
-    "category": "Mental Health",
+    "topics": "Mental Health",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Inspiration for overthinkers in an anxious world."
   },
   {
     "title": "Post-traumatic",
     "author": "Gabriel V. Johnson",
-    "category": "Mental Health",
+    "topics": "Mental Health",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "Healing from trauma and finding a new path."
   },
   {
     "title": "Find Your Path Through Anxiety",
     "author": "Richard Gilpin",
-    "category": "Mental Health",
+    "topics": "Mental Health",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Navigating the maze of anxious thoughts."
   },
   {
     "title": "The Body",
     "author": "Bill Bryson",
-    "category": "Fitness & Body",
+    "topics": "Fitness & Body",
     "year": 2019,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 464,
+    "platform": "Audible",
+    "description": "A guide for occupants."
   },
   {
     "title": "Strength Training for Seniors",
     "author": "Camilla Clarke",
-    "category": "Fitness & Body",
+    "topics": "Fitness & Body",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Stay strong and fit as you age."
   },
   {
     "title": "Men's Health Home Workout Bible",
     "author": "Lou Schuler",
-    "category": "Fitness & Body",
+    "topics": "Fitness & Body",
     "year": 2002,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Kindle",
+    "description": "Over 400 exercises for body shaping."
   },
   {
     "title": "The Men's Health Big Book of Exercises",
     "author": "Adam Campbell",
-    "category": "Fitness & Body",
+    "topics": "Fitness & Body",
     "year": 2009,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 480,
+    "platform": "Hard Cover",
+    "description": "Four weeks to a leaner, stronger, more muscular you!"
   },
   {
     "title": "In Praise of Home Cooking",
     "author": "Liana Krissoff",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Hard Cover",
+    "description": "Celebrating the joys of cooking at home."
   },
   {
     "title": "What's for Dinner in One Pot?",
     "author": "Sarah Rossi",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "Easy and delicious one-pot meals."
   },
   {
     "title": "Kid Kitchen",
     "author": "Heather Staller",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 150,
+    "platform": "Paperback",
+    "description": "Fun and easy recipes for kids."
   },
   {
     "title": "Love Your Lunchbox",
     "author": "James Ramsden",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Creative ideas for your daily lunch."
   },
   {
     "title": "The Australian Women's Weekly Quick & Easy",
     "author": "DK",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "Fast and simple recipes for every day."
   },
   {
     "title": "Let's Eat",
     "author": "Dan Pelosi",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Hard Cover",
+    "description": "101 recipes that fill your heart & home."
   },
   {
     "title": "5-Ingredient Clean Eating Cookbook",
     "author": "Sneezana Paucinac",
-    "category": "Nutrition & Cooking",
+    "topics": "Nutrition & Cooking",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Kindle",
+    "description": "Simple, healthy recipes with minimal ingredients."
   },
   {
     "title": "Meditation for the Real World",
     "author": "Ann Swanson",
-    "category": "Mindfulness & Meditation",
+    "topics": "Mindfulness & Meditation",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "Finding peace in a busy life."
   },
   {
     "title": "Meditations: A New Translation",
     "author": "Marcus Aurelius; Gregory Hays",
-    "category": "Mindfulness & Meditation",
+    "topics": "Mindfulness & Meditation",
     "year": 2002,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Audible",
+    "description": "Modern translation of the Stoic classic."
   },
   {
     "title": "Meditations",
     "author": "Marcus Aurelius",
-    "category": "Mindfulness & Meditation",
+    "topics": "Mindfulness & Meditation",
     "year": 180,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 254,
+    "platform": "Kindle",
+    "description": "Personal writings by the Roman Emperor."
   },
   {
     "title": "The Brain Health Puzzle Book",
     "author": "Dr Tim Beanland",
-    "category": "Mindfulness & Meditation",
+    "topics": "Mindfulness & Meditation",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Puzzles to keep your brain young."
   },
   {
     "title": "Parenting the First Twelve Years",
-    "author": "Victoria L. Cooper; Heather Montgomery; Kieron Sheehy",
-    "category": "Parenting & Kids",
+    "author": "Victoria L. Cooper",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "A comprehensive guide to child development."
   },
   {
     "title": "The Good Enough Parent",
     "author": "The School of Life",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2021,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Hard Cover",
+    "description": "How to raise contented, interesting, and resilient children."
   },
   {
     "title": "Screen Kids",
     "author": "Gary Chapman",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2020,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Paperback",
+    "description": "5 relational skills every child needs in a tech-driven world."
   },
   {
     "title": "The Anxious Generation",
     "author": "Jonathan Haidt",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2024,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "How the great rewiring of childhood is causing an epidemic of mental illness."
   },
   {
     "title": "The Child Code",
     "author": "Danielle Dick PhD",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Audible",
+    "description": "Unlock your child's potential by understanding their DNA."
   },
   {
     "title": "Peaceful Parent, Happy Kids",
     "author": "Laura Markham",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2012,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "How to stop yelling and start connecting."
   },
   {
     "title": "Let's Talk About Aging Parents",
     "author": "Laura Tamblyn Watts",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "A guide to caring for elderly parents."
   },
   {
     "title": "Don't Let Your Emotions Run Your Life for Kids",
     "author": "Jennifer J. Solin",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 150,
+    "platform": "Paperback",
+    "description": "Dialectical Behavior Therapy skills for children."
   },
   {
     "title": "The Resilience Workbook for Kids",
     "author": "Caren Baruch-Feldman",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Fun activities to help children bounce back from stress."
   },
   {
     "title": "Social Skills Activities for Kids",
     "author": "Natasha Daniels LCSW",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Paperback",
+    "description": "50 fun exercises for making friends."
   },
   {
     "title": "The Five Principles of Parenting",
     "author": "Aliza Pressman",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2024,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "A roadmap for raising good humans."
   },
   {
     "title": "Raising Good Humans",
     "author": "Hunter Clarke-Fields",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2019,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 208,
+    "platform": "Audible",
+    "description": "A mindful guide to breaking the cycle of reactive parenting."
   },
   {
     "title": "A Parent's Guide to Self-Regulation",
     "author": "Amber Thornton",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Managing your emotions so you can help your child manage theirs."
   },
   {
     "title": "The Explosive Child",
     "author": "Ross W. Greene PhD",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 1998,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "A new approach for understanding and parenting easily frustrated, chronically inflexible children."
   },
   {
     "title": "Bağırmayan Anne Baba Olmak",
     "author": "Hal Edward Runkel",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2016,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "Turkish",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "Screamfree Parenting (Turkish Edition)."
   },
   {
     "title": "Screamfree Parenting",
     "author": "Hal Edward Runkel",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2005,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 272,
+    "platform": "Kindle",
+    "description": "The revolutionary approach to raising your kids by keeping your cool."
   },
   {
-    "title": "Anger Management for Parents with Kids 3-7",
+    "title": "Anger Management for Parents",
     "author": "SpreadLife Publishing",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Strategies to control your temper and raise happy kids."
   },
   {
     "title": "The Book You Wish Your Parents Had Read",
     "author": "Philippa Perry",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2019,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Audible",
+    "description": "And your children will be glad that you did."
   },
   {
     "title": "What Every Parent Needs to Know",
     "author": "Margot Sunderland",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2006,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Hard Cover",
+    "description": "The incredible effects of love, nurture and play on your child's development."
   },
   {
     "title": "Learning How to Learn",
     "author": "Barbara Oakley",
-    "category": "Parenting & Kids",
+    "topics": "Parenting & Kids",
     "year": 2018,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "How to succeed in school without spending all your time studying."
   },
   {
     "title": "The Seven Principles for Making Marriage Work",
     "author": "John Gottman",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 1999,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "A practical guide from the country's foremost relationship expert."
   },
   {
     "title": "The Love Prescription",
     "author": "John Gottman PhD",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2022,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Kindle",
+    "description": "Seven days to more intimacy, connection, and joy."
   },
   {
     "title": "5 Traits of a Healthy Family",
     "author": "Gary Chapman",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2013,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "Steps you can take to improve your family life."
   },
   {
     "title": "Things I Wish I'd Known Before We Got Married",
     "author": "Gary D. Chapman",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2010,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Kindle",
+    "description": "Practical advice for building a lasting marriage."
   },
   {
     "title": "The Rough Patch",
     "author": "Daphne de Marneffe PhD",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2018,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "Marriage and the art of living together."
   },
   {
     "title": "Twenty-one Truths About Love",
     "author": "Matthew Dicks",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Kindle",
+    "description": "A novel about love, lists, and life."
   },
   {
     "title": "The Science of Sex",
     "author": "Kate Moyle",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Every question you want to ask, answered."
   },
   {
     "title": "Come Together",
     "author": "Emily Nagoski PhD",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Audible",
+    "description": "The science (and art) of creating lasting sexual connections."
   },
   {
     "title": "Slow Sex",
     "author": "Nicole Daedone",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2011,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "The art and craft of the female orgasm."
   },
   {
     "title": "Good Sex",
     "author": "Candice Nicole Hargons",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "Getting the love you want."
   },
   {
     "title": "She Comes First",
     "author": "Ian Kerner",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2004,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "The thinking man's guide to pleasuring a woman."
   },
   {
     "title": "How to Love Better",
     "author": "Yung Pueblo",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Kindle",
+    "description": "Liberating your mind and heart."
   },
   {
     "title": "Love Life",
     "author": "Matthew Hussey",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "How to raise your standards, find your person, and live happily."
   },
   {
     "title": "Everything I Know About Love",
     "author": "Dolly Alderton",
-    "category": "Marriage & Partnership",
+    "topics": "Marriage & Partnership",
     "year": 2018,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "A memoir about growing up, getting older, and learning to love."
   },
   {
     "title": "Conversations on Love",
     "author": "Natasha Lunn",
-    "category": "Relationships & People",
+    "topics": "Relationships & People",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "Lovers, strangers, parents, friends, endings, beginnings."
   },
   {
     "title": "Infectious Generosity",
     "author": "Chris Anderson",
-    "category": "Relationships & People",
+    "topics": "Relationships & People",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Hard Cover",
+    "description": "The ultimate idea worth spreading."
   },
   {
     "title": "Coffee Nerd",
     "author": "Ruth Brown",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 150,
+    "platform": "Kindle",
+    "description": "A guide for coffee enthusiasts."
   },
   {
     "title": "How to Taste Coffee",
     "author": "Jessica Easto",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2017,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Paperback",
+    "description": "Develop your sensory skills and enjoy coffee more."
   },
   {
     "title": "Stuff Every Coffee Lover Should Know",
     "author": "Candace Rose Rardon",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 144,
+    "platform": "Hard Cover",
+    "description": "A pocket-sized guide to coffee trivia and tips."
   },
   {
     "title": "How to Make Coffee",
     "author": "Lani Kingston",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2015,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Paperback",
+    "description": "The science behind the bean."
   },
   {
     "title": "Coffee",
     "author": "Robert W. Thurston",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2013,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "A comprehensive history of the bean."
   },
   {
     "title": "How to make the best coffee at home",
     "author": "James Hoffmann",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2022,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Hard Cover",
+    "description": "Everything you need to know to brew great coffee."
   },
   {
     "title": "The World Atlas of Coffee",
     "author": "James Hoffmann",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2014,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Hard Cover",
+    "description": "From beans to brewing - coffees explored, explained and enjoyed."
   },
   {
-    "title": "The Best of Jimseven 2004 - 2015",
+    "title": "The Best of Jimseven",
     "author": "James Hoffmann",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2017,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Selected writings from the popular coffee blog."
   },
   {
     "title": "The Coffee Dictionary",
     "author": "Maxwell Colonna-Dashwood",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2017,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Hard Cover",
+    "description": "An A-Z of coffee, from growing & roasting to brewing & tasting."
   },
   {
     "title": "Craft Coffee",
-    "author": "Jessica Easto; Andreas Willhoff",
-    "category": "Coffee Culture",
+    "author": "Jessica Easto",
+    "topics": "Coffee Culture",
     "year": 2017,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "A manual: brewing a better cup at home."
   },
   {
-    "title": "Fika: The Art of The Swedish Coffee Break",
+    "title": "Fika",
     "author": "Anna Brones",
-    "category": "Coffee Culture",
+    "topics": "Coffee Culture",
     "year": 2015,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Hard Cover",
+    "description": "The art of the Swedish coffee break."
   },
   {
-    "title": "English Made Easy Volume One",
+    "title": "English Made Easy",
     "author": "Jonathan Crichton",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2015,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "A new ESL approach: learning English through pictures."
   },
   {
     "title": "English Vocabulary Builder Workbook",
     "author": "Jackie Bolen",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 150,
+    "platform": "Kindle",
+    "description": "200 lessons to improve your vocabulary."
   },
   {
     "title": "HarperCollins Spanish-English College Dictionary",
     "author": "HarperCollins Publishers",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 800,
+    "platform": "Paperback",
+    "description": "Comprehensive dictionary for language learners."
   },
   {
     "title": "101 Conversations in Simple Spanish",
     "author": "Olly Richards",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "Short natural dialogues to boost your Spanish fluency."
   },
   {
     "title": "Grammar for Grown-ups",
     "author": "Mark Peters",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2013,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "Everything you need to know but never learned in school."
   },
   {
     "title": "COBUILD Advanced Learner's Dictionary",
     "author": "Collins",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 1200,
+    "platform": "Hard Cover",
+    "description": "The complete reference for advanced learners."
   },
   {
     "title": "The Right Word",
     "author": "Bloomsbury Publishing",
-    "category": "Language Learning",
+    "topics": "Language Learning",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "A writer's guide to perfect word choice."
   },
   {
     "title": "The You You Are",
     "author": "Dr. Ricken Lazlo Hale PhD",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2022,
-    "rating": 5.0
+    "rating": 5.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "A book about self-discovery mentioned in Severance."
   },
   {
     "title": "Cold Nights of Childhood",
     "author": "Tezer Özlü",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 120,
+    "platform": "Paperback",
+    "description": "A journey through madness and desire."
   },
   {
     "title": "The Satanic Verses",
     "author": "Salman Rushdie",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1988,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 560,
+    "platform": "Paperback",
+    "description": "A controversial novel about faith and identity."
   },
   {
     "title": "Shame",
     "author": "Salman Rushdie",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1983,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "A novel of Pakistan."
   },
   {
     "title": "Midnight's children",
     "author": "Salman Rushdie",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1981,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 647,
+    "platform": "Paperback",
+    "description": "A novel about India's transition from British colonialism to independence."
   },
   {
     "title": "Nocturnes",
     "author": "Kazuo Ishiguro",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2009,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Five stories of music and nightfall."
   },
   {
     "title": "Never Let Me Go",
     "author": "Kazuo Ishiguro",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2005,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "A haunting novel about friendship and destiny."
   },
   {
     "title": "Assembly",
     "author": "Natasha Brown",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 112,
+    "platform": "Hard Cover",
+    "description": "A story about race, class, and identity in modern Britain."
   },
   {
     "title": "Good Material",
     "author": "Dolly Alderton",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "A funny and relatable novel about breakups."
   },
   {
     "title": "The Ministry of Time",
     "author": "Kaliane Bradley",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "A time-travel romance thriller."
   },
   {
     "title": "The Hotel Avocado",
     "author": "Bob Mortimer",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "The sequel to The Satsuma Complex."
   },
   {
     "title": "I Hope This Finds You Well",
     "author": "Natalie Sue",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "A workplace comedy about emails and honesty."
   },
   {
     "title": "Prophet Song",
     "author": "Paul Lynch",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "A dystopian novel set in Ireland."
   },
   {
     "title": "Yellowface",
     "author": "R. F. Kuang",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "A satire of the publishing industry."
   },
   {
     "title": "The Idiot",
     "author": "Elif Batuman",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2017,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 432,
+    "platform": "Kindle",
+    "description": "A novel about first love and language."
   },
   {
     "title": "Mr Salary",
     "author": "Sally Rooney",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2019,
-    "rating": 3.6
+    "rating": 3.6,
+    "language": "English",
+    "total_pages": 48,
+    "platform": "Paperback",
+    "description": "A short story about unrequited love."
   },
   {
     "title": "Mr. Loverman",
     "author": "Bernardine Evaristo",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2013,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "A 74-year-old Antiguan-Londoner comes out of the closet."
   },
   {
     "title": "Evenings and Weekends",
     "author": "Olivia McKenna",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "A story about relationships in London."
   },
   {
     "title": "Bird Milk & Mosquito Bones",
     "author": "Sayaka Murata",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Short stories from the author of Convenience Store Woman."
   },
   {
     "title": "Harlem Shuffle",
     "author": "Colson Whitehead",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Hard Cover",
+    "description": "A heist novel set in 1960s Harlem."
   },
   {
     "title": "Nightbitch",
     "author": "Rachel Yoder",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 3.6
+    "rating": 3.6,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Paperback",
+    "description": "A mother turns into a dog."
   },
   {
     "title": "Funny Story",
     "author": "Emily Henry",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "A romance about two exes."
   },
   {
     "title": "Either/Or",
     "author": "Elif Batuman",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2022,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 368,
+    "platform": "Kindle",
+    "description": "The sequel to The Idiot."
   },
   {
     "title": "Days at the Morisaki Bookshop",
     "author": "Satoshi Yagisawa",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2010,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Paperback",
+    "description": "A charming story about books and healing."
   },
   {
     "title": "There Are Rivers in the Sky",
     "author": "Elif Shafak",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 464,
+    "platform": "Hard Cover",
+    "description": "A novel spanning centuries and continents."
   },
   {
     "title": "We Solve Murders",
     "author": "Richard Osman",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "A new mystery series."
   },
   {
     "title": "A Little Luck",
     "author": "Claudia Piñeiro",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "A woman returns to her hometown after 20 years."
   },
   {
     "title": "The Cat Who Caught a Killer",
     "author": "L. P. Shearer",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "A cozy mystery with a feline sleuth."
   },
   {
     "title": "Homeland Elegies",
     "author": "Ayad Akhtar",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2020,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "A novel about an American son and his immigrant father."
   },
   {
     "title": "The Luminaries",
     "author": "Eleanor Catton",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2013,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 848,
+    "platform": "Paperback",
+    "description": "A murder mystery set during the New Zealand gold rush."
   },
   {
     "title": "Insatiable",
     "author": "Daisy Buchanan",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "A love story for hungry girls."
   },
   {
     "title": "The South",
     "author": "J.G. Ballard",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1990,
-    "rating": 3.5
+    "rating": 3.5,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Paperback",
+    "description": "A novel set in the American South."
   },
   {
     "title": "intermezzo",
     "author": "Sally Rooney",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "A story of two brothers."
   },
   {
     "title": "The Wedding People",
     "author": "Alison Espach",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "A wedding weekend goes wrong."
   },
   {
     "title": "More Days at the Morisaki Bookshop",
     "author": "Satoshi Yagisawa",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Sequel to the bestselling Japanese novel."
   },
   {
     "title": "Greek Lessons",
     "author": "Han Kang",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Hard Cover",
+    "description": "A novel about language and loss."
   },
   {
     "title": "Seven Voices",
     "author": "Juan Gelman",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "Poetry and prose."
   },
   {
     "title": "Orbital",
     "author": "Samantha Harvey",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Paperback",
+    "description": "A day in the life of six astronauts."
   },
   {
     "title": "A Great Country",
     "author": "Shilpi Somaya Gowda",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "A family in crisis in an affluent California suburb."
   },
   {
     "title": "The Thursday Murder Club",
     "author": "Richard Osman",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2020,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Audible",
+    "description": "Four septuagenarians investigate unsolved murders."
   },
   {
     "title": "Parade",
     "author": "Rachel Cusk",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "A novel about art and life."
   },
   {
     "title": "Submit",
     "author": "Sonnet",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "A provocative debut novel."
   },
   {
     "title": "The Woman in the Purple Skirt",
     "author": "Natsuko Imamura",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 3.6
+    "rating": 3.6,
+    "language": "English",
+    "total_pages": 224,
+    "platform": "Kindle",
+    "description": "A psychological thriller about obsession."
   },
   {
     "title": "Kediler Daır",
     "author": "Doris Lessing",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2002,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "Turkish",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "On Cats (Turkish Edition)."
   },
   {
     "title": "The Lost Bookshop",
     "author": "Evie Woods",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2023,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Paperback",
+    "description": "A magical story about books and secrets."
   },
   {
-    "title": "Things Fall Apart / Arrow of God / No Longer at Ease",
+    "title": "Things Fall Apart",
     "author": "Chinua Achebe",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1958,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 209,
+    "platform": "Paperback",
+    "description": "A classic novel about pre-colonial life in Nigeria."
   },
   {
     "title": "African Stories",
     "author": "Doris Lessing",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1964,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 670,
+    "platform": "Hard Cover",
+    "description": "Collected stories set in Africa."
   },
   {
     "title": "Beyaz Kale",
     "author": "Orhan Pamuk",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1985,
-    "rating": 3.7
+    "rating": 3.7,
+    "language": "Turkish",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "The White Castle (Turkish Edition)."
   },
   {
     "title": "Yeni Hayat",
     "author": "Orhan Pamuk",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1994,
-    "rating": 3.6
+    "rating": 3.6,
+    "language": "Turkish",
+    "total_pages": 250,
+    "platform": "Kindle",
+    "description": "The New Life (Turkish Edition)."
   },
   {
     "title": "Kara Kitap",
     "author": "Orhan Pamuk",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1990,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "Turkish",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "The Black Book (Turkish Edition)."
   },
   {
     "title": "Hamnet",
     "author": "Maggie O'Farrell",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2020,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 372,
+    "platform": "Paperback",
+    "description": "A fictional account of Shakespeare's son."
   },
   {
     "title": "Educated",
     "author": "Tara Westover",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2018,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Audible",
+    "description": "A memoir about growing up in a survivalist family."
   },
   {
     "title": "The Shadow King",
     "author": "Maaza Mengiste",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2019,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 448,
+    "platform": "Paperback",
+    "description": "Women soldiers in Ethiopia during WWII."
   },
   {
     "title": "1Q84",
     "author": "Haruki Murakami",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2009,
-    "rating": 3.9
+    "rating": 3.9,
+    "language": "English",
+    "total_pages": 928,
+    "platform": "Paperback",
+    "description": "A surreal novel set in 1984 Tokyo."
   },
   {
     "title": "Ermiş",
     "author": "Halil Cibran",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1923,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "Turkish",
+    "total_pages": 120,
+    "platform": "Kindle",
+    "description": "The Prophet (Turkish Edition)."
   },
   {
     "title": "The Road",
     "author": "Cormac McCarthy",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2006,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 287,
+    "platform": "Paperback",
+    "description": "A post-apocalyptic journey of a father and son."
   },
   {
     "title": "Gece Yarısı Kütüphanesi",
     "author": "Matt Haig",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2020,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Turkish",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "The Midnight Library (Turkish Edition)."
   },
   {
     "title": "The Annotated Lolita",
     "author": "Vladimir Nabokov",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1991,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 460,
+    "platform": "Hard Cover",
+    "description": "With introduction and notes."
   },
   {
     "title": "The Island of Missing Trees",
     "author": "Elif Shafak",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 368,
+    "platform": "Audible",
+    "description": "A love story set in Cyprus and London."
   },
   {
     "title": "Everything Is Tuberculosis",
     "author": "John Green",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2025,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "A history of the disease."
   },
   {
     "title": "Knife",
     "author": "Salman Rushdie",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 256,
+    "platform": "Hard Cover",
+    "description": "Meditations after an attempted murder."
   },
   {
     "title": "The Wall",
     "author": "John Lanchester",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2019,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 276,
+    "platform": "Paperback",
+    "description": "Life on the Wall in a changed world."
   },
   {
-    "title": "Beacon 23: The Complete Novel",
+    "title": "Beacon 23",
     "author": "Hugh Howey",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2015,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Kindle",
+    "description": "Sci-fi thriller set in deep space."
   },
   {
-    "title": "The end of eternity",
+    "title": "The End of Eternity",
     "author": "Isaac Asimov",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1955,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Paperback",
+    "description": "Time travel and its consequences."
   },
   {
     "title": "Project Hail Mary",
     "author": "Andy Weir",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2021,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 496,
+    "platform": "Audible",
+    "description": "A lone astronaut must save the earth."
   },
   {
     "title": "Dune",
     "author": "Frank Herbert",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1965,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 412,
+    "platform": "Audiobook",
+    "description": "The epic sci-fi saga on Arrakis."
   },
   {
     "title": "Heretics of Dune",
     "author": "Frank Herbert",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1984,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 480,
+    "platform": "Paperback",
+    "description": "Book 5 in the Dune Chronicles."
   },
   {
     "title": "God Emperor of Dune",
     "author": "Frank Herbert",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1981,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 420,
+    "platform": "Paperback",
+    "description": "Book 4 in the Dune Chronicles."
   },
   {
     "title": "All Systems Red",
     "author": "Martha Wells",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2017,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Kindle",
+    "description": "The Murderbot Diaries Book 1."
   },
   {
-    "title": "The Hobbit: Illustrated by the Author",
+    "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1937,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 310,
+    "platform": "Paperback",
+    "description": "There and back again."
   },
   {
-    "title": "The Illustrated The Lord of the Rings",
+    "title": "The Lord of the Rings",
     "author": "J.R.R. Tolkien",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1954,
-    "rating": 4.8
+    "rating": 4.8,
+    "language": "English",
+    "total_pages": 1178,
+    "platform": "Hard Cover",
+    "description": "The epic fantasy trilogy."
   },
   {
     "title": "The Hobbit: Enhanced Edition",
-    "author": "J.R.R. Tolkien; Alan Lee",
-    "category": "Contemporary Fiction",
+    "author": "J.R.R. Tolkien",
+    "topics": "Contemporary Fiction",
     "year": 1937,
-    "rating": 4.7
+    "rating": 4.7,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "Illustrated version."
   },
   {
     "title": "Ends and Means",
     "author": "Aldous Huxley",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1937,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 336,
+    "platform": "Paperback",
+    "description": "An enquiry into the nature of ideals."
   },
   {
     "title": "You Are Here",
     "author": "David Nicholls",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Paperback",
+    "description": "A novel about love and walking."
   },
   {
     "title": "Erotic Stories for Punjabi Widows",
     "author": "Balli Kaur Jaswal",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2017,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 304,
+    "platform": "Kindle",
+    "description": "A comedy-mystery about community and secrets."
   },
   {
     "title": "Quichotte",
     "author": "Salman Rushdie",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 2019,
-    "rating": 3.6
+    "rating": 3.6,
+    "language": "English",
+    "total_pages": 416,
+    "platform": "Hard Cover",
+    "description": "A modern retelling of Don Quixote."
   },
   {
     "title": "The Annotated Alice",
     "author": "Lewis Carroll",
-    "category": "Contemporary Fiction",
+    "topics": "Contemporary Fiction",
     "year": 1960,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Paperback",
+    "description": "Alice's Adventures in Wonderland with notes."
   },
   {
     "title": "The Philosophy Book",
     "author": "DK",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2011,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "Big ideas simply explained."
   },
   {
     "title": "The Essential Stoic",
     "author": "Epictetus",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "Key writings of Stoic philosophy."
   },
   {
     "title": "Turkish Awakening",
     "author": "Anna Scott",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Kindle",
+    "description": "A personal history of modern Turkey."
   },
   {
     "title": "The Divorce of Nations",
     "author": "João Vale de Almeida",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "Reflections on Brexit and the EU."
   },
   {
-    "title": "LSE International Studies: Before the West",
+    "title": "LSE International Studies",
     "author": "Ayşe Zarakol",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2022,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Before the West: the rise and fall of Eastern world orders."
   },
   {
     "title": "Demokrasi Nedir?",
     "author": "Aydın Touraine",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 1994,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Turkish",
+    "total_pages": 200,
+    "platform": "Paperback",
+    "description": "What is Democracy? (Turkish Edition)."
   },
   {
     "title": "The Politics Book",
     "author": "DK",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2013,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "Big ideas simply explained."
   },
   {
     "title": "Londoners",
     "author": "Craig Taylor",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2011,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 448,
+    "platform": "Paperback",
+    "description": "The days and nights of London now."
   },
   {
     "title": "A Map Is Only One Story",
     "author": "Nicole Chung",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2020,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Kindle",
+    "description": "Twenty writers on immigration, family, and the meaning of home."
   },
   {
     "title": "Inside Story",
     "author": "Phoebe Webster",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2020,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Paperback",
+    "description": "A novel about friendship and ambition."
   },
   {
     "title": "Latin American Politics and Society",
     "author": "Gerardo L. Munck",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 500,
+    "platform": "Hard Cover",
+    "description": "Comprehensive textbook."
   },
   {
     "title": "How to Win an Information War",
     "author": "Peter Pomerantsev",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "The propagandist who outwitted Hitler."
   },
   {
     "title": "Tyranny of the Minority",
-    "author": "Steven Levitsky; Daniel Ziblatt",
-    "category": "Ideas & Society",
+    "author": "Steven Levitsky",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "Why American democracy reached the breaking point."
   },
   {
     "title": "On Tyranny",
     "author": "Timothy Snyder",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2017,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 128,
+    "platform": "Paperback",
+    "description": "Twenty lessons from the twentieth century."
   },
   {
     "title": "War",
     "author": "Bob Woodward",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "Behind the scenes of global conflict."
   },
   {
     "title": "To Run the World",
     "author": "Sergey Radchenko",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "The Kremlin's Cold War bid for global power."
   },
   {
     "title": "On China",
     "author": "Henry Kissinger",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2011,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 608,
+    "platform": "Paperback",
+    "description": "An analysis of Chinese history and diplomacy."
   },
   {
     "title": "Essentials of UK Politics",
     "author": "Andrew Heywood",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "Textbook on UK political system."
   },
   {
     "title": "Essentials of Political Ideas",
     "author": "Andrew Heywood",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "Introduction to political ideologies."
   },
   {
     "title": "Counter-Intelligence",
     "author": "Robert Hannigan",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Hard Cover",
+    "description": "What spies do and how they do it."
   },
   {
     "title": "Rational Choice and Democratic Government",
     "author": "Tibor Rutar",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Paperback",
+    "description": "A sociological approach."
   },
   {
     "title": "Politics On the Edge",
     "author": "Rory Stewart",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 464,
+    "platform": "Audible",
+    "description": "A memoir from within."
   },
   {
     "title": "Why Do They Vote That Way?",
     "author": "Jonathan Haidt",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Moral psychology and politics."
   },
   {
     "title": "How They Broke Britain",
     "author": "James O'Brien",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.6
+    "rating": 4.6,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "The ten people who ruined a country."
   },
   {
     "title": "Values, Voice and Virtue",
     "author": "Matthew Goodwin",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "The new British politics."
   },
   {
     "title": "Not the End of the World",
     "author": "Hannah Ritchie",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "How we can be the first generation to build a sustainable planet."
   },
   {
     "title": "Open",
     "author": "Johan Norberg",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2020,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "The story of human progress."
   },
   {
     "title": "The Anthropologists",
     "author": "Turgul Savaş",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Kindle",
+    "description": "Studies in culture."
   },
   {
     "title": "This Is Not Propaganda",
     "author": "Peter Pomerantsev",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2019,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 288,
+    "platform": "Paperback",
+    "description": "Adventures in the war against reality."
   },
   {
     "title": "Big Caesars and Little Caesars",
     "author": "Ferdinand Mount",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "How they rise and how they fall."
   },
   {
     "title": "Chokepoints",
     "author": "Edward Fishman",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 280,
+    "platform": "Kindle",
+    "description": "American power in the age of economic warfare."
   },
   {
     "title": "Nasıl Bir Zamanda Yaşıyoruz",
     "author": "Jacques Rancière",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Turkish",
+    "total_pages": 150,
+    "platform": "Paperback",
+    "description": "What times do we live in (Turkish Edition)."
   },
   {
     "title": "Barack Obama Speeches",
     "author": "Barack Obama",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "Selected speeches."
   },
   {
     "title": "The Origins of Totalitarianism",
     "author": "Hannah Arendt",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 1951,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 528,
+    "platform": "Paperback",
+    "description": "Analysis of Nazism and Stalinism."
   },
   {
-    "title": "Modern Dünyanın Sorunları Karşısında Antropoloji",
+    "title": "Modern Dünyanın Sorunları",
     "author": "Claude Levi-Strauss",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Turkish",
+    "total_pages": 180,
+    "platform": "Paperback",
+    "description": "Anthropology and modern world problems (Turkish Edition)."
   },
   {
     "title": "Irk, Tarih ve Kültür",
     "author": "Claude Levi-Strauss",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Turkish",
+    "total_pages": 150,
+    "platform": "Kindle",
+    "description": "Race, History and Culture (Turkish Edition)."
   },
   {
     "title": "The Other",
     "author": "Ryszard Kapuscinski",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2008,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 100,
+    "platform": "Paperback",
+    "description": "Lectures on the Other."
   },
   {
     "title": "Nobody Leaves",
     "author": "Ryszard Kapuściński",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2019,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Kindle",
+    "description": "Impressions of Poland."
   },
   {
     "title": "Seeing Things as They Are",
     "author": "George Orwell",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2016,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Paperback",
+    "description": "Selected journalism."
   },
   {
-    "title": "Free: A Child and a Country at the End of History",
+    "title": "Free",
     "author": "Lea Ypi",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "Coming of age at the end of history."
   },
   {
     "title": "Power and Progress",
-    "author": "Daron Acemoglu; Simon Johnson",
-    "category": "Ideas & Society",
+    "author": "Daron Acemoglu",
+    "topics": "Ideas & Society",
     "year": 2023,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 560,
+    "platform": "Hard Cover",
+    "description": "Our 1000-year struggle over technology and prosperity."
   },
   {
     "title": "A Brief History of the World in 47 Borders",
-    "author": "Jona Elledge",
-    "category": "Ideas & Society",
+    "author": "Jonn Elledge",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Kindle",
+    "description": "How maps tell our story."
   },
   {
     "title": "Rinsed",
     "author": "Geoff White",
-    "category": "Ideas & Society",
+    "topics": "Ideas & Society",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "From cartels to crypto: how the tech industry washes money."
   },
   {
     "title": "Empireland",
     "author": "Sathnam Sanghera",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "How imperialism has shaped modern Britain."
   },
   {
-    "title": "Empire: How Britain Made the Modern World",
+    "title": "Empire",
     "author": "Niall Ferguson",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2003,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 432,
+    "platform": "Hard Cover",
+    "description": "How Britain made the modern world."
   },
   {
     "title": "The Empire Project",
     "author": "John Darwin",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2009,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 816,
+    "platform": "Paperback",
+    "description": "The rise and fall of the British world-system."
   },
   {
     "title": "History of Britain and Ireland",
     "author": "Dorling Kindersley",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2014,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "The definitive visual guide."
   },
   {
-    "title": "Lion and the Tiger: The Rise and Fall of the British Raj",
+    "title": "Lion and the Tiger",
     "author": "Denis Judd",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2004,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Paperback",
+    "description": "The rise and fall of the British Raj."
   },
   {
     "title": "London",
     "author": "Paul Knox",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2015,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "A history of the world's most dynamic city."
   },
   {
     "title": "When We Cease to Understand the World",
     "author": "Benjamin Labatut",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2020,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 192,
+    "platform": "Paperback",
+    "description": "Fictionalized accounts of scientific discovery."
   },
   {
     "title": "Your Cheeky Guide to the Roman Empire",
     "author": "Peta Greenfield",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "History with humor."
   },
   {
     "title": "Troy",
     "author": "Stephen Fry",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2020,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 432,
+    "platform": "Audible",
+    "description": "The siege of Troy retold."
   },
   {
     "title": "Odyssey",
     "author": "Stephen Fry",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2024,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 400,
+    "platform": "Hard Cover",
+    "description": "The return of Odysseus retold."
   },
   {
     "title": "Seven Pillars of Wisdom",
     "author": "T.E. Lawrence",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1922,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 672,
+    "platform": "Paperback",
+    "description": "A triumph."
   },
   {
     "title": "The Soccer War",
     "author": "Ryszard Kapuscinski",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1978,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 240,
+    "platform": "Paperback",
+    "description": "Dispatches from the third world."
   },
   {
     "title": "Open Veins of Latin America",
     "author": "Eduardo Galeano",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1971,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 360,
+    "platform": "Paperback",
+    "description": "Five centuries of the pillage of a continent."
   },
   {
-    "title": "The Latin Americans: Their Love-Hate Relationship With the United States",
+    "title": "The Latin Americans",
     "author": "Carlos Rangel",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1977,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "Their love-hate relationship with the United States."
   },
   {
     "title": "Del buen salvaje al buen revolucionario",
     "author": "Carlos Rangel",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1976,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "Spanish",
+    "total_pages": 300,
+    "platform": "Paperback",
+    "description": "Myths and realities of Latin America."
   },
   {
-    "title": "Bolívar: American Liberator",
+    "title": "Bolívar",
     "author": "Marie Arana",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2013,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 624,
+    "platform": "Hard Cover",
+    "description": "Biography of the American Liberator."
   },
   {
     "title": "The Motorcycle Diaries",
     "author": "Ernesto Che Guevara",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1993,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 176,
+    "platform": "Paperback",
+    "description": "Notes on a Latin American journey."
   },
   {
     "title": "The World in Books",
     "author": "Kenneth C. Davis",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2020,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "52 works of great literature."
   },
   {
     "title": "Writers Who Changed History",
     "author": "DK",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2019,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Hard Cover",
+    "description": "Visual guide to great authors."
   },
   {
     "title": "Art, Annotated",
     "author": "DK",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2020,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Hard Cover",
+    "description": "The world's greatest paintings explored."
   },
   {
     "title": "The Man from the Future",
     "author": "Ananyo Bhattacharya",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2022,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 350,
+    "platform": "Kindle",
+    "description": "The visionary life of John von Neumann."
   },
   {
-    "title": "Avoid Boring People: Lessons from a Life in Science",
+    "title": "Avoid Boring People",
     "author": "James D. Watson",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2007,
-    "rating": 3.8
+    "rating": 3.8,
+    "language": "English",
+    "total_pages": 360,
+    "platform": "Paperback",
+    "description": "Lessons from a life in science."
   },
   {
     "title": "My Mother and I",
     "author": "Ingrid Seward",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2024,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "Inside the relationship between King Charles and the Queen."
   },
   {
     "title": "A Promised Land",
     "author": "Barack Obama",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2020,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 768,
+    "platform": "Hard Cover",
+    "description": "Presidential memoir."
   },
   {
     "title": "Boys in Zinc",
     "author": "Svetlana Alexievich",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1989,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "Oral history of the Soviet-Afghan war."
   },
   {
     "title": "The Unwomanly Face of War",
     "author": "Svetlana Alexievich",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1985,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 360,
+    "platform": "Kindle",
+    "description": "Oral history of women in WWII."
   },
   {
     "title": "Atlas of Unexpected Places",
     "author": "Travis Elborough",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2021,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 208,
+    "platform": "Hard Cover",
+    "description": "Haphazard discoveries and chance places."
   },
   {
     "title": "Shah of Shahs",
     "author": "Ryszard Kapuscinski",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 1982,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 160,
+    "platform": "Paperback",
+    "description": "Account of the Iranian revolution."
   },
   {
     "title": "The Rise and Fall of the British Nation",
     "author": "David Edgerton",
-    "category": "History & Culture",
+    "topics": "History & Culture",
     "year": 2018,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 720,
+    "platform": "Paperback",
+    "description": "A twentieth-century history."
   },
   {
     "title": "The Music of the Primes",
     "author": "Marcus du Sautoy",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2003,
-    "rating": 4.4
+    "rating": 4.4,
+    "language": "English",
+    "total_pages": 352,
+    "platform": "Paperback",
+    "description": "Searching to solve the greatest mystery in mathematics."
   },
   {
     "title": "The Art of Uncertainty",
     "author": "David Spiegelhalter",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2024,
-    "rating": 4.2
+    "rating": 4.2,
+    "language": "English",
+    "total_pages": 300,
+    "platform": "Kindle",
+    "description": "How to navigate chance, ignorance, risk and luck."
   },
   {
     "title": "Our Universe",
     "author": "DK Publishing",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2022,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Hard Cover",
+    "description": "An astronomer's guide."
   },
   {
     "title": "Significant Figures",
     "author": "Ian Stewart",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2017,
-    "rating": 4.1
+    "rating": 4.1,
+    "language": "English",
+    "total_pages": 320,
+    "platform": "Paperback",
+    "description": "Lives and works of trailblazing mathematicians."
   },
   {
     "title": "Drawing Digital",
     "author": "Lisa Bardot",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2023,
-    "rating": 4.3
+    "rating": 4.3,
+    "language": "English",
+    "total_pages": 200,
+    "platform": "Kindle",
+    "description": "The complete guide for learning to draw on your iPad."
   },
   {
     "title": "Home The Way We Live Now",
     "author": "Kate Watson-Smyth",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 250,
+    "platform": "Hard Cover",
+    "description": "Modern interior design guide."
   },
   {
     "title": "Good Housekeeping Organize Your Life",
     "author": "Good Housekeeping",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 220,
+    "platform": "Paperback",
+    "description": "Clutter cures for every room."
   },
   {
     "title": "The Art of Influence",
     "author": "Ryuho Okawa",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2023,
-    "rating": 4.0
+    "rating": 4.0,
+    "language": "English",
+    "total_pages": 180,
+    "platform": "Kindle",
+    "description": "28 ways to win people's hearts."
   },
   {
     "title": "The Mountains of My Life",
     "author": "Walter Bonatti",
-    "category": "Science & Nature",
+    "topics": "Science & Nature",
     "year": 2001,
-    "rating": 4.5
+    "rating": 4.5,
+    "language": "English",
+    "total_pages": 450,
+    "platform": "Paperback",
+    "description": "The classic autobiography of a climbing legend."
   }
 ]
