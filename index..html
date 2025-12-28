@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .search-section {
+            margin-bottom: 30px;
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .search-input {
+            flex: 1;
+            min-width: 300px;
+            padding: 14px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+        }
+        .filter-select {
+            padding: 14px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 16px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            min-width: 200px;
+        }
+        .filter-select:hover {
+            border-color: #4CAF50;
+        }
+        .download-btn {
+            padding: 14px 28px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 2px 4px rgba(76, 175, 80, 0.3);
+        }
+        .download-btn:hover {
+            background: #45a049;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.4);
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .stat-box:nth-child(2) {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .stat-box:nth-child(3) {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        .stat-box strong {
+            display: block;
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        .stat-box span {
+            font-size: 14px;
+            opacity: 0.9;
+            font-weight: 500;
+        }
+        .table-container {
+            overflow-x: auto;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        th {
+            color: white;
+            padding: 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        td {
+            padding: 14px 16px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 15px;
+        }
+        tbody tr {
+            transition: background 0.2s;
+        }
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+        tbody tr:last-child td {
+            border-bottom: none;
+        }
+        .category-badge {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #e3f2fd;
+            color: #1976d2;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+            font-size: 18px;
+        }
+        .no-results::before {
+            content: "📚";
+            display: block;
+            font-size: 64px;
+            margin-bottom: 20px;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 18px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 1.8em;
+            }
+            .search-section {
+                flex-direction: column;
+            }
+            .search-input, .filter-select, .download-btn {
+                width: 100%;
+            }
+            th, td {
+                padding: 10px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 My Book Library</h1>
+        
+        <div class="search-section">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="Search by title or author..."
+            >
+            <select id="categoryFilter" class="filter-select">
+                <option value="all">All Categories</option>
+            </select>
+            <button class="download-btn" onclick="downloadCSV()">⬇ Download CSV</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <strong id="totalBooks">0</strong>
+                <span>Total Books</span>
+            </div>
+            <div class="stat-box">
+                <strong id="displayedBooks">0</strong>
+                <span>Displayed Books</span>
+            </div>
+            <div class="stat-box">
+                <strong id="totalCategories">0</strong>
+                <span>Categories</span>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 45%">Title</th>
+                        <th style="width: 30%">Author</th>
+                        <th style="width: 25%">Category</th>
+                    </tr>
+                </thead>
+                <tbody id="bookTable">
+                    <tr>
+                        <td colspan="3" class="loading">Loading books...</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="noResults" class="no-results" style="display: none;">
+                No books found matching your search.
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allBooks = [];
+        let displayedBooks = [];
+
+        // Load books from JSON file or use embedded data
+        async function loadBooks() {
+            try {
+                // Try to load from external JSON file first
+                const response = await fetch('books.json');
+                if (response.ok) {
+                    allBooks = await response.json();
+                } else {
+                    // Fallback: you can paste your JSON data here
+                    allBooks = []; // Replace with your books array
+                    console.log('Note: books.json not found. Using embedded data.');
+                }
+                
+                initializeApp();
+            } catch (error) {
+                console.error('Error loading books:', error);
+                document.getElementById('bookTable').innerHTML = 
+                    '<tr><td colspan="3" style="text-align:center;color:red;">Error loading books. Please check console.</td></tr>';
+            }
+        }
+
+        function initializeApp() {
+            populateCategories();
+            displayBooks(allBooks);
+            updateStats();
+            
+            // Event listeners
+            document.getElementById('searchInput').addEventListener('input', filterBooks);
+            document.getElementById('categoryFilter').addEventListener('change', filterBooks);
+        }
+
+        function populateCategories() {
+            const categories = [...new Set(allBooks.map(book => book.category))].sort();
+            const select = document.getElementById('categoryFilter');
+            
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                select.appendChild(option);
+            });
+        }
+
+        function filterBooks() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const selectedCategory = document.getElementById('categoryFilter').value;
+            
+            displayedBooks = allBooks.filter(book => {
+                const matchesSearch = book.title.toLowerCase().includes(searchTerm) || 
+                                    book.author.toLowerCase().includes(searchTerm);
+                const matchesCategory = selectedCategory === 'all' || book.category === selectedCategory;
+                
+                return matchesSearch && matchesCategory;
+            });
+            
+            displayBooks(displayedBooks);
+            updateStats();
+        }
+
+        function displayBooks(books) {
+            const tbody = document.getElementById('bookTable');
+            const noResults = document.getElementById('noResults');
+            
+            if (books.length === 0) {
+                tbody.innerHTML = '';
+                noResults.style.display = 'block';
+                return;
+            }
+            
+            noResults.style.display = 'none';
+            tbody.innerHTML = books.map(book => `
+                <tr>
+                    <td><strong>${escapeHtml(book.title)}</strong></td>
+                    <td>${escapeHtml(book.author)}</td>
+                    <td><span class="category-badge">${escapeHtml(book.category)}</span></td>
+                </tr>
+            `).join('');
+        }
+
+        function updateStats() {
+            document.getElementById('totalBooks').textContent = allBooks.length;
+            document.getElementById('displayedBooks').textContent = displayedBooks.length || allBooks.length;
+            
+            const categories = new Set(allBooks.map(book => book.category));
+            document.getElementById('totalCategories').textContent = categories.size;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function downloadCSV() {
+            const booksToExport = displayedBooks.length > 0 ? displayedBooks : allBooks;
+            
+            const csv = [
+                ['Title', 'Author', 'Category'],
+                ...booksToExport.map(book => [
+                    `"${book.title.replace(/"/g, '""')}"`,
+                    `"${book.author.replace(/"/g, '""')}"`,
+                    `"${book.category.replace(/"/g, '""')}"`
+                ])
+            ].map(row => row.join(',')).join('\n');
+            
+            const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'books_library.csv');
+            link.style.visibility = 'hidden';
+            
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Load books when page loads
+        loadBooks();
+    </script>
+</body>
+</html>
