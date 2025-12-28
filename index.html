@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Books Library</title>
+    <title>Book Collection</title>
     <style>
         * {
             margin: 0;
@@ -13,81 +13,50 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 1rem;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
         }
 
         header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 2rem 1rem;
-            border-radius: 12px;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
-        h1 {
+        header h1 {
             font-size: 1.75rem;
             margin-bottom: 0.5rem;
-            text-align: center;
         }
 
-        .subtitle {
-            text-align: center;
+        header p {
             opacity: 0.9;
             font-size: 0.9rem;
         }
 
-        .stats {
-            background: white;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .stat-item {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.5rem;
+        .controls {
+            padding: 1.5rem 1rem;
             background: #f8f9fa;
-            border-radius: 6px;
-        }
-
-        .stat-label {
-            font-weight: 600;
-            color: #667eea;
-            font-size: 0.9rem;
-        }
-
-        .stat-value {
-            font-size: 1.25rem;
-            font-weight: bold;
-            color: #333;
-        }
-
-        .filters-card {
-            background: white;
-            padding: 1rem;
-            border-radius: 8px;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid #e9ecef;
         }
 
         .filters {
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            margin-bottom: 1rem;
         }
 
         .filter-group {
@@ -98,27 +67,28 @@
 
         .filter-group label {
             font-weight: 600;
-            color: #333;
-            font-size: 0.9rem;
+            font-size: 0.875rem;
+            color: #495057;
         }
 
-        input[type="text"],
-        select {
-            width: 100%;
+        .filter-group input,
+        .filter-group select {
             padding: 0.75rem;
-            border: 2px solid #e0e0e0;
-            border-radius: 6px;
+            border: 2px solid #dee2e6;
+            border-radius: 8px;
             font-size: 1rem;
-            transition: border-color 0.3s;
+            transition: all 0.3s ease;
+            width: 100%;
         }
 
-        input[type="text"]:focus,
-        select:focus {
+        .filter-group input:focus,
+        .filter-group select:focus {
             outline: none;
             border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
-        .button-group {
+        .actions {
             display: flex;
             flex-direction: column;
             gap: 0.75rem;
@@ -127,11 +97,11 @@
         button {
             padding: 0.75rem 1.5rem;
             border: none;
-            border-radius: 6px;
+            border-radius: 8px;
             font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all 0.3s ease;
             width: 100%;
         }
 
@@ -142,115 +112,140 @@
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
         }
 
         .btn-secondary {
-            background: #48bb78;
+            background: #6c757d;
             color: white;
         }
 
         .btn-secondary:hover {
-            background: #38a169;
+            background: #5a6268;
             transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(72, 187, 120, 0.3);
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+            transform: translateY(-2px);
+        }
+
+        .stats {
+            padding: 1rem;
+            background: #e7f3ff;
+            border-left: 4px solid #667eea;
+            margin: 1rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            color: #495057;
         }
 
         .table-container {
-            background: white;
-            padding: 1rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
+            padding: 0 1rem 1rem 1rem;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            min-width: 600px;
+            font-size: 0.875rem;
         }
 
-        th, td {
-            padding: 0.75rem;
-            text-align: left;
-            border-bottom: 1px solid #e0e0e0;
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
 
         th {
-            background: #f8f9fa;
+            padding: 1rem 0.75rem;
+            text-align: left;
             font-weight: 600;
-            color: #333;
             cursor: pointer;
             user-select: none;
-            position: relative;
             white-space: nowrap;
         }
 
         th:hover {
-            background: #e9ecef;
+            background: rgba(255, 255, 255, 0.1);
         }
 
         th.sortable::after {
             content: ' ↕';
-            opacity: 0.3;
-            font-size: 0.8rem;
+            opacity: 0.5;
         }
 
-        th.sorted-asc::after {
+        th.sort-asc::after {
             content: ' ↑';
             opacity: 1;
-            color: #667eea;
         }
 
-        th.sorted-desc::after {
+        th.sort-desc::after {
             content: ' ↓';
             opacity: 1;
-            color: #667eea;
         }
 
-        tr:hover {
-            background: #f8f9fa;
+        td {
+            padding: 1rem 0.75rem;
+            border-bottom: 1px solid #e9ecef;
         }
 
-        .no-results {
-            text-align: center;
-            padding: 2rem;
-            color: #666;
-            font-style: italic;
+        tbody tr {
+            transition: background-color 0.2s ease;
         }
 
-        .category-badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            border-radius: 12px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            background: #e9ecef;
-            color: #495057;
+        tbody tr:hover {
+            background-color: #f8f9fa;
         }
 
         .rating {
-            color: #f59e0b;
+            color: #ffc107;
+            font-weight: bold;
+        }
+
+        .category-tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: #e7f3ff;
+            color: #0066cc;
+            border-radius: 12px;
+            font-size: 0.75rem;
             font-weight: 600;
+        }
+
+        .book-title {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .author {
+            color: #6c757d;
+            font-size: 0.875rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #f8f9fa;
+            color: #6c757d;
+            font-size: 0.875rem;
         }
 
         /* Tablet styles */
         @media (min-width: 768px) {
-            h1 {
+            header h1 {
                 font-size: 2.5rem;
             }
 
-            .stats {
-                flex-direction: row;
-                justify-content: space-around;
-            }
-
-            .stat-item {
-                flex-direction: column;
-                text-align: center;
-                flex: 1;
-                gap: 0.5rem;
+            header p {
+                font-size: 1rem;
             }
 
             .filters {
@@ -263,19 +258,17 @@
                 grid-column: 1 / -1;
             }
 
-            .button-group {
-                grid-column: 1 / -1;
+            .actions {
                 flex-direction: row;
                 justify-content: flex-end;
             }
 
             button {
                 width: auto;
-                min-width: 150px;
             }
 
-            .table-container {
-                padding: 1.5rem;
+            table {
+                font-size: 0.9rem;
             }
 
             th, td {
@@ -289,84 +282,97 @@
                 padding: 2rem;
             }
 
+            header {
+                padding: 3rem 2rem;
+            }
+
+            .controls {
+                padding: 2rem;
+            }
+
             .filters {
                 grid-template-columns: repeat(3, 1fr);
             }
 
             .filter-group:first-child {
-                grid-column: 1 / 2;
-            }
-
-            .filter-group:nth-child(5) {
-                grid-column: 3;
-            }
-
-            .button-group {
                 grid-column: 1 / -1;
+            }
+
+            table {
+                font-size: 1rem;
+            }
+
+            .stats {
+                margin: 1rem 2rem;
+            }
+
+            .table-container {
+                padding: 0 2rem 2rem 2rem;
             }
         }
 
         /* Loading state */
         .loading {
             text-align: center;
-            padding: 2rem;
-            color: white;
-            font-size: 1.2rem;
+            padding: 3rem;
+            color: #6c757d;
         }
 
-        /* Error state */
-        .error {
-            background: #fee;
-            border: 2px solid #fcc;
-            color: #c00;
-            padding: 1rem;
-            border-radius: 6px;
-            margin-bottom: 1rem;
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+
+        /* Responsive table on very small screens */
+        @media (max-width: 640px) {
+            table {
+                font-size: 0.75rem;
+            }
+
+            th, td {
+                padding: 0.75rem 0.5rem;
+            }
+
+            .category-tag {
+                font-size: 0.65rem;
+                padding: 0.2rem 0.5rem;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>📚 Books Library</h1>
-            <p class="subtitle">Discover and explore your personal book collection</p>
+            <h1>📚 Book Collection</h1>
+            <p>Explore and filter through my personal library</p>
         </header>
 
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-label">Total Books</span>
-                <span class="stat-value" id="totalBooks">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">Displayed Books</span>
-                <span class="stat-value" id="displayedBooks">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">Categories</span>
-                <span class="stat-value" id="totalCategories">0</span>
-            </div>
-        </div>
-
-        <div class="filters-card">
+        <div class="controls">
             <div class="filters">
                 <div class="filter-group">
-                    <label for="searchInput">Search</label>
+                    <label for="searchInput">🔍 Search</label>
                     <input type="text" id="searchInput" placeholder="Search by title or author...">
                 </div>
                 <div class="filter-group">
-                    <label for="categoryFilter">Category</label>
+                    <label for="categoryFilter">📂 Category</label>
                     <select id="categoryFilter">
                         <option value="">All Categories</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="yearFilter">Year</label>
+                    <label for="yearFilter">📅 Year</label>
                     <select id="yearFilter">
                         <option value="">All Years</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="ratingFilter">Minimum Rating</label>
+                    <label for="ratingFilter">⭐ Minimum Rating</label>
                     <select id="ratingFilter">
                         <option value="">All Ratings</option>
                         <option value="5">5 Stars</option>
@@ -376,85 +382,151 @@
                         <option value="1">1+ Stars</option>
                     </select>
                 </div>
-                <div class="filter-group">
-                    <label for="sortSelect">Sort By</label>
-                    <select id="sortSelect">
-                        <option value="">Default</option>
-                        <option value="title-asc">Title (A-Z)</option>
-                        <option value="title-desc">Title (Z-A)</option>
-                        <option value="author-asc">Author (A-Z)</option>
-                        <option value="author-desc">Author (Z-A)</option>
-                        <option value="year-asc">Year (Oldest)</option>
-                        <option value="year-desc">Year (Newest)</option>
-                        <option value="rating-asc">Rating (Low to High)</option>
-                        <option value="rating-desc">Rating (High to Low)</option>
-                    </select>
-                </div>
-                <div class="button-group">
-                    <button class="btn-primary" onclick="resetFilters()">Reset Filters</button>
-                    <button class="btn-secondary" onclick="downloadCSV()">Download CSV</button>
-                </div>
+            </div>
+            <div class="actions">
+                <button class="btn-secondary" onclick="resetFilters()">🔄 Reset Filters</button>
+                <button class="btn-success" onclick="downloadCSV()">📥 Download CSV</button>
             </div>
         </div>
+
+        <div class="stats" id="stats">Loading books...</div>
 
         <div class="table-container">
             <table id="booksTable">
                 <thead>
                     <tr>
-                        <th class="sortable" onclick="sortTable('title')">Title</th>
-                        <th class="sortable" onclick="sortTable('author')">Author</th>
-                        <th class="sortable" onclick="sortTable('year')">Year</th>
-                        <th class="sortable" onclick="sortTable('rating')">Rating</th>
-                        <th>Category</th>
+                        <th class="sortable" data-sort="title">Title</th>
+                        <th class="sortable" data-sort="author">Author</th>
+                        <th class="sortable" data-sort="category">Category</th>
+                        <th class="sortable" data-sort="year">Year</th>
+                        <th class="sortable" data-sort="rating">Rating</th>
                     </tr>
                 </thead>
                 <tbody id="booksTableBody">
                     <tr>
-                        <td colspan="5" class="loading">Loading books...</td>
+                        <td colspan="5" class="loading">Loading books</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+
+        <footer>
+            <p>📖 Built with love for books | Last updated: <span id="lastUpdated"></span></p>
+        </footer>
     </div>
 
     <script>
         let allBooks = [];
         let filteredBooks = [];
-        let currentSort = { column: null, direction: null };
+        let currentSort = { column: null, direction: 'asc' };
+
+        // Category structure with main categories and subcategories
+        const categoryStructure = {
+            'CAREER & BUSINESS': {
+                icon: '📂',
+                subcategories: [
+                    'Artificial Intelligence',
+                    'Startups & Business',
+                    'Product & Engineering',
+                    'Marketing & Communication',
+                    'Leadership & Career',
+                    'Money & Finance'
+                ]
+            },
+            'PERSONAL DEVELOPMENT': {
+                icon: '📂',
+                subcategories: [
+                    'Productivity & Habits',
+                    'Thinking & Decision Making'
+                ]
+            },
+            'SCIENCE & HISTORY': {
+                icon: '📂',
+                subcategories: [
+                    'Science',
+                    'History & Politics'
+                ]
+            },
+            'LIFESTYLE & CREATIVITY': {
+                icon: '📂',
+                subcategories: [
+                    'Health & Wellness',
+                    'Design & Creativity',
+                    'Sports & Adventure'
+                ]
+            },
+            'FICTION & STORIES': {
+                icon: '📂',
+                subcategories: [
+                    'Fiction',
+                    'Biography & Memoir'
+                ]
+            }
+        };
+
+        // Map subcategories to main categories
+        const subcategoryToMain = {};
+        Object.entries(categoryStructure).forEach(([mainCat, data]) => {
+            data.subcategories.forEach(subcat => {
+                subcategoryToMain[subcat] = mainCat;
+            });
+        });
 
         // Load books from JSON
         async function loadBooks() {
             try {
                 const response = await fetch('books.json');
-                if (!response.ok) {
-                    throw new Error('Failed to load books.json');
-                }
-                allBooks = await response.json();
+                const data = await response.json();
+                allBooks = data.books;
                 filteredBooks = [...allBooks];
                 
                 populateFilters();
+                renderTable();
                 updateStats();
-                displayBooks();
+                
+                document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
             } catch (error) {
                 console.error('Error loading books:', error);
                 document.getElementById('booksTableBody').innerHTML = 
-                    '<tr><td colspan="5" class="error">Error loading books. Please make sure books.json exists and is valid.</td></tr>';
+                    '<tr><td colspan="5" style="text-align: center; color: #dc3545;">Error loading books. Please try again later.</td></tr>';
             }
         }
 
         // Populate filter dropdowns
         function populateFilters() {
-            const categories = [...new Set(allBooks.map(book => book.category))].sort();
-            const years = [...new Set(allBooks.map(book => book.year))].sort((a, b) => b - a);
-
+            // Populate category filter with optgroups
             const categoryFilter = document.getElementById('categoryFilter');
-            categories.forEach(category => {
-                const option = document.createElement('option');
-                option.value = category;
-                option.textContent = category;
-                categoryFilter.appendChild(option);
+            categoryFilter.innerHTML = '<option value="">All Categories</option>';
+            
+            // Count books per category
+            const categoryCounts = {};
+            allBooks.forEach(book => {
+                categoryCounts[book.category] = (categoryCounts[book.category] || 0) + 1;
             });
 
+            // Create optgroups
+            Object.entries(categoryStructure).forEach(([mainCategory, data]) => {
+                const optgroup = document.createElement('optgroup');
+                const mainCount = data.subcategories.reduce((sum, sub) => sum + (categoryCounts[sub] || 0), 0);
+                optgroup.label = `${data.icon} ${mainCategory} (${mainCount})`;
+                
+                data.subcategories.forEach(subcat => {
+                    const count = categoryCounts[subcat] || 0;
+                    if (count > 0) {
+                        const option = document.createElement('option');
+                        option.value = subcat;
+                        option.textContent = `${subcat} (${count})`;
+                        optgroup.appendChild(option);
+                    }
+                });
+                
+                if (optgroup.children.length > 0) {
+                    categoryFilter.appendChild(optgroup);
+                }
+            });
+
+            // Populate year filter
+            const years = [...new Set(allBooks.map(book => book.year))].sort((a, b) => b - a);
             const yearFilter = document.getElementById('yearFilter');
             years.forEach(year => {
                 const option = document.createElement('option');
@@ -467,27 +539,26 @@
         // Filter books
         function filterBooks() {
             const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-            const categoryFilter = document.getElementById('categoryFilter').value;
-            const yearFilter = document.getElementById('yearFilter').value;
-            const ratingFilter = document.getElementById('ratingFilter').value;
+            const selectedCategory = document.getElementById('categoryFilter').value;
+            const selectedYear = document.getElementById('yearFilter').value;
+            const minRating = document.getElementById('ratingFilter').value;
 
             filteredBooks = allBooks.filter(book => {
                 const matchesSearch = book.title.toLowerCase().includes(searchTerm) || 
                                      book.author.toLowerCase().includes(searchTerm);
-                const matchesCategory = !categoryFilter || book.category === categoryFilter;
-                const matchesYear = !yearFilter || book.year.toString() === yearFilter;
-                const matchesRating = !ratingFilter || book.rating >= parseFloat(ratingFilter);
+                const matchesCategory = !selectedCategory || book.category === selectedCategory;
+                const matchesYear = !selectedYear || book.year == selectedYear;
+                const matchesRating = !minRating || book.rating >= parseFloat(minRating);
 
                 return matchesSearch && matchesCategory && matchesYear && matchesRating;
             });
 
-            applySorting();
+            renderTable();
             updateStats();
-            displayBooks();
         }
 
-        // Sort table
-        function sortTable(column) {
+        // Sort books
+        function sortBooks(column) {
             if (currentSort.column === column) {
                 currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
             } else {
@@ -495,50 +566,11 @@
                 currentSort.direction = 'asc';
             }
 
-            // Update sort dropdown
-            document.getElementById('sortSelect').value = `${column}-${currentSort.direction}`;
-
-            applySorting();
-            displayBooks();
-            updateSortIcons();
-        }
-
-        // Apply sorting from dropdown
-        function applySortingFromDropdown() {
-            const sortValue = document.getElementById('sortSelect').value;
-            if (!sortValue) {
-                currentSort = { column: null, direction: null };
-                filteredBooks = [...allBooks].filter(book => {
-                    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-                    const categoryFilter = document.getElementById('categoryFilter').value;
-                    const yearFilter = document.getElementById('yearFilter').value;
-                    const ratingFilter = document.getElementById('ratingFilter').value;
-
-                    const matchesSearch = book.title.toLowerCase().includes(searchTerm) || 
-                                         book.author.toLowerCase().includes(searchTerm);
-                    const matchesCategory = !categoryFilter || book.category === categoryFilter;
-                    const matchesYear = !yearFilter || book.year.toString() === yearFilter;
-                    const matchesRating = !ratingFilter || book.rating >= parseFloat(ratingFilter);
-
-                    return matchesSearch && matchesCategory && matchesYear && matchesRating;
-                });
-            } else {
-                const [column, direction] = sortValue.split('-');
-                currentSort = { column, direction };
-                applySorting();
-            }
-            displayBooks();
-            updateSortIcons();
-        }
-
-        // Apply current sorting
-        function applySorting() {
-            if (!currentSort.column) return;
-
             filteredBooks.sort((a, b) => {
-                let aVal = a[currentSort.column];
-                let bVal = b[currentSort.column];
+                let aVal = a[column];
+                let bVal = b[column];
 
+                // Convert to lowercase for string comparison
                 if (typeof aVal === 'string') {
                     aVal = aVal.toLowerCase();
                     bVal = bVal.toLowerCase();
@@ -548,91 +580,87 @@
                 if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
                 return 0;
             });
+
+            renderTable();
+            updateSortIndicators();
         }
 
-        // Update sort icons
-        function updateSortIcons() {
+        // Update sort indicators
+        function updateSortIndicators() {
             document.querySelectorAll('th.sortable').forEach(th => {
-                th.classList.remove('sorted-asc', 'sorted-desc');
+                th.classList.remove('sort-asc', 'sort-desc');
+                if (th.dataset.sort === currentSort.column) {
+                    th.classList.add(`sort-${currentSort.direction}`);
+                }
             });
-
-            if (currentSort.column) {
-                const headers = document.querySelectorAll('th.sortable');
-                headers.forEach(th => {
-                    if (th.textContent.toLowerCase().includes(currentSort.column)) {
-                        th.classList.add(`sorted-${currentSort.direction}`);
-                    }
-                });
-            }
         }
 
-        // Display books in table
-        function displayBooks() {
+        // Render table
+        function renderTable() {
             const tbody = document.getElementById('booksTableBody');
             
             if (filteredBooks.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="5" class="no-results">No books found matching your criteria.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="5" style="text-align: center; padding: 2rem; color: #6c757d;">No books found matching your filters.</td></tr>';
                 return;
             }
 
             tbody.innerHTML = filteredBooks.map(book => `
                 <tr>
-                    <td>${book.title}</td>
-                    <td>${book.author}</td>
+                    <td class="book-title">${book.title}</td>
+                    <td class="author">${book.author}</td>
+                    <td><span class="category-tag">${book.category}</span></td>
                     <td>${book.year}</td>
-                    <td class="rating">${'⭐'.repeat(Math.floor(book.rating))} ${book.rating.toFixed(1)}</td>
-                    <td><span class="category-badge">${book.category}</span></td>
+                    <td class="rating">${'⭐'.repeat(Math.floor(book.rating))} ${book.rating}</td>
                 </tr>
             `).join('');
         }
 
         // Update statistics
         function updateStats() {
-            document.getElementById('totalBooks').textContent = allBooks.length;
-            document.getElementById('displayedBooks').textContent = filteredBooks.length;
-            const categories = new Set(allBooks.map(book => book.category));
-            document.getElementById('totalCategories').textContent = categories.size;
+            const totalBooks = allBooks.length;
+            const displayedBooks = filteredBooks.length;
+            const avgRating = filteredBooks.length > 0 
+                ? (filteredBooks.reduce((sum, book) => sum + book.rating, 0) / filteredBooks.length).toFixed(1)
+                : 0;
+
+            document.getElementById('stats').innerHTML = `
+                📊 Showing <strong>${displayedBooks}</strong> of <strong>${totalBooks}</strong> books | 
+                Average Rating: <strong>${avgRating}</strong> ⭐
+            `;
         }
 
-        // Reset all filters
+        // Reset filters
         function resetFilters() {
             document.getElementById('searchInput').value = '';
             document.getElementById('categoryFilter').value = '';
             document.getElementById('yearFilter').value = '';
             document.getElementById('ratingFilter').value = '';
-            document.getElementById('sortSelect').value = '';
-            currentSort = { column: null, direction: null };
             filterBooks();
-            updateSortIcons();
         }
 
         // Download CSV
         function downloadCSV() {
-            const headers = ['Title', 'Author', 'Year', 'Rating', 'Category'];
-            const csvContent = [
-                headers.join(','),
-                ...filteredBooks.map(book => 
-                    [
-                        `"${book.title}"`,
-                        `"${book.author}"`,
-                        book.year,
-                        book.rating,
-                        `"${book.category}"`
-                    ].join(',')
-                )
-            ].join('\n');
+            const headers = ['Title', 'Author', 'Category', 'Year', 'Rating'];
+            const rows = filteredBooks.map(book => [
+                book.title,
+                book.author,
+                book.category,
+                book.year,
+                book.rating
+            ]);
 
-            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-            const link = document.createElement('a');
-            const url = URL.createObjectURL(blob);
-            
-            link.setAttribute('href', url);
-            link.setAttribute('download', `books_export_${new Date().toISOString().split('T')[0]}.csv`);
-            link.style.visibility = 'hidden';
-            
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
+            let csv = headers.join(',') + '\n';
+            rows.forEach(row => {
+                csv += row.map(cell => `"${cell}"`).join(',') + '\n';
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'books.csv';
+            a.click();
+            window.URL.revokeObjectURL(url);
         }
 
         // Event listeners
@@ -640,7 +668,10 @@
         document.getElementById('categoryFilter').addEventListener('change', filterBooks);
         document.getElementById('yearFilter').addEventListener('change', filterBooks);
         document.getElementById('ratingFilter').addEventListener('change', filterBooks);
-        document.getElementById('sortSelect').addEventListener('change', applySortingFromDropdown);
+
+        document.querySelectorAll('th.sortable').forEach(th => {
+            th.addEventListener('click', () => sortBooks(th.dataset.sort));
+        });
 
         // Load books on page load
         loadBooks();
