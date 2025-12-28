@@ -2,662 +2,926 @@
   {
     "title": "Generative AI",
     "author": "Harvard Business Review",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 3.8
   },
   {
     "title": "How AI Will Change Your Life",
     "author": "Patrick Dixon",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
   },
   {
     "title": "A Brief History of Artificial Intelligence",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2021,
+    "rating": 4.2
   },
   {
     "title": "The Age of AI: And Our Human Future",
     "author": "Henry Kissinger",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2021,
+    "rating": 4.0
   },
   {
     "title": "Co-Intelligence: Living and Working With AI",
     "author": "Ethan Mollick",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.3
   },
   {
     "title": "AI Needs You: How We Can Change AI's Future and Save Our Own",
     "author": "Verity Harding",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
   },
   {
     "title": "The Road to Conscious Machines",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2020,
+    "rating": 4.1
   },
   {
     "title": "The Atlas of AI",
     "author": "Kate Crawford",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2021,
+    "rating": 4.2
   },
   {
     "title": "Only Humans Need Apply: Winners and Losers in the Age of Smart Machines",
     "author": "Thomas H. Davenport",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2016,
+    "rating": 3.7
   },
   {
     "title": "Code-Dependent",
     "author": "Madhumita Murgia",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.1
   },
   {
     "title": "Artificial Intelligence",
     "author": "Michael Wooldridge",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "The Coming Wave",
     "author": "Mustafa Suleyman; Michael Bhaskar",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 4.2
   },
   {
     "title": "Brave New Words",
     "author": "Sal Khan",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
   },
   {
     "title": "Machines of Loving Grace",
     "author": "John Markoff",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2015,
+    "rating": 3.8
   },
   {
     "title": "Human Compatible",
     "author": "Stuart Russell",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2019,
+    "rating": 4.3
   },
   {
     "title": "Hello World: Being Human in the Age of Algorithms",
     "author": "Hannah Fry",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2018,
+    "rating": 4.1
   },
   {
     "title": "You Look Like a Thing and I Love You",
     "author": "Janelle Shane",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2019,
+    "rating": 3.9
   },
   {
     "title": "Deep Utopia",
     "author": "Nick Bostrom",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.2
   },
   {
     "title": "The Singularity Is Nearer",
     "author": "Ray Kurzweil",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
   },
   {
     "title": "Human Frontiers",
     "author": "Michael Bhaskar",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.8
   },
   {
     "title": "How to Stay Smart in a Smart World",
     "author": "Gerd Gigerenzer",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "Superintelligence",
     "author": "Nick Bostrom",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2014,
+    "rating": 4.1
   },
   {
     "title": "Nexus",
     "author": "Yuval Noah Harari",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.1
   },
   {
     "title": "The Unaccountability Machine",
     "author": "Ben Davies",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.9
   },
   {
     "title": "Technology Is Not the Problem",
     "author": "Timandra Harkness",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2023,
+    "rating": 3.7
   },
   {
     "title": "Cofounder.AI",
     "author": "Clarence Wooten",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 3.8
   },
   {
     "title": "Superagency",
     "author": "Reid Hoffman",
-    "category": "Artificial Intelligence"
+    "category": "Artificial Intelligence",
+    "year": 2024,
+    "rating": 4.0
   },
   {
     "title": "Little Bosses Everywhere",
     "author": "Bridget Read",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 3.6
   },
   {
     "title": "The 90 Day Brand Plan",
     "author": "Dain Walker",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 3.8
   },
   {
     "title": "Bullshit Jobs",
     "author": "David Graeber",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2018,
+    "rating": 3.9
   },
   {
     "title": "Measure What Matters",
     "author": "John Doerr",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2018,
+    "rating": 4.1
   },
   {
     "title": "Outcomes Over Output: Why customer behavior is the key metric for business success",
     "author": "Josh Seiden",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2019,
+    "rating": 4.2
   },
   {
     "title": "How Big Things Get Done",
     "author": "Bent Flyvbjerg",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.3
   },
   {
     "title": "100M Offers Made Easy: Create Your Own Irresistible Offers by Turning ChatGPT into Alex Hormozi",
     "author": "Ben Preston",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 3.7
   },
   {
     "title": "$100M Offers: How To Make Offers So Good People Feel Stupid Saying No",
     "author": "Alex Hormozi",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.4
   },
   {
     "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff",
     "author": "Alex Hormozi",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.5
   },
   {
     "title": "Million Dollar Weekend",
     "author": "Noah Kagan",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.1
   },
   {
     "title": "The Art of Starting",
     "author": "Iona Mathieson",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 3.9
   },
   {
     "title": "Start. Scale. Exit. Repeat.",
     "author": "Colin C. Campbell",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.0
   },
   {
     "title": "The Rise of China, Inc",
     "author": "Shaomin Li",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 3.8
   },
   {
     "title": "100 Business Tools for Success",
     "author": "Jeremy Kourdi",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2013,
+    "rating": 3.9
   },
   {
     "title": "The Song of Significance",
     "author": "Seth Godin",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 4.2
   },
   {
     "title": "Start From Zero: Build Your Own Business and Experience True Freedom",
     "author": "Dane Maxwell",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2018,
+    "rating": 4.0
   },
   {
     "title": "Trajectory",
     "author": "Dave Parker",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 3.8
   },
   {
     "title": "The Minimalist Entrepreneur: How Great Founders Do More With Less",
     "author": "Sahil Lavingia",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 4.2
   },
   {
     "title": "Company of One",
     "author": "Paul Jarvis",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2019,
+    "rating": 4.1
   },
   {
     "title": "Lean Startup, to Lean Company, to Rich Exit",
     "author": "Kenan E. Sahin",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "Zero to One",
     "author": "Peter Thiel",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2014,
+    "rating": 4.2
   },
   {
     "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
     "author": "Eric Ries",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2011,
+    "rating": 4.1
   },
   {
     "title": "Hacking the Startup Paradox: 20 Strategies to Build a Business from Scratch",
     "author": "Jeff Nelson",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 3.8
   },
   {
     "title": "HBR at 100",
     "author": "Harvard Business Review",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "The Startup Lifecycle",
     "author": "Gregory Shepard",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2019,
+    "rating": 3.9
   },
   {
     "title": "The Personal MBA",
     "author": "Josh Kaufman",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2010,
+    "rating": 4.0
   },
   {
     "title": "The 100 Best Business Books of All Time: What They Say, Why They Matter, and How They Can Help You",
     "author": "Jack Covert",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2009,
+    "rating": 3.9
   },
   {
     "title": "An MBA in a Book",
     "author": "Xander Cansell",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2021,
+    "rating": 3.8
   },
   {
     "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
     "author": "Alexander Osterwalder",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2010,
+    "rating": 4.2
   },
   {
     "title": "Get Backed: Craft Your Story, Build the Perfect Pitch Deck, and Launch the Venture of Your Dreams",
     "author": "Evan Baehr",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2015,
+    "rating": 4.0
   },
   {
     "title": "Disciplined Entrepreneurship Expanded & Updated",
     "author": "Bill Aulet",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.3
   },
   {
     "title": "The Lean Product Playbook",
     "author": "Dan Olsen",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2015,
+    "rating": 4.2
   },
   {
     "title": "HBR's 10 Must Reads 2025",
     "author": "Harvard Business Review",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2024,
+    "rating": 4.0
   },
   {
     "title": "What's Your Dream?: Find Your Passion. Love Your Work. Build a Richer Life.",
     "author": "Simon Squibb",
-    "category": "Startups & Business"
+    "category": "Startups & Business",
+    "year": 2023,
+    "rating": 3.8
   },
   {
     "title": "The Product Manager's Desk Reference, Third Edition",
     "author": "Steven Haines",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2021,
+    "rating": 4.1
   },
   {
     "title": "The Product Manager's Survival Guide",
     "author": "Steven Haines",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2013,
+    "rating": 4.0
   },
   {
     "title": "An Elegant Puzzle: Systems of Engineering Management",
     "author": "Will Larson",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2019,
+    "rating": 4.3
   },
   {
     "title": "The Art of Leadership",
     "author": "Michael Lopp",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2020,
+    "rating": 4.2
   },
   {
     "title": "The Software Developer's Career Handbook",
     "author": "Michael Lopp",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2017,
+    "rating": 4.0
   },
   {
     "title": "Software Engineering",
     "author": "Ravi Sechi",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2019,
+    "rating": 3.8
   },
   {
     "title": "Python Programming (for Raymond Rhine)",
     "author": "S. Sridhar",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "50 Algorithms Every Programmer Should Know",
     "author": "Imran Ahmad",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2020,
+    "rating": 4.1
   },
   {
     "title": "Source Code",
     "author": "Bill Gates",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2023,
+    "rating": 4.2
   },
   {
     "title": "Python for Cybersecurity",
     "author": "Howard E. Poston III",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "Python for Excel",
     "author": "Felix Zumstein",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2021,
+    "rating": 4.3
   },
   {
     "title": "Impact-first Product Teams",
     "author": "Matt LeMay",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2024,
+    "rating": 4.1
   },
   {
     "title": "Read Write Own",
     "author": "Chris Dixon",
-    "category": "Product & Engineering"
+    "category": "Product & Engineering",
+    "year": 2024,
+    "rating": 4.2
   },
   {
     "title": "Visual Collaboration",
     "author": "Ole Qvist-Sorensen",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2020,
+    "rating": 4.0
   },
   {
     "title": "The Design Thinking Playbook",
     "author": "Michael Lewrick",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.1
   },
   {
     "title": "Careless People",
     "author": "Sarah Wynn-Williams",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 3.8
   },
   {
     "title": "Using Behavioral Science in Marketing: Drive Customer Action and Loyalty by Prompting Instinctive Responses",
     "author": "Nancy Harhut",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2022,
+    "rating": 4.2
   },
   {
     "title": "This Is Marketing",
     "author": "Seth Godin",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.2
   },
   {
     "title": "Tell Your Story",
     "author": "Alex Fairfax",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2022,
+    "rating": 3.9
   },
   {
     "title": "Stories Sell",
     "author": "Hanimneyen Yazar",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2021,
+    "rating": 3.8
   },
   {
     "title": "Best Story Wins",
     "author": "Mark Edwards",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "Do Story: How to Tell Your Story So the World Listens",
     "author": "Bobette Buster",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2013,
+    "rating": 4.1
   },
   {
     "title": "The Perfect Story",
     "author": "Karen Eber",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2024,
+    "rating": 4.2
   },
   {
     "title": "Telling Your Story, Building Your Brand",
     "author": "Henry Wong",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2021,
+    "rating": 3.9
   },
   {
     "title": "First You Write a Sentence: The Elements of Reading, Writing ... and Life",
     "author": "Joe Moran",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2018,
+    "rating": 4.0
   },
   {
     "title": "Copywriting Third Edition",
     "author": "Giles Linkwood; Mark Shaw",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2019,
+    "rating": 3.9
   },
   {
     "title": "A Self-Help Guide for Copywriters",
     "author": "Dan Nelken",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2020,
+    "rating": 3.7
   },
   {
     "title": "It was the best of Sentences, it was the worst of sentences",
     "author": "June Casagrande",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2010,
+    "rating": 4.0
   },
   {
     "title": "Win Bigly",
     "author": "Scott Adams",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2017,
+    "rating": 3.9
   },
   {
     "title": "Simply Put: Why Clear Messages Win—and How to Design Them",
     "author": "Ben Guttmann",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2023,
+    "rating": 4.1
   },
   {
     "title": "Written",
     "author": "Bec Evans",
-    "category": "Marketing & Communication"
+    "category": "Marketing & Communication",
+    "year": 2024,
+    "rating": 3.9
   },
   {
     "title": "How to Go to Work",
     "author": "Lucy Clayton",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2024,
+    "rating": 3.8
   },
   {
     "title": "The Pathless Path",
     "author": "Paul Millerd",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.2
   },
   {
     "title": "Who Gets Promoted, Who Doesn't, and Why",
     "author": "Donald Asher",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2014,
+    "rating": 3.9
   },
   {
     "title": "The Anxious Achiever",
     "author": "Morra Aarons-Mele",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "Making Work Visible",
     "author": "Dominica DeGrandis",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2017,
+    "rating": 4.1
   },
   {
     "title": "Getting (More Of) What You Want",
     "author": "Margaret A. Neale; Thomas Z. Lys",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2015,
+    "rating": 4.0
   },
   {
     "title": "Reverse the Search",
     "author": "Madeline Mann",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2024,
+    "rating": 4.2
   },
   {
     "title": "Reskilling and Upskilling",
     "author": "Harvard Business Review",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 3.9
   },
   {
     "title": "Love + Work: How to Find What You Love, Love What You Do, and Do It for the Rest of Your Life",
     "author": "Marcus Buckingham",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.1
   },
   {
     "title": "You're the Boss",
     "author": "Sabina Nawaz",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2024,
+    "rating": 4.0
   },
   {
     "title": "Ping",
     "author": "Andrew Brodsky",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2024,
+    "rating": 3.8
   },
   {
     "title": "Managing Up",
     "author": "Melody Wilding",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2021,
+    "rating": 4.0
   },
   {
     "title": "You Coach You",
     "author": "Helen Tupper",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2022,
+    "rating": 4.1
   },
   {
     "title": "Choose Trust",
     "author": "Stuart Maister",
-    "category": "Leadership & Career"
+    "category": "Leadership & Career",
+    "year": 2023,
+    "rating": 3.9
   },
   {
     "title": "Economics",
     "author": "The Economist",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "The Capitalist Manifesto",
     "author": "Johan Norberg",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.1
   },
   {
     "title": "Finance for the People",
     "author": "Paco de Leon",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2022,
+    "rating": 4.3
   },
   {
     "title": "What They Don't Teach You About Money",
     "author": "Steven Barrett",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2023,
+    "rating": 4.0
   },
   {
     "title": "The State of Economics, the State of the World",
     "author": "Kaushik Basu",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2024,
+    "rating": 3.9
   },
   {
     "title": "The Economics Book (Big Ideas Simply Explained)",
     "author": "DK Publishing",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2012,
+    "rating": 4.2
   },
   {
     "title": "Simply Economics",
     "author": "Dorling Kindersley",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "The Millionaire Fastlane",
     "author": "MJ DeMarco",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2011,
+    "rating": 4.2
   },
   {
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
-    "category": "Money & Finance"
+    "category": "Money & Finance",
+    "year": 2020,
+    "rating": 4.4
   },
   {
     "title": "Slow Productivity",
     "author": "Cal Newport",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2024,
+    "rating": 4.3
   },
   {
     "title": "Ideas Are Your Only Currency",
     "author": "David Judkins",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2013,
+    "rating": 3.8
   },
   {
     "title": "Getting Things Done: The Art of Stress-Free Productivity",
     "author": "David Allen",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2001,
+    "rating": 4.1
   },
   {
     "title": "The Getting Things Done Workbook",
     "author": "David Allen",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2015,
+    "rating": 4.0
   },
   {
     "title": "Hooked (Summary)",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2014,
+    "rating": 4.0
   },
   {
     "title": "Indistractable",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2019,
+    "rating": 4.1
   },
   {
     "title": "Hooked",
     "author": "Nir Eyal",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2014,
+    "rating": 4.0
   },
   {
     "title": "Do It Today: Overcome Procrastination, Improve Productivity, and Achieve More Meaningful Things",
     "author": "Darius Foroux",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2018,
+    "rating": 3.9
   },
   {
     "title": "The Grid",
     "author": "Matt Watkinson",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2017,
+    "rating": 4.0
   },
   {
     "title": "The Communication Book",
     "author": "Mikael Krogerus",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2016,
+    "rating": 4.1
   },
   {
     "title": "Feel-good Productivity",
     "author": "Ali Abdaal",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.2
   },
   {
     "title": "Hello, Habits",
     "author": "Yumiko Sasaki",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "Do Nothing",
     "author": "Celeste Headlee",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "Goodbye, Things: On Minimalist Living",
     "author": "Fumio Sasaki",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2015,
+    "rating": 4.1
   },
   {
     "title": "Master of Change",
     "author": "Brad Stulberg",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2023,
+    "rating": 4.2
   },
   {
     "title": "Stolen Focus",
     "author": "Johann Hari",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2022,
+    "rating": 4.0
   },
   {
     "title": "Mind Management, Not Time Management",
     "author": "David Kadavy",
-    "category": "Productivity & Habits"
+    "category": "Productivity & Habits",
+    "year": 2020,
+    "rating": 3.9
   },
   {
     "title": "Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones",
