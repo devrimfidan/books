@@ -376,7 +376,7 @@
                     </tr>
                 </thead>
                 <tbody id="booksTableBody">
-                    <tr><td colspan="8" class="loading">Loading books...</td></tr>
+                    <tr><td colspan="7" class="loading">Loading books...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -444,7 +444,7 @@
             } catch (error) {
                 console.error('Error loading books:', error);
                 document.getElementById('booksTableBody').innerHTML = 
-                    `<tr><td colspan="8" style="text-align: center; padding: 2rem; color: #dc3545;">Error loading books.json.</td></tr>`;
+                    `<tr><td colspan="7" style="text-align: center; padding: 2rem; color: #dc3545;">Error loading books.json.</td></tr>`;
             }
         }
 
@@ -572,7 +572,7 @@
         function renderTable() {
             const tbody = document.getElementById('booksTableBody');
             if (filteredBooks.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">No books found.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; padding: 2rem; color: #6c757d;">No books found.</td></tr>';
                 return;
             }
 
@@ -605,7 +605,6 @@
                     </td>
                     <td class="author">${book.author || 'Unknown Author'}</td>
                     <td><span class="topic-tag">${book.topics || 'Uncategorized'}</span></td>
-                    <td>${genreTags || '-'}</td>
                     <td><span class="platform-badge">${book.platform || '-'}</span></td>
                     <td>${book.total_pages || '-'}</td>
                     <td class="rating">${book.rating ? book.rating : '-'}</td>
