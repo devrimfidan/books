@@ -1,0 +1,943 @@
+[
+  {
+    "title": "Generative AI",
+    "author": "Harvard Business Review",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "How AI Will Change Your Life",
+    "author": "Patrick Dixon",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "A Brief History of Artificial Intelligence",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Age of AI: And Our Human Future",
+    "author": "Henry Kissinger",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Co-Intelligence: Living and Working With AI",
+    "author": "Ethan Mollick",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "AI Needs You: How We Can Change AI's Future and Save Our Own",
+    "author": "Verity Harding",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Road to Conscious Machines",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Atlas of AI",
+    "author": "Kate Crawford",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Only Humans Need Apply: Winners and Losers in the Age of Smart Machines",
+    "author": "Thomas H. Davenport",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Code-Dependent",
+    "author": "Madhumita Murgia",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Artificial Intelligence",
+    "author": "Michael Wooldridge",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Coming Wave",
+    "author": "Mustafa Suleyman; Michael Bhaskar",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Brave New Words",
+    "author": "Sal Khan",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Machines of Loving Grace",
+    "author": "John Markoff",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Human Compatible",
+    "author": "Stuart Russell",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Hello World: Being Human in the Age of Algorithms",
+    "author": "Hannah Fry",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "You Look Like a Thing and I Love You",
+    "author": "Janelle Shane",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Deep Utopia",
+    "author": "Nick Bostrom",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Singularity Is Nearer",
+    "author": "Ray Kurzweil",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Human Frontiers",
+    "author": "Michael Bhaskar",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "How to Stay Smart in a Smart World",
+    "author": "Gerd Gigerenzer",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Superintelligence",
+    "author": "Nick Bostrom",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Nexus",
+    "author": "Yuval Noah Harari",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "The Unaccountability Machine",
+    "author": "Ben Davies",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Technology Is Not the Problem",
+    "author": "Timandra Harkness",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Cofounder.AI",
+    "author": "Clarence Wooten",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Superagency",
+    "author": "Reid Hoffman",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "title": "Little Bosses Everywhere",
+    "author": "Bridget Read",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The 90 Day Brand Plan",
+    "author": "Dain Walker",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Bullshit Jobs",
+    "author": "David Graeber",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Measure What Matters",
+    "author": "John Doerr",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Outcomes Over Output: Why customer behavior is the key metric for business success",
+    "author": "Josh Seiden",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "How Big Things Get Done",
+    "author": "Bent Flyvbjerg",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "100M Offers Made Easy: Create Your Own Irresistible Offers by Turning ChatGPT into Alex Hormozi",
+    "author": "Ben Preston",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "$100M Offers: How To Make Offers So Good People Feel Stupid Saying No",
+    "author": "Alex Hormozi",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "$100M Leads: How to Get Strangers To Want To Buy Your Stuff",
+    "author": "Alex Hormozi",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Million Dollar Weekend",
+    "author": "Noah Kagan",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Art of Starting",
+    "author": "Iona Mathieson",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Start. Scale. Exit. Repeat.",
+    "author": "Colin C. Campbell",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Rise of China, Inc",
+    "author": "Shaomin Li",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "100 Business Tools for Success",
+    "author": "Jeremy Kourdi",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Song of Significance",
+    "author": "Seth Godin",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Start From Zero: Build Your Own Business and Experience True Freedom",
+    "author": "Dane Maxwell",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Trajectory",
+    "author": "Dave Parker",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Minimalist Entrepreneur: How Great Founders Do More With Less",
+    "author": "Sahil Lavingia",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Company of One",
+    "author": "Paul Jarvis",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Lean Startup, to Lean Company, to Rich Exit",
+    "author": "Kenan E. Sahin",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
+    "author": "Eric Ries",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Hacking the Startup Paradox: 20 Strategies to Build a Business from Scratch",
+    "author": "Jeff Nelson",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "HBR at 100",
+    "author": "Harvard Business Review",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Startup Lifecycle",
+    "author": "Gregory Shepard",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Personal MBA",
+    "author": "Josh Kaufman",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The 100 Best Business Books of All Time: What They Say, Why They Matter, and How They Can Help You",
+    "author": "Jack Covert",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "An MBA in a Book",
+    "author": "Xander Cansell",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Business Model Generation: A Handbook for Visionaries, Game Changers, and Challengers",
+    "author": "Alexander Osterwalder",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Get Backed: Craft Your Story, Build the Perfect Pitch Deck, and Launch the Venture of Your Dreams",
+    "author": "Evan Baehr",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "Disciplined Entrepreneurship Expanded & Updated",
+    "author": "Bill Aulet",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Lean Product Playbook",
+    "author": "Dan Olsen",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "HBR's 10 Must Reads 2025",
+    "author": "Harvard Business Review",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "What's Your Dream?: Find Your Passion. Love Your Work. Build a Richer Life.",
+    "author": "Simon Squibb",
+    "category": "Startups & Business"
+  },
+  {
+    "title": "The Product Manager's Desk Reference, Third Edition",
+    "author": "Steven Haines",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "The Product Manager's Survival Guide",
+    "author": "Steven Haines",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "An Elegant Puzzle: Systems of Engineering Management",
+    "author": "Will Larson",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "The Art of Leadership",
+    "author": "Michael Lopp",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "The Software Developer's Career Handbook",
+    "author": "Michael Lopp",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Software Engineering",
+    "author": "Ravi Sechi",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Python Programming (for Raymond Rhine)",
+    "author": "S. Sridhar",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "50 Algorithms Every Programmer Should Know",
+    "author": "Imran Ahmad",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Source Code",
+    "author": "Bill Gates",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Python for Cybersecurity",
+    "author": "Howard E. Poston III",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Python for Excel",
+    "author": "Felix Zumstein",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Impact-first Product Teams",
+    "author": "Matt LeMay",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Read Write Own",
+    "author": "Chris Dixon",
+    "category": "Product & Engineering"
+  },
+  {
+    "title": "Visual Collaboration",
+    "author": "Ole Qvist-Sorensen",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "The Design Thinking Playbook",
+    "author": "Michael Lewrick",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Careless People",
+    "author": "Sarah Wynn-Williams",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Using Behavioral Science in Marketing: Drive Customer Action and Loyalty by Prompting Instinctive Responses",
+    "author": "Nancy Harhut",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "This Is Marketing",
+    "author": "Seth Godin",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Tell Your Story",
+    "author": "Alex Fairfax",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Stories Sell",
+    "author": "Hanimneyen Yazar",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Best Story Wins",
+    "author": "Mark Edwards",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Do Story: How to Tell Your Story So the World Listens",
+    "author": "Bobette Buster",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "The Perfect Story",
+    "author": "Karen Eber",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Telling Your Story, Building Your Brand",
+    "author": "Henry Wong",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "First You Write a Sentence: The Elements of Reading, Writing ... and Life",
+    "author": "Joe Moran",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Copywriting Third Edition",
+    "author": "Giles Linkwood; Mark Shaw",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "A Self-Help Guide for Copywriters",
+    "author": "Dan Nelken",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "It was the best of Sentences, it was the worst of sentences",
+    "author": "June Casagrande",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Win Bigly",
+    "author": "Scott Adams",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Simply Put: Why Clear Messages Win—and How to Design Them",
+    "author": "Ben Guttmann",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "Written",
+    "author": "Bec Evans",
+    "category": "Marketing & Communication"
+  },
+  {
+    "title": "How to Go to Work",
+    "author": "Lucy Clayton",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "The Pathless Path",
+    "author": "Paul Millerd",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Who Gets Promoted, Who Doesn't, and Why",
+    "author": "Donald Asher",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "The Anxious Achiever",
+    "author": "Morra Aarons-Mele",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Making Work Visible",
+    "author": "Dominica DeGrandis",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Getting (More Of) What You Want",
+    "author": "Margaret A. Neale; Thomas Z. Lys",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Reverse the Search",
+    "author": "Madeline Mann",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Reskilling and Upskilling",
+    "author": "Harvard Business Review",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Love + Work: How to Find What You Love, Love What You Do, and Do It for the Rest of Your Life",
+    "author": "Marcus Buckingham",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "You're the Boss",
+    "author": "Sabina Nawaz",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Ping",
+    "author": "Andrew Brodsky",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Managing Up",
+    "author": "Melody Wilding",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "You Coach You",
+    "author": "Helen Tupper",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Choose Trust",
+    "author": "Stuart Maister",
+    "category": "Leadership & Career"
+  },
+  {
+    "title": "Economics",
+    "author": "The Economist",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "The Capitalist Manifesto",
+    "author": "Johan Norberg",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "Finance for the People",
+    "author": "Paco de Leon",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "What They Don't Teach You About Money",
+    "author": "Steven Barrett",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "The State of Economics, the State of the World",
+    "author": "Kaushik Basu",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "The Economics Book (Big Ideas Simply Explained)",
+    "author": "DK Publishing",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "Simply Economics",
+    "author": "Dorling Kindersley",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "The Millionaire Fastlane",
+    "author": "MJ DeMarco",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "Money & Finance"
+  },
+  {
+    "title": "Slow Productivity",
+    "author": "Cal Newport",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Ideas Are Your Only Currency",
+    "author": "David Judkins",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Getting Things Done: The Art of Stress-Free Productivity",
+    "author": "David Allen",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The Getting Things Done Workbook",
+    "author": "David Allen",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Hooked (Summary)",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Indistractable",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Hooked",
+    "author": "Nir Eyal",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Do It Today: Overcome Procrastination, Improve Productivity, and Achieve More Meaningful Things",
+    "author": "Darius Foroux",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The Grid",
+    "author": "Matt Watkinson",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The Communication Book",
+    "author": "Mikael Krogerus",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Feel-good Productivity",
+    "author": "Ali Abdaal",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Hello, Habits",
+    "author": "Yumiko Sasaki",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Do Nothing",
+    "author": "Celeste Headlee",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Goodbye, Things: On Minimalist Living",
+    "author": "Fumio Sasaki",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Master of Change",
+    "author": "Brad Stulberg",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Stolen Focus",
+    "author": "Johann Hari",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Mind Management, Not Time Management",
+    "author": "David Kadavy",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Atomic Habits: An Easy and Proven Way to Build Good Habits and Break Bad Ones",
+    "author": "James Clear",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Manage Your Day-to-Day",
+    "author": "Jocelyn K. Glei",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The Get Things Done Book",
+    "author": "Mikael Krogerus",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Four Thousand Weeks",
+    "author": "Oliver Burkeman",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Meditations for Mortals",
+    "author": "Oliver Burkeman",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Click",
+    "author": "Jake Knapp",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The Not-To-Do List",
+    "author": "Rolf Dobelli",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "52 Secrets for Goal-Setting and Goal-Getting",
+    "author": "Debra Eckerling",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "HELP!",
+    "author": "Oliver Burkeman",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "The ONE Thing",
+    "author": "Gary Keller",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Tidy Up Your Life",
+    "author": "Tyler Moore",
+    "category": "Productivity & Habits"
+  },
+  {
+    "title": "Framers",
+    "author": "Kenneth Cukier",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "Data Is Everybody's Business",
+    "author": "Barbara H. Wixom",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Practice of Not Thinking",
+    "author": "Hynosuke Koike",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Art of Thinking Clearly",
+    "author": "Rolf Dobelli",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "Thinking in Bets",
+    "author": "Annie Duke",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Great Mental Models, Volume 4",
+    "author": "Shane Parrish",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Great Mental Models: General Thinking Concepts",
+    "author": "Shane Parrish",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "Great Thinkers",
+    "author": "Great Thinkers",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Question Book",
+    "author": "Mikael Krogerus",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "The Decision Book",
+    "author": "Mikael Krogerus",
+    "category": "Thinking & Decision Making"
+  },
+  {
+    "title": "Supercommunicators",
+    "author": "Charles Duhigg",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Revenge of the Tipping Point",
+    "author": "Malcolm Gladwell",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Optimal",
+    "author": "Daniel Goleman",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Emotional Intelligence",
+    "author": "Daniel Goleman",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The Domesticated Brain",
+    "author": "Bruce Hood",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Chatter",
+    "author": "Ethan Kross",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The New Psychology",
+    "author": "Adrian Furnham",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Intimate Strangers",
+    "author": "Andreea Deciu Ritivoi",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The Science of Happiness",
+    "author": "Bruce Hood",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The 9 Types of Difficult People",
+    "author": "Nick Robinson",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Subliminal",
+    "author": "Leonard Mlodinow",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Switch on Your Brain",
+    "author": "Allan Parker",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The Brain Fitness Book",
+    "author": "Rita Carter",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Brainjacking",
+    "author": "Brian Clegg",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Why We Remember",
+    "author": "Charan Ranganath",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "Psychology",
+    "author": "Fiona Starr",
+    "category": "Psychology & Behavior"
+  },
+  {
+    "title": "The Social Skills Guidebook",
+    "author": "Chris MacLeod MSW",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Great Chat",
+    "author": "Sam Smith",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "How to Talk to Absolutely Anyone",
+    "author": "Mark Rhodes",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Crucial Conversations",
+    "author": "Joseph Grenny",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Verbal Judo: The Gentle Art of Persuasion",
+    "author": "George J. Thompson PhD",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Talk",
+    "author": "Alison Wood Brooks",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "BOLD: 212 Charisma and Small Talk Tips",
+    "author": "Tycho Press",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Think Faster, Talk Smarter",
+    "author": "Matt Abrahams",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "The Art of Explanation",
+    "author": "Ros Atkins",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Make it Clear",
+    "author": "Patrick Henry Winston",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Getting Along: How to Work with Anyone (Even Difficult People)",
+    "author": "Amy Gallo",
+    "category": "Communication Skills"
+  },
+  {
+    "title": "Think Remarkable",
+    "author": "Guy Kawasaki",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "Rewire",
+    "author": "Nicole Vignola",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "The High 5 Habit",
+    "author": "Mel Robbins",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "The Second Mountain",
+    "author": "David Brooks",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "How to Know a Person",
+    "author": "David Brooks",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "Life Is Short And So Is This Book",
+    "author": "Peter Atkins",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "12 Rules for Life An Antidote to Chaos",
+    "author": "Jordan B. Peterson",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "Mindwandering",
+    "author": "Moona Bal",
+    "category": "Self-Improvement"
+  },
+  {
+    "title": "Build the Life You Want",
