@@ -206,8 +206,8 @@
         }
 
         .rating {
-            color: #ffc107;
             font-weight: bold;
+            color: #e67e22;
         }
 
         .category-tag {
@@ -218,6 +218,7 @@
             border-radius: 12px;
             font-size: 0.75rem;
             font-weight: 600;
+            white-space: nowrap;
         }
 
         .book-title {
@@ -349,43 +350,42 @@
 <body>
     <div class="container">
         <header>
-            <h1>📚 Book Collection</h1>
-            <p>Explore and filter through my personal library</p>
+            <h1>Book Collection</h1>
+            <p>Explore and filter through the library</p>
         </header>
 
         <div class="controls">
             <div class="filters">
                 <div class="filter-group">
-                    <label for="searchInput">🔍 Search</label>
+                    <label for="searchInput">Search</label>
                     <input type="text" id="searchInput" placeholder="Search by title or author...">
                 </div>
                 <div class="filter-group">
-                    <label for="categoryFilter">📂 Category</label>
+                    <label for="categoryFilter">Category</label>
                     <select id="categoryFilter">
                         <option value="">All Categories</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="yearFilter">📅 Year</label>
+                    <label for="yearFilter">Year</label>
                     <select id="yearFilter">
                         <option value="">All Years</option>
                     </select>
                 </div>
                 <div class="filter-group">
-                    <label for="ratingFilter">⭐ Minimum Rating</label>
+                    <label for="ratingFilter">Minimum Rating</label>
                     <select id="ratingFilter">
                         <option value="">All Ratings</option>
-                        <option value="5">5 Stars</option>
+                        <option value="4.5">4.5+ Stars</option>
                         <option value="4">4+ Stars</option>
+                        <option value="3.5">3.5+ Stars</option>
                         <option value="3">3+ Stars</option>
-                        <option value="2">2+ Stars</option>
-                        <option value="1">1+ Stars</option>
                     </select>
                 </div>
             </div>
             <div class="actions">
-                <button class="btn-secondary" onclick="resetFilters()">🔄 Reset Filters</button>
-                <button class="btn-success" onclick="downloadCSV()">📥 Download CSV</button>
+                <button class="btn-secondary" onclick="resetFilters()">Reset Filters</button>
+                <button class="btn-success" onclick="downloadCSV()">Download CSV</button>
             </div>
         </div>
 
@@ -411,7 +411,7 @@
         </div>
 
         <footer>
-            <p>📖 Built with love for books | Last updated: <span id="lastUpdated"></span></p>
+            <p>Built with love for books | Last updated: <span id="lastUpdated"></span></p>
         </footer>
     </div>
 
@@ -423,7 +423,6 @@
         // Category structure with main categories and subcategories
         const categoryStructure = {
             'CAREER & BUSINESS': {
-                icon: '📂',
                 subcategories: [
                     'Artificial Intelligence',
                     'Startups & Business',
@@ -434,21 +433,18 @@
                 ]
             },
             'PERSONAL DEVELOPMENT': {
-                icon: '📂',
                 subcategories: [
                     'Productivity & Habits',
                     'Thinking & Decision Making'
                 ]
             },
             'SCIENCE & HISTORY': {
-                icon: '📂',
                 subcategories: [
                     'Science',
                     'History & Politics'
                 ]
             },
             'LIFESTYLE & CREATIVITY': {
-                icon: '📂',
                 subcategories: [
                     'Health & Wellness',
                     'Design & Creativity',
@@ -456,7 +452,6 @@
                 ]
             },
             'FICTION & STORIES': {
-                icon: '📂',
                 subcategories: [
                     'Fiction',
                     'Biography & Memoir'
@@ -476,8 +471,13 @@
         async function loadBooks() {
             try {
                 const response = await fetch('books.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 const data = await response.json();
-                allBooks = data.books;
+                
+                // Handle data if it's an array or an object with a 'books' property
+                allBooks = Array.isArray(data) ? data : (data.books || []);
                 filteredBooks = [...allBooks];
                 
                 populateFilters();
@@ -488,7 +488,10 @@
             } catch (error) {
                 console.error('Error loading books:', error);
                 document.getElementById('booksTableBody').innerHTML = 
-                    '<tr><td colspan="5" style="text-align: center; color: #dc3545;">Error loading books. Please try again later.</td></tr>';
+                    `<tr><td colspan="5" style="text-align: center; padding: 2rem; color: #dc3545;">
+                        Error loading books.json. <br>
+                        <small>Please ensure "books.json" is in the same directory and you are running this on a web server (e.g., GitHub Pages, VS Code Live Server).</small>
+                    </td></tr>`;
             }
         }
 
@@ -508,8 +511,9 @@
             Object.entries(categoryStructure).forEach(([mainCategory, data]) => {
                 const optgroup = document.createElement('optgroup');
                 const mainCount = data.subcategories.reduce((sum, sub) => sum + (categoryCounts[sub] || 0), 0);
-                optgroup.label = `${data.icon} ${mainCategory} (${mainCount})`;
+                optgroup.label = `${mainCategory} (${mainCount})`;
                 
+                let hasOptions = false;
                 data.subcategories.forEach(subcat => {
                     const count = categoryCounts[subcat] || 0;
                     if (count > 0) {
@@ -517,16 +521,33 @@
                         option.value = subcat;
                         option.textContent = `${subcat} (${count})`;
                         optgroup.appendChild(option);
+                        hasOptions = true;
                     }
                 });
                 
-                if (optgroup.children.length > 0) {
+                if (hasOptions) {
                     categoryFilter.appendChild(optgroup);
                 }
             });
+            
+            // Add any categories not in the structure as "Other"
+            const structureCategories = new Set(Object.values(categoryStructure).flatMap(d => d.subcategories));
+            const otherCategories = Object.keys(categoryCounts).filter(c => !structureCategories.has(c));
+            
+            if (otherCategories.length > 0) {
+                 const otherGroup = document.createElement('optgroup');
+                 otherGroup.label = "Other";
+                 otherCategories.forEach(cat => {
+                     const option = document.createElement('option');
+                     option.value = cat;
+                     option.textContent = `${cat} (${categoryCounts[cat]})`;
+                     otherGroup.appendChild(option);
+                 });
+                 categoryFilter.appendChild(otherGroup);
+            }
 
             // Populate year filter
-            const years = [...new Set(allBooks.map(book => book.year))].sort((a, b) => b - a);
+            const years = [...new Set(allBooks.map(book => book.year))].filter(y => y).sort((a, b) => b - a);
             const yearFilter = document.getElementById('yearFilter');
             years.forEach(year => {
                 const option = document.createElement('option');
@@ -544,11 +565,11 @@
             const minRating = document.getElementById('ratingFilter').value;
 
             filteredBooks = allBooks.filter(book => {
-                const matchesSearch = book.title.toLowerCase().includes(searchTerm) || 
-                                     book.author.toLowerCase().includes(searchTerm);
+                const matchesSearch = (book.title && book.title.toLowerCase().includes(searchTerm)) || 
+                                     (book.author && book.author.toLowerCase().includes(searchTerm));
                 const matchesCategory = !selectedCategory || book.category === selectedCategory;
                 const matchesYear = !selectedYear || book.year == selectedYear;
-                const matchesRating = !minRating || book.rating >= parseFloat(minRating);
+                const matchesRating = !minRating || (book.rating && book.rating >= parseFloat(minRating));
 
                 return matchesSearch && matchesCategory && matchesYear && matchesRating;
             });
@@ -569,6 +590,10 @@
             filteredBooks.sort((a, b) => {
                 let aVal = a[column];
                 let bVal = b[column];
+
+                // Handle null/undefined
+                if (aVal == null) aVal = '';
+                if (bVal == null) bVal = '';
 
                 // Convert to lowercase for string comparison
                 if (typeof aVal === 'string') {
@@ -606,11 +631,11 @@
 
             tbody.innerHTML = filteredBooks.map(book => `
                 <tr>
-                    <td class="book-title">${book.title}</td>
-                    <td class="author">${book.author}</td>
-                    <td><span class="category-tag">${book.category}</span></td>
-                    <td>${book.year}</td>
-                    <td class="rating">${'⭐'.repeat(Math.floor(book.rating))} ${book.rating}</td>
+                    <td class="book-title">${book.title || 'Unknown Title'}</td>
+                    <td class="author">${book.author || 'Unknown Author'}</td>
+                    <td><span class="category-tag">${book.category || 'Uncategorized'}</span></td>
+                    <td>${book.year || '-'}</td>
+                    <td class="rating">${book.rating ? book.rating : '-'}</td>
                 </tr>
             `).join('');
         }
@@ -619,13 +644,16 @@
         function updateStats() {
             const totalBooks = allBooks.length;
             const displayedBooks = filteredBooks.length;
-            const avgRating = filteredBooks.length > 0 
-                ? (filteredBooks.reduce((sum, book) => sum + book.rating, 0) / filteredBooks.length).toFixed(1)
+            
+            // Calculate average only for books that have a rating
+            const booksWithRating = filteredBooks.filter(b => b.rating);
+            const avgRating = booksWithRating.length > 0 
+                ? (booksWithRating.reduce((sum, book) => sum + Number(book.rating), 0) / booksWithRating.length).toFixed(1)
                 : 0;
 
             document.getElementById('stats').innerHTML = `
-                📊 Showing <strong>${displayedBooks}</strong> of <strong>${totalBooks}</strong> books | 
-                Average Rating: <strong>${avgRating}</strong> ⭐
+                Showing <strong>${displayedBooks}</strong> of <strong>${totalBooks}</strong> books | 
+                Average Rating: <strong>${avgRating}</strong>
             `;
         }
 
@@ -642,16 +670,20 @@
         function downloadCSV() {
             const headers = ['Title', 'Author', 'Category', 'Year', 'Rating'];
             const rows = filteredBooks.map(book => [
-                book.title,
-                book.author,
-                book.category,
-                book.year,
-                book.rating
+                book.title || '',
+                book.author || '',
+                book.category || '',
+                book.year || '',
+                book.rating || ''
             ]);
 
             let csv = headers.join(',') + '\n';
             rows.forEach(row => {
-                csv += row.map(cell => `"${cell}"`).join(',') + '\n';
+                csv += row.map(cell => {
+                    const cellStr = String(cell);
+                    // Escape quotes and wrap in quotes if contains comma
+                    return `"${cellStr.replace(/"/g, '""')}"`;
+                }).join(',') + '\n';
             });
 
             const blob = new Blob([csv], { type: 'text/csv' });
