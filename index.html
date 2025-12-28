@@ -289,14 +289,58 @@
         }
 
         function populateCategories() {
-            const categories = [...new Set(allBooks.map(book => book.category))].sort();
+            const categoryGroups = {
+                '📂 CAREER & BUSINESS': [
+                    'Artificial Intelligence',
+                    'Startups & Business',
+                    'Product & Engineering',
+                    'Marketing & Communication',
+                    'Leadership & Career',
+                    'Money & Finance'
+                ],
+                '📂 PERSONAL DEVELOPMENT': [
+                    'Productivity & Habits',
+                    'Thinking & Decision Making',
+                    'Psychology & Behavior',
+                    'Communication Skills',
+                    'Self-Improvement',
+                    'Mental Health'
+                ],
+                '📂 HEALTH & WELLNESS': [
+                    'Fitness & Body',
+                    'Nutrition & Cooking',
+                    'Mindfulness & Meditation'
+                ],
+                '📂 FAMILY & RELATIONSHIPS': [
+                    'Parenting & Kids',
+                    'Marriage & Partnership',
+                    'Relationships & People'
+                ],
+                '📂 LIFE & HOME': [
+                    'Coffee Culture',
+                    'Language Learning',
+                    'Contemporary Fiction',
+                    'Ideas & Society',
+                    'History & Culture',
+                    'Science & Nature'
+                ]
+            };
+            
             const select = document.getElementById('categoryFilter');
             
-            categories.forEach(category => {
-                const option = document.createElement('option');
-                option.value = category;
-                option.textContent = category;
-                select.appendChild(option);
+            Object.entries(categoryGroups).forEach(([group, categories]) => {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = group;
+                
+                categories.forEach(category => {
+                    const count = allBooks.filter(book => book.category === category).length;
+                    const option = document.createElement('option');
+                    option.value = category;
+                    option.textContent = `${category} (${count})`;
+                    optgroup.appendChild(option);
+                });
+                
+                select.appendChild(optgroup);
             });
         }
 
