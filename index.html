@@ -116,25 +116,10 @@
             width: 100%;
         }
 
-        .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-        }
-
-        .btn-secondary {
-            background: #6c757d;
-            color: white;
-        }
-
-        .btn-success {
-            background: #28a745;
-            color: white;
-        }
-
-        .btn-secondary:hover, .btn-success:hover, .btn-primary:hover {
-            opacity: 0.9;
-            transform: translateY(-2px);
-        }
+        .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+        .btn-secondary { background: #6c757d; color: white; }
+        .btn-success { background: #28a745; color: white; }
+        .btn-secondary:hover, .btn-success:hover, .btn-primary:hover { opacity: 0.9; transform: translateY(-2px); }
 
         .stats {
             padding: 1rem;
@@ -174,24 +159,10 @@
             white-space: nowrap;
         }
 
-        th:hover {
-            background: rgba(255, 255, 255, 0.1);
-        }
-
-        th.sortable::after {
-            content: ' ↕';
-            opacity: 0.5;
-        }
-
-        th.sort-asc::after {
-            content: ' ↑';
-            opacity: 1;
-        }
-
-        th.sort-desc::after {
-            content: ' ↓';
-            opacity: 1;
-        }
+        th:hover { background: rgba(255, 255, 255, 0.1); }
+        th.sortable::after { content: ' ↕'; opacity: 0.5; }
+        th.sort-asc::after { content: ' ↑'; opacity: 1; }
+        th.sort-desc::after { content: ' ↓'; opacity: 1; }
 
         td {
             padding: 1rem 0.75rem;
@@ -199,14 +170,9 @@
             vertical-align: top;
         }
 
-        tbody tr:hover {
-            background-color: #f8f9fa;
-        }
+        tbody tr:hover { background-color: #f8f9fa; }
 
-        .rating {
-            font-weight: bold;
-            color: #e67e22;
-        }
+        .rating { font-weight: bold; color: #e67e22; }
 
         .topic-tag {
             display: inline-block;
@@ -217,6 +183,20 @@
             font-size: 0.75rem;
             font-weight: 600;
             white-space: nowrap;
+            margin-right: 4px;
+            margin-bottom: 4px;
+        }
+        
+        .genre-tag {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            background: #f0fff4;
+            color: #276749;
+            border: 1px solid #c6f6d5;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            margin-right: 3px;
+            margin-bottom: 3px;
         }
         
         .platform-badge {
@@ -229,24 +209,18 @@
             border: 1px solid #ddd;
         }
 
-        .book-title {
-            font-weight: 600;
-            color: #2c3e50;
-        }
+        .book-title { font-weight: 600; color: #2c3e50; }
+        .author { color: #6c757d; font-size: 0.875rem; }
 
-        .author {
-            color: #6c757d;
-            font-size: 0.875rem;
+        .goodreads-icon {
+            text-decoration: none;
+            font-size: 1.2rem;
+            filter: grayscale(100%);
+            transition: filter 0.2s;
         }
+        .goodreads-icon:hover { filter: grayscale(0%); }
 
-        /* Mobile Details Styles */
-        .mobile-details {
-            display: none;
-        }
-        
-        .toggle-icon {
-            display: none;
-        }
+        .mobile-details, .toggle-icon { display: none; }
 
         footer {
             text-align: center;
@@ -256,32 +230,12 @@
             font-size: 0.875rem;
         }
 
-        /* Loading state */
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: #6c757d;
-        }
-        
-        /* Description text */
-        .desc-text {
-            font-style: italic;
-            color: #666;
-            font-size: 0.85rem;
-            margin-top: 0.5rem;
-            display: block;
-        }
+        .loading { text-align: center; padding: 3rem; color: #6c757d; }
+        .desc-text { font-style: italic; color: #666; font-size: 0.85rem; margin-top: 0.5rem; display: block; }
 
-        /* Responsive Breakpoints */
-        
-        /* Tablet & Desktop: Grid Filters */
         @media (min-width: 768px) {
             header h1 { font-size: 2.5rem; }
-            .filters {
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                gap: 1rem;
-            }
+            .filters { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
             .filter-group:first-child { grid-column: 1 / -1; }
             .actions { flex-direction: row; justify-content: flex-end; }
             button { width: auto; }
@@ -291,17 +245,15 @@
 
         @media (min-width: 1024px) {
             body { padding: 2rem; }
-            .filters { grid-template-columns: repeat(4, 1fr); } /* 4 columns for more filters */
-            .filter-group:first-child { grid-column: span 1; } /* Search takes 1 slot */
+            .filters { grid-template-columns: repeat(4, 1fr); }
+            .filter-group:first-child { grid-column: span 1; }
         }
 
-        /* Mobile View: Accordion */
         @media (max-width: 767px) {
             thead { display: none; }
             tr { display: block; border-bottom: 1px solid #e9ecef; }
-            td { display: none; } /* Hide normal columns */
+            td { display: none; }
             
-            /* Show Title Column as Main Card */
             td.book-title {
                 display: block;
                 width: 100%;
@@ -317,7 +269,7 @@
             }
 
             .mobile-details {
-                display: none; /* Hidden by default */
+                display: none;
                 margin-top: 1rem;
                 padding-top: 1rem;
                 border-top: 1px dashed #e9ecef;
@@ -373,19 +325,18 @@
             <div class="filters">
                 <div class="filter-group">
                     <label for="searchInput">Search</label>
-                    <input type="text" id="searchInput" placeholder="Title, author, description...">
+                    <input type="text" id="searchInput" placeholder="Title, author, genre...">
                 </div>
                 <div class="filter-group">
                     <label for="topicFilter">Topic</label>
-                    <select id="topicFilter">
-                        <option value="">All Topics</option>
-                    </select>
+                    <select id="topicFilter"><option value="">All Topics</option></select>
                 </div>
                 <div class="filter-group">
                     <label for="platformFilter">Platform</label>
                     <select id="platformFilter">
                         <option value="">All Platforms</option>
                         <option value="Kindle">Kindle</option>
+                        <option value="Paperback">Paperback</option>
                         <option value="Hard Cover">Hard Cover</option>
                         <option value="Apple Books">Apple Books</option>
                         <option value="Audible">Audible</option>
@@ -418,16 +369,15 @@
                         <th class="sortable" data-sort="title">Title</th>
                         <th class="sortable" data-sort="author">Author</th>
                         <th class="sortable" data-sort="topics">Topic</th>
-                        <th class="sortable" data-sort="year">Year</th>
+                        <th class="sortable" data-sort="genres">Genres</th>
                         <th class="sortable" data-sort="platform">Platform</th>
                         <th class="sortable" data-sort="total_pages">Pages</th>
                         <th class="sortable" data-sort="rating">Rating</th>
+                        <th>Link</th>
                     </tr>
                 </thead>
                 <tbody id="booksTableBody">
-                    <tr>
-                        <td colspan="7" class="loading">Loading books...</td>
-                    </tr>
+                    <tr><td colspan="8" class="loading">Loading books...</td></tr>
                 </tbody>
             </table>
         </div>
@@ -442,28 +392,60 @@
         let filteredBooks = [];
         let currentSort = { column: null, direction: 'asc' };
 
-        // We will build topics dynamically from JSON now
-        
+        // --- Custom Category Structure ---
+        const categoryStructure = {
+            'CAREER & BUSINESS': [
+                'Artificial Intelligence',
+                'Startups & Business',
+                'Product & Engineering',
+                'Marketing & Communication',
+                'Leadership & Career',
+                'Money & Finance'
+            ],
+            'PERSONAL DEVELOPMENT': [
+                'Productivity & Habits',
+                'Thinking & Decision Making',
+                'Psychology & Behavior',
+                'Communication Skills',
+                'Self-Improvement',
+                'Mental Health'
+            ],
+            'HEALTH & WELLNESS': [
+                'Fitness & Body',
+                'Nutrition & Cooking',
+                'Mindfulness & Meditation'
+            ],
+            'FAMILY & RELATIONSHIPS': [
+                'Parenting & Kids',
+                'Marriage & Partnership',
+                'Family Life',
+                'Relationships & People'
+            ],
+            'LIFE & HOME': [
+                'Coffee Culture',
+                'Language Learning',
+                'Contemporary Fiction',
+                'Ideas & Society',
+                'History & Culture',
+                'Science & Nature'
+            ]
+        };
+
         async function loadBooks() {
             try {
                 const response = await fetch('books.json');
                 if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
                 const data = await response.json();
-                
                 allBooks = Array.isArray(data) ? data : (data.books || []);
                 filteredBooks = [...allBooks];
-                
                 populateTopicFilter();
                 renderTable();
                 updateStats();
-                
                 document.getElementById('lastUpdated').textContent = new Date().toLocaleDateString();
             } catch (error) {
                 console.error('Error loading books:', error);
                 document.getElementById('booksTableBody').innerHTML = 
-                    `<tr><td colspan="7" style="text-align: center; padding: 2rem; color: #dc3545;">
-                        Error loading books.json.
-                    </td></tr>`;
+                    `<tr><td colspan="8" style="text-align: center; padding: 2rem; color: #dc3545;">Error loading books.json.</td></tr>`;
             }
         }
 
@@ -471,22 +453,54 @@
             const topicFilter = document.getElementById('topicFilter');
             topicFilter.innerHTML = '<option value="">All Topics</option>';
             
-            // Get unique topics and count
             const topicCounts = {};
             allBooks.forEach(book => {
                 const topic = book.topics || 'Uncategorized';
                 topicCounts[topic] = (topicCounts[topic] || 0) + 1;
             });
 
-            // Sort topics alphabetically
-            const sortedTopics = Object.keys(topicCounts).sort();
+            // Iterate over categoryStructure to create grouped options
+            const processedTopics = new Set();
 
-            sortedTopics.forEach(topic => {
-                const option = document.createElement('option');
-                option.value = topic;
-                option.textContent = `${topic} (${topicCounts[topic]})`;
-                topicFilter.appendChild(option);
+            for (const [mainCategory, subCategories] of Object.entries(categoryStructure)) {
+                const optgroup = document.createElement('optgroup');
+                optgroup.label = `📂 ${mainCategory}`;
+                let hasOptions = false;
+
+                subCategories.forEach(sub => {
+                    if (topicCounts[sub]) {
+                        const option = document.createElement('option');
+                        option.value = sub;
+                        option.textContent = `${sub} (${topicCounts[sub]})`;
+                        optgroup.appendChild(option);
+                        processedTopics.add(sub);
+                        hasOptions = true;
+                    }
+                });
+
+                if (hasOptions) {
+                    topicFilter.appendChild(optgroup);
+                }
+            }
+
+            // Handle "Other" topics not in the structure
+            const otherGroup = document.createElement('optgroup');
+            otherGroup.label = '📂 OTHER';
+            let hasOtherOptions = false;
+
+            Object.keys(topicCounts).sort().forEach(topic => {
+                if (!processedTopics.has(topic)) {
+                    const option = document.createElement('option');
+                    option.value = topic;
+                    option.textContent = `${topic} (${topicCounts[topic]})`;
+                    otherGroup.appendChild(option);
+                    hasOtherOptions = true;
+                }
             });
+
+            if (hasOtherOptions) {
+                topicFilter.appendChild(otherGroup);
+            }
         }
 
         function filterBooks() {
@@ -496,10 +510,11 @@
             const minRating = document.getElementById('ratingFilter').value;
 
             filteredBooks = allBooks.filter(book => {
-                // Search in Title, Author, and Description
+                const genresStr = (book.genres || []).join(' ').toLowerCase();
                 const matchesSearch = (book.title && book.title.toLowerCase().includes(searchTerm)) || 
                                      (book.author && book.author.toLowerCase().includes(searchTerm)) ||
-                                     (book.description && book.description.toLowerCase().includes(searchTerm));
+                                     (book.description && book.description.toLowerCase().includes(searchTerm)) ||
+                                     genresStr.includes(searchTerm);
                 
                 const matchesTopic = !selectedTopic || (book.topics === selectedTopic);
                 const matchesPlatform = !selectedPlatform || (book.platform === selectedPlatform);
@@ -507,7 +522,6 @@
 
                 return matchesSearch && matchesTopic && matchesPlatform && matchesRating;
             });
-
             renderTable();
             updateStats();
         }
@@ -523,25 +537,21 @@
             filteredBooks.sort((a, b) => {
                 let aVal = a[column];
                 let bVal = b[column];
-
+                if (column === 'genres') {
+                    aVal = (a[column] || []).join(', ');
+                    bVal = (b[column] || []).join(', ');
+                }
                 if (aVal == null) aVal = '';
                 if (bVal == null) bVal = '';
-
-                // Check if numeric sort needed
-                if (typeof aVal === 'number' && typeof bVal === 'number') {
-                    return currentSort.direction === 'asc' ? aVal - bVal : bVal - aVal;
-                }
-
+                if (typeof aVal === 'number' && typeof bVal === 'number') return currentSort.direction === 'asc' ? aVal - bVal : bVal - aVal;
                 if (typeof aVal === 'string') {
                     aVal = aVal.toLowerCase();
                     bVal = bVal.toLowerCase();
                 }
-
                 if (aVal < bVal) return currentSort.direction === 'asc' ? -1 : 1;
                 if (aVal > bVal) return currentSort.direction === 'asc' ? 1 : -1;
                 return 0;
             });
-
             renderTable();
             updateSortIndicators();
         }
@@ -557,21 +567,23 @@
 
         function toggleRow(index) {
             if (window.innerWidth >= 768) return;
-            const row = document.getElementById(`row-${index}`);
-            if (row) {
-                row.classList.toggle('expanded');
-            }
+            document.getElementById(`row-${index}`).classList.toggle('expanded');
         }
 
         function renderTable() {
             const tbody = document.getElementById('booksTableBody');
-            
             if (filteredBooks.length === 0) {
-                tbody.innerHTML = '<tr><td colspan="7" style="text-align: center; padding: 2rem; color: #6c757d;">No books found matching your filters.</td></tr>';
+                tbody.innerHTML = '<tr><td colspan="8" style="text-align: center; padding: 2rem; color: #6c757d;">No books found.</td></tr>';
                 return;
             }
 
-            tbody.innerHTML = filteredBooks.map((book, index) => `
+            tbody.innerHTML = filteredBooks.map((book, index) => {
+                const genreTags = (book.genres || []).map(g => `<span class="genre-tag">${g}</span>`).join('');
+                const linkIcon = book.goodreads_link 
+                    ? `<a href="${book.goodreads_link}" target="_blank" class="goodreads-icon" title="View on Goodreads">📖</a>` 
+                    : '<span style="opacity:0.2">📖</span>';
+
+                return `
                 <tr id="row-${index}" class="book-row">
                     <td class="book-title" onclick="toggleRow(${index})">
                         <div class="title-content">
@@ -581,11 +593,11 @@
                         <div class="mobile-details">
                             <p><strong>Author:</strong> ${book.author || 'Unknown'}</p>
                             <p><strong>Topic:</strong> <span class="topic-tag">${book.topics || 'None'}</span></p>
+                            ${genreTags ? `<p><strong>Genres:</strong> <div>${genreTags}</div></p>` : ''}
                             <p><strong>Platform:</strong> <span class="platform-badge">${book.platform || '-'}</span></p>
-                            <p><strong>Year:</strong> ${book.year || '-'}</p>
                             <p><strong>Pages:</strong> ${book.total_pages || '-'}</p>
-                            <p><strong>Language:</strong> ${book.language || '-'}</p>
                             <p><strong>Rating:</strong> <span class="rating">${book.rating || '-'}</span></p>
+                            <p><strong>Link:</strong> ${linkIcon}</p>
                             <div class="desc-block">
                                 <strong>About:</strong> <br>
                                 <span class="desc-text">${book.description || 'No description available.'}</span>
@@ -594,25 +606,22 @@
                     </td>
                     <td class="author">${book.author || 'Unknown Author'}</td>
                     <td><span class="topic-tag">${book.topics || 'Uncategorized'}</span></td>
-                    <td>${book.year || '-'}</td>
+                    <td>${genreTags || '-'}</td>
                     <td><span class="platform-badge">${book.platform || '-'}</span></td>
                     <td>${book.total_pages || '-'}</td>
                     <td class="rating">${book.rating ? book.rating : '-'}</td>
+                    <td style="text-align:center">${linkIcon}</td>
                 </tr>
-            `).join('');
+            `}).join('');
         }
 
         function updateStats() {
-            const displayedBooks = filteredBooks.length;
-            const booksWithRating = filteredBooks.filter(b => b.rating);
-            const avgRating = booksWithRating.length > 0 
-                ? (booksWithRating.reduce((sum, book) => sum + Number(book.rating), 0) / booksWithRating.length).toFixed(1)
+            const displayed = filteredBooks.length;
+            const withRating = filteredBooks.filter(b => b.rating);
+            const avgRating = withRating.length > 0 
+                ? (withRating.reduce((sum, b) => sum + Number(b.rating), 0) / withRating.length).toFixed(1) 
                 : 0;
-
-            document.getElementById('stats').innerHTML = `
-                Showing <strong>${displayedBooks}</strong> of <strong>${allBooks.length}</strong> books | 
-                Average Rating: <strong>${avgRating}</strong>
-            `;
+            document.getElementById('stats').innerHTML = `Showing <strong>${displayed}</strong> of <strong>${allBooks.length}</strong> books | Avg Rating: <strong>${avgRating}</strong>`;
         }
 
         function resetFilters() {
@@ -624,43 +633,28 @@
         }
 
         function downloadCSV() {
-            const headers = ['Title', 'Author', 'Topic', 'Year', 'Platform', 'Pages', 'Language', 'Rating', 'Description'];
+            const headers = ['Title', 'Author', 'Topic', 'Genres', 'Platform', 'Link'];
             const rows = filteredBooks.map(book => [
                 book.title || '',
                 book.author || '',
                 book.topics || '',
-                book.year || '',
+                (book.genres || []).join('; '),
                 book.platform || '',
-                book.total_pages || '',
-                book.language || '',
-                book.rating || '',
-                book.description || ''
+                book.goodreads_link || ''
             ]);
-
             let csv = headers.join(',') + '\n';
-            rows.forEach(row => {
-                csv += row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',') + '\n';
-            });
-
-            const blob = new Blob([csv], { type: 'text/csv' });
-            const url = window.URL.createObjectURL(blob);
+            rows.forEach(row => csv += row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',') + '\n');
+            const url = window.URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
             const a = document.createElement('a');
-            a.href = url;
-            a.download = 'books.csv';
-            a.click();
+            a.href = url; a.download = 'books.csv'; a.click();
             window.URL.revokeObjectURL(url);
         }
 
-        // Listeners
         document.getElementById('searchInput').addEventListener('input', filterBooks);
         document.getElementById('topicFilter').addEventListener('change', filterBooks);
         document.getElementById('platformFilter').addEventListener('change', filterBooks);
         document.getElementById('ratingFilter').addEventListener('change', filterBooks);
-
-        document.querySelectorAll('th.sortable').forEach(th => {
-            th.addEventListener('click', () => sortBooks(th.dataset.sort));
-        });
-
+        document.querySelectorAll('th.sortable').forEach(th => th.addEventListener('click', () => sortBooks(th.dataset.sort)));
         loadBooks();
     </script>
 </body>
