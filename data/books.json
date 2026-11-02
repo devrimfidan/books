@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 494,
+ "count": 493,
  "books": [
   {
    "id": "12-eyl-l-k-lt-r",
@@ -2394,33 +2394,6 @@
    "isbn": null,
    "cover": null,
    "goodreads": "https://www.goodreads.com/book/show/3836"
-  },
-  {
-   "id": "dune-tek-cilt",
-   "title": "Dune (Tek Cilt)",
-   "authors": [
-    "Frank Herbert"
-   ],
-   "year": 1965,
-   "pages": null,
-   "language": "English",
-   "formats": [
-    "Kindle",
-    "Apple Books"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Science Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2026-07-27",
-   "added": "2026-06-21",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/57644152"
   },
   {
    "id": "dune-messiah",
