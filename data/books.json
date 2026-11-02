@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-02",
- "count": 493,
+ "count": 492,
  "books": [
   {
    "id": "12-eyl-l-k-lt-r",
@@ -217,14 +217,14 @@
    "goodreads": null
   },
   {
-   "id": "a-clockwork-orange-2",
-   "title": "A Clockwork Orange (2)",
+   "id": "a-clockwork-orange",
+   "title": "A Clockwork Orange",
    "authors": [
     "Anthony Burgess"
    ],
    "year": 1962,
    "pages": 192,
-   "language": "English",
+   "language": "Turkish",
    "formats": [
     "Paperback"
    ],
@@ -239,7 +239,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1387018828i/19458775.jpg",
    "goodreads": "https://www.goodreads.com/book/show/227463"
   },
   {
@@ -735,7 +735,7 @@
     "Paperback",
     "Kindle"
    ],
-   "status": "Backlog",
+   "status": "Reading",
    "rating": null,
    "topics": [
     "Artificial Intelligence"
@@ -2442,7 +2442,7 @@
    ],
    "genre": [],
    "depth": "Deep reads",
-   "dateRead": null,
+   "dateRead": "2026-07-01",
    "added": "2026-02-22",
    "isbn13": null,
    "isbn": null,
@@ -2755,7 +2755,7 @@
    ],
    "genre": [],
    "depth": "Medium reads",
-   "dateRead": null,
+   "dateRead": "2026-09-01",
    "added": "2026-08-07",
    "isbn13": "9780525426059",
    "isbn": null,
@@ -2785,7 +2785,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1705699196i/205652209.jpg",
    "goodreads": "https://www.goodreads.com/book/show/205652209"
   },
   {
@@ -3207,7 +3207,7 @@
    ],
    "genre": [],
    "depth": "Deep reads",
-   "dateRead": null,
+   "dateRead": "2026-03-01",
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
@@ -3341,7 +3341,7 @@
    ],
    "genre": [],
    "depth": "Medium reads",
-   "dateRead": null,
+   "dateRead": "2026-08-01",
    "added": "2026-06-21",
    "isbn13": null,
    "isbn": null,
@@ -3412,7 +3412,7 @@
    "formats": [
     "Apple Books"
    ],
-   "status": "Read",
+   "status": "Backlog",
    "rating": null,
    "topics": [
     "Ideas & Society"
@@ -4192,7 +4192,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1468760805i/31138556.jpg",
    "goodreads": "https://www.goodreads.com/book/show/31138556"
   },
   {
@@ -6013,33 +6013,6 @@
    "goodreads": "https://www.goodreads.com/book/show/28522470"
   },
   {
-   "id": "nas-l-s-rad-olunur",
-   "title": "Nasıl Sıradışı Olunur",
-   "authors": [
-    "Brendon Burchard"
-   ],
-   "year": 2017,
-   "pages": 300,
-   "language": "Turkish",
-   "formats": [
-    "Apple Books",
-    "Kindle"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Self-Improvement"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": null,
-   "added": "2025-12-28",
-   "isbn13": null,
-   "isbn": null,
-   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741531792i/207614416.jpg",
-   "goodreads": "https://www.goodreads.com/book/show/207614416-nas-l-s-rad-olunur-i-nsanlar-ola-an-st-k-lan-al-kanl-klar?ref=nav_sb_ss_1_21"
-  },
-  {
    "id": "nas-l-s-rad-olunur-i-nsanlar-ola-an-st-k-lan-al-kanl-klar",
    "title": "Nasıl Sıradışı Olunur? İnsanları Olağanüstü Kılan Alışkanlıklar",
    "authors": [
@@ -6059,7 +6032,7 @@
    ],
    "genre": [],
    "depth": null,
-   "dateRead": null,
+   "dateRead": "2026-10-01",
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
@@ -6087,7 +6060,7 @@
    ],
    "genre": [],
    "depth": "Medium reads",
-   "dateRead": null,
+   "dateRead": "2026-10-01",
    "added": "2026-07-26",
    "isbn13": null,
    "isbn": null,
@@ -6170,7 +6143,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1578239331i/50282625.jpg",
    "goodreads": "https://www.goodreads.com/book/show/2184516"
   },
   {
@@ -7584,7 +7557,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1661015922i/29580.jpg",
    "goodreads": "https://www.goodreads.com/book/show/29580"
   },
   {
@@ -7846,7 +7819,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1743335964i/4986731.jpg",
    "goodreads": "https://www.goodreads.com/book/show/42639871"
   },
   {
@@ -8088,7 +8061,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1323262222i/7117523.jpg",
    "goodreads": "https://www.goodreads.com/book/show/7117523"
   },
   {
@@ -8409,7 +8382,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1569782446l/49949788.jpg",
    "goodreads": "https://www.goodreads.com/book/show/49949788"
   },
   {
@@ -10816,7 +10789,7 @@
    ],
    "genre": [],
    "depth": "Medium reads",
-   "dateRead": null,
+   "dateRead": "2026-06-01",
    "added": "2026-01-09",
    "isbn13": null,
    "isbn": null,
@@ -12064,7 +12037,7 @@
    ],
    "genre": [],
    "depth": "Medium reads",
-   "dateRead": null,
+   "dateRead": "2026-02-01",
    "added": "2026-04-04",
    "isbn13": null,
    "isbn": null,
@@ -13080,7 +13053,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1437740058i/9361837.jpg",
    "goodreads": "https://www.goodreads.com/book/show/9361837"
   },
   {
