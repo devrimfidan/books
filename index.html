@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kitaplığım</title>
-<meta name="description" content="Emin'in kişisel kitaplığı: okunanlar, okunacaklar ve istatistikler.">
+<title>My Library</title>
+<meta name="description" content="Emin's personal library: books read, want to read and reading stats.">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-180.png">
@@ -13,14 +13,17 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Kitaplığım">
+<meta name="apple-mobile-web-app-title" content="My Library">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
   <div class="topbar-inner">
-    <h1 id="view-title">Raflarım</h1>
-    <p id="view-sub" class="sub"></p>
+    <div>
+      <h1 id="view-title">My Shelves</h1>
+      <p id="view-sub" class="sub"></p>
+    </div>
+    <button type="button" id="lang-toggle" class="lang-toggle" aria-label="Türkçe" title="Türkçe">TR</button>
   </div>
 </header>
 
@@ -31,14 +34,14 @@
     <nav class="chips" id="shelf-chips" aria-label="Raflar"></nav>
     <div class="toolbar">
       <label class="select">
-        <span class="sr-only">Sırala</span>
+        <span class="sr-only">Sort</span>
         <select id="shelf-sort">
-          <option value="dateRead">Okunma tarihi</option>
-          <option value="added">Eklenme tarihi</option>
-          <option value="title">Başlık</option>
-          <option value="author">Yazar</option>
-          <option value="rating">Puanım</option>
-          <option value="year">Yayın yılı</option>
+          <option value="dateRead">Date read</option>
+          <option value="added">Date added</option>
+          <option value="title">Title</option>
+          <option value="author">Author</option>
+          <option value="rating">My rating</option>
+          <option value="year">Publication year</option>
         </select>
       </label>
       <div class="seg" role="group" aria-label="Görünüm">
@@ -53,13 +56,13 @@
   <section id="view-search" class="view" data-view="search" hidden>
     <div class="searchbox">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 3a7 7 0 1 0 4.2 12.6l5.1 5.1 1.4-1.4-5.1-5.1A7 7 0 0 0 10 3zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/></svg>
-      <input id="q" type="search" placeholder="Başlık veya yazar ara" autocomplete="off" autocorrect="off" spellcheck="false">
+      <input id="q" type="search" placeholder="Search title or author" autocomplete="off" autocorrect="off" spellcheck="false">
     </div>
     <div class="filters">
-      <label class="select"><span class="sr-only">Raf</span><select id="f-status"></select></label>
-      <label class="select"><span class="sr-only">Konu</span><select id="f-topic"></select></label>
+      <label class="select"><span class="sr-only">Shelf</span><select id="f-status"></select></label>
+      <label class="select"><span class="sr-only">Topic</span><select id="f-topic"></select></label>
       <label class="select"><span class="sr-only">Format</span><select id="f-format"></select></label>
-      <label class="select"><span class="sr-only">Dil</span><select id="f-lang"></select></label>
+      <label class="select"><span class="sr-only">Language</span><select id="f-lang"></select></label>
     </div>
     <p id="search-count" class="count"></p>
     <div id="search-body"></div>
@@ -74,15 +77,15 @@
 <nav class="tabbar" aria-label="Bölümler">
   <button type="button" data-tab="shelves" class="active">
     <svg viewBox="0 0 24 24"><path d="M4 3h3v18H4zM8.5 3h3v18h-3zM13 4.2l2.9-.8 4.7 17.4-2.9.8z"/></svg>
-    <span>Raflar</span>
+    <span data-i18n-tab="shelves">Shelves</span>
   </button>
   <button type="button" data-tab="search">
     <svg viewBox="0 0 24 24"><path d="M10 3a7 7 0 1 0 4.2 12.6l5.1 5.1 1.4-1.4-5.1-5.1A7 7 0 0 0 10 3zm0 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10z"/></svg>
-    <span>Ara</span>
+    <span data-i18n-tab="search">Search</span>
   </button>
   <button type="button" data-tab="stats">
     <svg viewBox="0 0 24 24"><path d="M4 20V10h3v10zm6.5 0V4h3v16zM17 20v-7h3v7z"/></svg>
-    <span>İstatistik</span>
+    <span data-i18n-tab="stats">Stats</span>
   </button>
 </nav>
 

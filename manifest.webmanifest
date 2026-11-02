@@ -1,8 +1,8 @@
 {
-  "name": "Kitaplığım",
-  "short_name": "Kitaplığım",
-  "description": "Okuduğum, okuyacağım ve kitaplığımdaki kitaplar.",
-  "lang": "tr",
+  "name": "My Library",
+  "short_name": "My Library",
+  "description": "Books I have read, want to read and own.",
+  "lang": "en",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

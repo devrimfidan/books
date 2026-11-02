@@ -1,18 +1,76 @@
-/* Kitaplığım — vault'tan üretilen data/books.json'u gösteren statik PWA */
+/* My Library / Kitaplığım — a static PWA over data/books.json (exported from the Obsidian vault) */
 (() => {
   "use strict";
 
-  const STATUS = {
-    "Read": "Okundu",
-    "Reading": "Okuyorum",
-    "To Read": "Okunacak",
-    "Backlog": "Kitaplıkta",
-    "Did Not Finish": "Yarım kaldı",
+  /* ---------- i18n ---------- */
+  const I18N = {
+    en: {
+      locale: "en-GB",
+      appName: "My Library",
+      titles: { shelves: "My Shelves", search: "Search", stats: "Stats" },
+      tabs: { shelves: "Shelves", search: "Search", stats: "Stats" },
+      status: { "Read": "Read", "Reading": "Currently reading", "To Read": "Want to read", "Backlog": "Owned", "Did Not Finish": "Did not finish" },
+      lang: { English: "English", Turkish: "Turkish" },
+      depth: { "Deep reads": "Deep", "Medium reads": "Medium", "Skim reads": "Skim" },
+      months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+      sub: (n, r) => `${n} books · ${r} read`,
+      updated: (d) => `Last updated ${d}`,
+      readingNow: "Currently reading",
+      pages: (n) => `${n} pages`,
+      books: (n) => `${n} ${n === 1 ? "book" : "books"}`,
+      undated: "Undated",
+      emptyShelf: "No books on this shelf.",
+      emptySearch: "No matching books.",
+      loadError: "Couldn't load the library. Check your connection and try again.",
+      sort: { dateRead: "Date read", added: "Date added", title: "Title", author: "Author", rating: "My rating", year: "Publication year" },
+      sortLabel: "Sort", layoutGrid: "Covers", layoutList: "List", layoutLabel: "Layout", shelvesLabel: "Shelves",
+      searchPh: "Search title or author",
+      all: { status: "All shelves", topic: "All topics", format: "All formats", lang: "All languages" },
+      kpi: { read: "books read", pages: "pages read", year: (y) => `read in ${y}`, avg: (n) => `average rating (${n} books)` },
+      perYear: "Books read per year",
+      noDate: (n) => `${n} read ${n === 1 ? "book has" : "books have"} no date.`,
+      topics: "Topics I've read", authors: "Most-read authors", library: "Library",
+      formats: "Formats", formatsNote: "A book can be in more than one format.",
+      language: "Language", longest: "Longest book read",
+      facts: { read: "Read", year: "Published", pages: "Pages", lang: "Language", depth: "Reading", isbn: "ISBN" },
+      format: "Format", topicsH: "Topics", goodreads: "Open on Goodreads",
+      stars: (n) => `${n} of 5 stars`, close: "Close", switchTo: "Türkçe", switchShort: "TR",
+    },
+    tr: {
+      locale: "tr-TR",
+      appName: "Kitaplığım",
+      titles: { shelves: "Raflarım", search: "Ara", stats: "İstatistik" },
+      tabs: { shelves: "Raflar", search: "Ara", stats: "İstatistik" },
+      status: { "Read": "Okundu", "Reading": "Okuyorum", "To Read": "Okunacak", "Backlog": "Kitaplıkta", "Did Not Finish": "Yarım kaldı" },
+      lang: { English: "İngilizce", Turkish: "Türkçe" },
+      depth: { "Deep reads": "Derin", "Medium reads": "Orta", "Skim reads": "Göz atma" },
+      months: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+      sub: (n, r) => `${n} kitap · ${r} okundu`,
+      updated: (d) => `Son güncelleme: ${d}`,
+      readingNow: "Şu an okuyorum",
+      pages: (n) => `${n} sayfa`,
+      books: (n) => `${n} kitap`,
+      undated: "Tarihsiz",
+      emptyShelf: "Bu rafta kitap yok.",
+      emptySearch: "Eşleşen kitap bulunamadı.",
+      loadError: "Kitaplık yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.",
+      sort: { dateRead: "Okunma tarihi", added: "Eklenme tarihi", title: "Başlık", author: "Yazar", rating: "Puanım", year: "Yayın yılı" },
+      sortLabel: "Sırala", layoutGrid: "Kapaklar", layoutList: "Liste", layoutLabel: "Görünüm", shelvesLabel: "Raflar",
+      searchPh: "Başlık veya yazar ara",
+      all: { status: "Tüm raflar", topic: "Tüm konular", format: "Tüm formatlar", lang: "Tüm diller" },
+      kpi: { read: "okunan kitap", pages: "okunan sayfa", year: (y) => `${y}'de okunan`, avg: (n) => `ortalama puan (${n} kitap)` },
+      perYear: "Yıllara göre okunan",
+      noDate: (n) => `${n} kitabın okunma tarihi yok.`,
+      topics: "Okuduğum konular", authors: "En çok okuduğum yazarlar", library: "Kitaplık",
+      formats: "Formatlar", formatsNote: "Bir kitap birden çok formatta olabilir.",
+      language: "Dil", longest: "En uzun okuduğum",
+      facts: { read: "Okundu", year: "Yayın", pages: "Sayfa", lang: "Dil", depth: "Okuma", isbn: "ISBN" },
+      format: "Format", topicsH: "Konular", goodreads: "Goodreads'te aç",
+      stars: (n) => `${n} / 5 yıldız`, close: "Kapat", switchTo: "English", switchShort: "EN",
+    },
   };
+
   const SHELVES = ["Read", "To Read", "Backlog", "Did Not Finish"];
-  const LANG = { English: "İngilizce", Turkish: "Türkçe" };
-  const DEPTH = { "Deep reads": "Derin", "Medium reads": "Orta", "Skim reads": "Göz atma" };
-  const MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
   const COLORS = ["#7A4B2A", "#2F5D50", "#6B3A4A", "#3D4F7A", "#8A6A2E", "#4E6B3A", "#5B4A7A", "#7A3B2E", "#2E5A6B", "#6B5A3A", "#44505C", "#8A4E3B"];
   const collator = new Intl.Collator("tr", { sensitivity: "base", numeric: true });
 
@@ -21,28 +79,31 @@
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
-    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* yok say */ } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* ignore */ } },
   };
   const norm = (s) => String(s || "").toLocaleLowerCase("tr").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
 
   const state = Object.assign(
-    { tab: "shelves", shelf: "Read", sort: {}, layout: "grid", q: "", status: "", topic: "", format: "", lang: "" },
+    { tab: "shelves", shelf: "Read", sort: {}, layout: "grid", uiLang: "en", q: "", status: "", topic: "", format: "", lang: "" },
     store.get("kitapligim:ui", {})
   );
-  const save = () => store.set("kitapligim:ui", { tab: state.tab, shelf: state.shelf, sort: state.sort, layout: state.layout });
+  if (!(state.uiLang in I18N)) state.uiLang = "en";
+  const save = () => store.set("kitapligim:ui", { tab: state.tab, shelf: state.shelf, sort: state.sort, layout: state.layout, uiLang: state.uiLang });
+  let L = I18N[state.uiLang];
 
   let BOOKS = [];
   let BY_ID = new Map();
   let GENERATED = "";
 
-  /* ---------- yardımcılar ---------- */
+  /* ---------- helpers ---------- */
   function hash(s) { let h = 0; for (const c of s) h = (h * 31 + c.codePointAt(0)) | 0; return Math.abs(h); }
   const authors = (b) => b.authors.join(", ");
+  const num = (n, opts) => Number(n).toLocaleString(L.locale, opts);
   function fmtDate(d) {
     if (!d) return "";
     const [y, m, day] = d.split("-").map(Number);
     if (!m) return String(y);
-    return (day ? day + " " : "") + MONTHS[m - 1] + " " + y;
+    return (day ? day + " " : "") + L.months[m - 1] + " " + y;
   }
   function stars(r, cls = "") {
     if (!r) return "";
@@ -50,13 +111,13 @@
     const star = '<svg viewBox="0 0 24 24" class="X"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4L2.8 9.5l6.4-.8z"/></svg>';
     let out = "";
     for (let i = 1; i <= 5; i++) out += star.replace("X", i <= n ? "on" : "");
-    return `<span class="stars ${cls}" aria-label="${n} / 5 yıldız">${out}</span>`;
+    return `<span class="stars ${cls}" aria-label="${esc(L.stars(n))}">${out}</span>`;
   }
   function pill(status) {
-    return `<span class="pill ${status === "Read" ? "read" : ""}">${esc(STATUS[status] || status)}</span>`;
+    return `<span class="pill ${status === "Read" ? "read" : ""}">${esc(L.status[status] || status)}</span>`;
   }
 
-  /* ---------- kapaklar ---------- */
+  /* ---------- covers ---------- */
   const OL_KEY = "kitapligim:ol:";
   const olQueue = [];
   let olActive = 0;
@@ -71,7 +132,7 @@
     if (isbn) return `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg?default=false`;
     const cached = store.get(OL_KEY + b.id, null);
     if (cached) return `https://covers.openlibrary.org/b/id/${cached}-M.jpg`;
-    return cached === 0 ? "" : null; // null = henüz aranmadı
+    return cached === 0 ? "" : null; // null = not looked up yet
   }
   function setImg(el, url) {
     if (!url || el.querySelector("img")) return;
@@ -84,10 +145,7 @@
     img.src = url;
     el.appendChild(img);
   }
-  function olSearch(b, el) {
-    olQueue.push([b, el]);
-    pumpOL();
-  }
+  function olSearch(b, el) { olQueue.push([b, el]); pumpOL(); }
   function pumpOL() {
     while (olActive < 3 && olQueue.length) {
       const [b, el] = olQueue.shift();
@@ -103,7 +161,7 @@
           store.set(OL_KEY + b.id, id || 0);
           if (id) setImg(el, `https://covers.openlibrary.org/b/id/${id}-M.jpg`);
         })
-        .catch(() => { /* çevrimdışı vb.: bir dahaki sefere tekrar dene */ })
+        .catch(() => { /* offline etc.: retry next time */ })
         .finally(() => { olActive--; pumpOL(); });
     }
   }
@@ -126,7 +184,7 @@
     $$(".cover[data-cover]", root).forEach((el) => (io ? io.observe(el) : loadCover(el)));
   }
 
-  /* ---------- kart şablonları ---------- */
+  /* ---------- templates ---------- */
   function tile(b) {
     return `<button type="button" class="tile" data-book="${esc(b.id)}">
       ${coverHTML(b)}
@@ -149,13 +207,13 @@
     </button>`;
   }
   function collection(list, layout, opts) {
-    if (!list.length) return `<p class="empty">Bu rafta kitap yok.</p>`;
+    if (!list.length) return `<p class="empty">${esc(L.emptyShelf)}</p>`;
     return layout === "list"
       ? `<div class="list">${list.map((b) => row(b, opts)).join("")}</div>`
       : `<div class="grid">${list.map(tile).join("")}</div>`;
   }
 
-  /* ---------- sıralama ---------- */
+  /* ---------- sorting ---------- */
   const SORTS = {
     dateRead: (a, b) => (b.dateRead || "").localeCompare(a.dateRead || "") || collator.compare(a.title, b.title),
     added: (a, b) => (b.added || "").localeCompare(a.added || "") || collator.compare(a.title, b.title),
@@ -166,21 +224,21 @@
   };
   const defaultSort = (shelf) => (shelf === "Read" || shelf === "Did Not Finish" ? "dateRead" : "added");
 
-  /* ---------- Raflar ---------- */
+  /* ---------- Shelves ---------- */
   function renderShelves() {
     const reading = BOOKS.filter((b) => b.status === "Reading");
     $("#reading-now").innerHTML = reading.length
-      ? `<div class="reading-now"><div class="section-label">Şu an okuyorum</div><div class="reading-cards">${reading
+      ? `<div class="reading-now"><div class="section-label">${esc(L.readingNow)}</div><div class="reading-cards">${reading
           .map((b) => `<button type="button" class="reading-card" data-book="${esc(b.id)}">${coverHTML(b)}<div>
             <h3>${esc(b.title)}</h3><p>${esc(authors(b))}</p>
-            <div class="meta">${[b.pages ? b.pages + " sayfa" : "", b.formats.join(" · ")].filter(Boolean).map(esc).join(" · ")}</div></div></button>`)
+            <div class="meta">${[b.pages ? L.pages(b.pages) : "", b.formats.join(" · ")].filter(Boolean).map(esc).join(" · ")}</div></div></button>`)
           .join("")}</div></div>`
       : "";
 
     const counts = {};
     BOOKS.forEach((b) => (counts[b.status] = (counts[b.status] || 0) + 1));
     $("#shelf-chips").innerHTML = SHELVES.filter((s) => counts[s])
-      .map((s) => `<button type="button" class="chip ${s === state.shelf ? "active" : ""}" data-shelf="${s}">${STATUS[s]} <b>${counts[s]}</b></button>`)
+      .map((s) => `<button type="button" class="chip ${s === state.shelf ? "active" : ""}" data-shelf="${s}">${esc(L.status[s])} <b>${counts[s]}</b></button>`)
       .join("");
 
     const sortKey = state.sort[state.shelf] || defaultSort(state.shelf);
@@ -192,31 +250,30 @@
     if (sortKey === "dateRead") {
       const groups = new Map();
       for (const b of list) {
-        const k = b.dateRead ? b.dateRead.slice(0, 4) : "Tarihsiz";
+        const k = b.dateRead ? b.dateRead.slice(0, 4) : L.undated;
         if (!groups.has(k)) groups.set(k, []);
         groups.get(k).push(b);
       }
       for (const [k, items] of groups) {
-        html += `<div class="group-h"><h2>${esc(k)}</h2><span>${items.length} kitap</span></div>` + collection(items, state.layout);
+        html += `<div class="group-h"><h2>${esc(k)}</h2><span>${esc(L.books(items.length))}</span></div>` + collection(items, state.layout);
       }
     } else {
       html = collection(list, state.layout);
     }
-    const body = $("#shelf-body");
-    body.innerHTML = html || collection([], state.layout);
+    $("#shelf-body").innerHTML = html || collection([], state.layout);
     hydrateCovers($("#view-shelves"));
   }
 
-  /* ---------- Ara ---------- */
+  /* ---------- Search ---------- */
   function fillSelect(sel, label, values, current, labeler = (v) => v) {
-    sel.innerHTML = `<option value="">${label}</option>` + values.map((v) => `<option value="${esc(v)}" ${v === current ? "selected" : ""}>${esc(labeler(v))}</option>`).join("");
+    sel.innerHTML = `<option value="">${esc(label)}</option>` + values.map((v) => `<option value="${esc(v)}" ${v === current ? "selected" : ""}>${esc(labeler(v))}</option>`).join("");
   }
   function setupFilters() {
     const uniq = (arr) => [...new Set(arr)].sort(collator.compare);
-    fillSelect($("#f-status"), "Tüm raflar", ["Reading", ...SHELVES], state.status, (v) => STATUS[v]);
-    fillSelect($("#f-topic"), "Tüm konular", uniq(BOOKS.flatMap((b) => b.topics)), state.topic);
-    fillSelect($("#f-format"), "Tüm formatlar", uniq(BOOKS.flatMap((b) => b.formats)), state.format);
-    fillSelect($("#f-lang"), "Tüm diller", uniq(BOOKS.map((b) => b.language).filter(Boolean)), state.lang, (v) => LANG[v] || v);
+    fillSelect($("#f-status"), L.all.status, ["Reading", ...SHELVES], state.status, (v) => L.status[v]);
+    fillSelect($("#f-topic"), L.all.topic, uniq(BOOKS.flatMap((b) => b.topics)), state.topic);
+    fillSelect($("#f-format"), L.all.format, uniq(BOOKS.flatMap((b) => b.formats)), state.format);
+    fillSelect($("#f-lang"), L.all.lang, uniq(BOOKS.map((b) => b.language).filter(Boolean)), state.lang, (v) => L.lang[v] || v);
   }
   function renderSearch() {
     const q = norm(state.q.trim());
@@ -230,12 +287,12 @@
       const hay = b._hay || (b._hay = norm(b.title + " " + authors(b)));
       return terms.every((t) => hay.includes(t));
     }).sort(SORTS.title);
-    $("#search-count").textContent = `${list.length} kitap`;
-    $("#search-body").innerHTML = list.length ? collection(list, "list", { showStatus: true }) : `<p class="empty">Eşleşen kitap bulunamadı.</p>`;
+    $("#search-count").textContent = L.books(list.length);
+    $("#search-body").innerHTML = list.length ? collection(list, "list", { showStatus: true }) : `<p class="empty">${esc(L.emptySearch)}</p>`;
     hydrateCovers($("#search-body"));
   }
 
-  /* ---------- İstatistik ---------- */
+  /* ---------- Stats ---------- */
   function bars(entries, max, filterKey) {
     return `<div class="bars">${entries
       .map(([k, n]) => `<button type="button" class="bar" ${filterKey ? `data-filter="${filterKey}" data-value="${esc(k)}"` : ""}>
@@ -278,37 +335,39 @@
 
     $("#stats-body").innerHTML = `
       <div class="kpis">
-        <div class="kpi"><div class="v">${read.length}</div><div class="l">okunan kitap</div></div>
-        <div class="kpi"><div class="v">${pages.toLocaleString("tr")}</div><div class="l">okunan sayfa</div></div>
-        <div class="kpi"><div class="v">${readThisYear}</div><div class="l">${thisYear}'de okunan</div></div>
-        <div class="kpi"><div class="v">${avg ? avg.toLocaleString("tr", { maximumFractionDigits: 1 }) : "–"}</div><div class="l">ortalama puan (${rated.length} kitap)</div></div>
+        <div class="kpi"><div class="v">${num(read.length)}</div><div class="l">${esc(L.kpi.read)}</div></div>
+        <div class="kpi"><div class="v">${num(pages)}</div><div class="l">${esc(L.kpi.pages)}</div></div>
+        <div class="kpi"><div class="v">${num(readThisYear)}</div><div class="l">${esc(L.kpi.year(thisYear))}</div></div>
+        <div class="kpi"><div class="v">${avg ? num(avg, { maximumFractionDigits: 1 }) : "–"}</div><div class="l">${esc(L.kpi.avg(rated.length))}</div></div>
       </div>
-      ${yearsHTML ? `<div class="card"><h2>Yıllara göre okunan</h2>${undated ? `<p class="note">${undated} kitabın okunma tarihi yok.</p>` : ""}<div class="years">${yearsHTML}</div></div>` : ""}
-      ${topics.length ? `<div class="card"><h2>Okuduğum konular</h2>${bars(topics, topics[0][1], "topic")}</div>` : ""}
-      ${authorsTop.length ? `<div class="card"><h2>En çok okuduğum yazarlar</h2>${bars(authorsTop, authorsTop[0][1], "author")}</div>` : ""}
-      <div class="card"><h2>Kitaplık</h2>
-        ${bars(SHELVES.concat("Reading").map((s) => [STATUS[s], BOOKS.filter((b) => b.status === s).length]).filter(([, n]) => n).sort((a, b) => b[1] - a[1]), total)}
+      ${yearsHTML ? `<div class="card"><h2>${esc(L.perYear)}</h2>${undated ? `<p class="note">${esc(L.noDate(undated))}</p>` : ""}<div class="years">${yearsHTML}</div></div>` : ""}
+      ${topics.length ? `<div class="card"><h2>${esc(L.topics)}</h2>${bars(topics, topics[0][1], "topic")}</div>` : ""}
+      ${authorsTop.length ? `<div class="card"><h2>${esc(L.authors)}</h2>${bars(authorsTop, authorsTop[0][1], "author")}</div>` : ""}
+      <div class="card"><h2>${esc(L.library)}</h2>
+        ${bars(SHELVES.concat("Reading").map((s) => [L.status[s], BOOKS.filter((b) => b.status === s).length]).filter(([, n]) => n).sort((a, b) => b[1] - a[1]), total)}
       </div>
-      <div class="card"><h2>Formatlar</h2><p class="note">Bir kitap birden çok formatta olabilir.</p>${bars(formats, formats[0] ? formats[0][1] : 1, "format")}</div>
-      ${langs.length ? `<div class="card"><h2>Dil</h2>
+      <div class="card"><h2>${esc(L.formats)}</h2><p class="note">${esc(L.formatsNote)}</p>${bars(formats, formats[0] ? formats[0][1] : 1, "format")}</div>
+      ${langs.length ? `<div class="card"><h2>${esc(L.language)}</h2>
         <div class="split">${langs.map(([, n]) => `<i style="width:${(n / total) * 100}%"></i>`).join("")}</div>
-        <div class="legend">${langs.map(([k, n], i) => `<span><b style="background:${i ? "var(--star)" : "var(--accent)"}"></b>${esc(LANG[k] || k)} ${n}</span>`).join("")}</div></div>` : ""}
-      ${longest ? `<div class="card"><h2>En uzun okuduğum</h2>${row(longest)}</div>` : ""}
+        <div class="legend">${langs.map(([k, n], i) => `<span><b style="background:${i ? "var(--star)" : "var(--accent)"}"></b>${esc(L.lang[k] || k)} ${n}</span>`).join("")}</div></div>` : ""}
+      ${longest ? `<div class="card"><h2>${esc(L.longest)}</h2>${row(longest)}</div>` : ""}
     `;
     hydrateCovers($("#stats-body"));
   }
 
-  /* ---------- Detay ---------- */
+  /* ---------- Detail ---------- */
+  let openId = null;
   function openBook(id) {
     const b = BY_ID.get(id);
     if (!b) return;
+    openId = id;
     const facts = [
-      ["Okundu", b.status === "Read" || b.status === "Did Not Finish" ? fmtDate(b.dateRead) : ""],
-      ["Yayın", b.year],
-      ["Sayfa", b.pages],
-      ["Dil", LANG[b.language] || b.language],
-      ["Okuma", DEPTH[b.depth] || b.depth],
-      ["ISBN", b.isbn13 || b.isbn],
+      [L.facts.read, b.status === "Read" || b.status === "Did Not Finish" ? fmtDate(b.dateRead) : ""],
+      [L.facts.year, b.year],
+      [L.facts.pages, b.pages],
+      [L.facts.lang, L.lang[b.language] || b.language],
+      [L.facts.depth, L.depth[b.depth] || b.depth],
+      [L.facts.isbn, b.isbn13 || b.isbn],
     ].filter(([, v]) => v);
     $("#sheet-body").innerHTML = `<div class="detail">
       <div class="detail-top">
@@ -318,20 +377,22 @@
         ${stars(b.rating, "lg")}
         <div class="status">${pill(b.status)}</div>
       </div>
-      ${facts.length ? `<dl class="facts">${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
-      ${b.formats.length ? `<h4>Format</h4><div class="tags">${b.formats.map((f) => `<button type="button" class="chip" data-filter="format" data-value="${esc(f)}">${esc(f)}</button>`).join("")}</div>` : ""}
-      ${b.topics.length ? `<h4>Konular</h4><div class="tags">${b.topics.map((t) => `<button type="button" class="chip" data-filter="topic" data-value="${esc(t)}">${esc(t)}</button>`).join("")}</div>` : ""}
-      ${b.goodreads ? `<a class="btn" href="${esc(b.goodreads)}" target="_blank" rel="noopener">Goodreads'te aç</a>` : ""}
+      ${facts.length ? `<dl class="facts">${facts.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>` : ""}
+      ${b.formats.length ? `<h4>${esc(L.format)}</h4><div class="tags">${b.formats.map((f) => `<button type="button" class="chip" data-filter="format" data-value="${esc(f)}">${esc(f)}</button>`).join("")}</div>` : ""}
+      ${b.topics.length ? `<h4>${esc(L.topicsH)}</h4><div class="tags">${b.topics.map((t) => `<button type="button" class="chip" data-filter="topic" data-value="${esc(t)}">${esc(t)}</button>`).join("")}</div>` : ""}
+      ${b.goodreads ? `<a class="btn" href="${esc(b.goodreads)}" target="_blank" rel="noopener">${esc(L.goodreads)}</a>` : ""}
     </div>`;
     const el = $("#sheet");
+    const wasOpen = !el.hidden;
     el.hidden = false;
     document.body.classList.add("sheet-open");
-    $(".sheet-panel").scrollTop = 0;
+    if (!wasOpen) $(".sheet-panel").scrollTop = 0;
     requestAnimationFrame(() => requestAnimationFrame(() => el.classList.add("open")));
     $$(".cover[data-cover]", el).forEach(loadCover);
   }
   function closeSheet() {
     const el = $("#sheet");
+    openId = null;
     if (el.hidden) return;
     el.classList.remove("open");
     document.body.classList.remove("sheet-open");
@@ -345,22 +406,48 @@
     if (/^#kitap\//.test(location.hash)) history.back(); else closeSheet();
   }
 
-  /* ---------- sekmeler ---------- */
-  const TITLES = { shelves: "Raflarım", search: "Ara", stats: "İstatistik" };
-  function showTab(tab) {
+  /* ---------- static text + language ---------- */
+  function applyStaticText() {
+    document.documentElement.lang = state.uiLang;
+    document.title = L.appName;
+    $$("[data-i18n-tab]").forEach((el) => (el.textContent = L.tabs[el.dataset.i18nTab]));
+    $$("#shelf-sort option").forEach((o) => (o.textContent = L.sort[o.value]));
+    $("#q").placeholder = L.searchPh;
+    $("#shelf-chips").setAttribute("aria-label", L.shelvesLabel);
+    $(".seg").setAttribute("aria-label", L.layoutLabel);
+    $('[data-layout="grid"]').setAttribute("aria-label", L.layoutGrid);
+    $('[data-layout="list"]').setAttribute("aria-label", L.layoutList);
+    $$("[data-close]").forEach((el) => el.matches("button") && el.setAttribute("aria-label", L.close));
+    const t = $("#lang-toggle");
+    t.textContent = L.switchShort;
+    t.setAttribute("aria-label", L.switchTo);
+    t.title = L.switchTo;
+  }
+  function setLang(lang) {
+    state.uiLang = lang;
+    L = I18N[lang];
+    save();
+    applyStaticText();
+    if (BOOKS.length) {
+      setupFilters();
+      showTab(state.tab, { keepScroll: true });
+      if (openId) openBook(openId);
+    }
+  }
+
+  /* ---------- tabs ---------- */
+  function showTab(tab, opts = {}) {
     state.tab = tab;
     save();
     $$(".view").forEach((v) => (v.hidden = v.dataset.view !== tab));
     $$(".tabbar button").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
-    $("#view-title").textContent = TITLES[tab];
+    $("#view-title").textContent = L.titles[tab];
     const read = BOOKS.filter((b) => b.status === "Read").length;
-    $("#view-sub").textContent = tab === "stats" && GENERATED
-      ? `Son güncelleme: ${fmtDate(GENERATED)}`
-      : `${BOOKS.length} kitap · ${read} okundu`;
+    $("#view-sub").textContent = tab === "stats" && GENERATED ? L.updated(fmtDate(GENERATED)) : L.sub(num(BOOKS.length), num(read));
     if (tab === "shelves") renderShelves();
     if (tab === "search") renderSearch();
     if (tab === "stats") renderStats();
-    window.scrollTo(0, 0);
+    if (!opts.keepScroll) window.scrollTo(0, 0);
   }
   function goSearch(filters) {
     Object.assign(state, { q: "", status: "", topic: "", format: "", lang: "" }, filters);
@@ -369,8 +456,9 @@
     showTab("search");
   }
 
-  /* ---------- olaylar ---------- */
+  /* ---------- events ---------- */
   document.addEventListener("click", (e) => {
+    if (e.target.closest("#lang-toggle")) return setLang(state.uiLang === "en" ? "tr" : "en");
     const t = e.target.closest("[data-book],[data-shelf],[data-tab],[data-layout],[data-close],[data-filter],[data-author],[data-year]");
     if (!t) return;
     if (t.dataset.close !== undefined) return dismissSheet();
@@ -407,7 +495,7 @@
   window.addEventListener("hashchange", route);
   window.addEventListener("scroll", () => $(".topbar").classList.toggle("scrolled", window.scrollY > 4), { passive: true });
 
-  // Paneli aşağı kaydırarak kapatma
+  // Swipe the sheet down to close
   (() => {
     const panel = $(".sheet-panel");
     let y0 = null, dy = 0;
@@ -424,7 +512,8 @@
     });
   })();
 
-  /* ---------- başlat ---------- */
+  /* ---------- start ---------- */
+  applyStaticText();
   fetch("data/books.json", { cache: "no-cache" })
     .then((r) => r.json())
     .then((data) => {
@@ -433,11 +522,11 @@
       BY_ID = new Map(BOOKS.map((b) => [b.id, b]));
       if (!BOOKS.some((b) => b.status === state.shelf)) state.shelf = "Read";
       setupFilters();
-      showTab(state.tab in TITLES ? state.tab : "shelves");
+      showTab(state.tab in L.titles ? state.tab : "shelves");
       route();
     })
     .catch(() => {
-      $("#shelf-body").innerHTML = `<p class="empty">Kitaplık yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.</p>`;
+      $("#shelf-body").innerHTML = `<p class="empty">${esc(L.loadError)}</p>`;
     });
 
   if ("serviceWorker" in navigator && location.protocol === "https:") {
