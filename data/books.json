@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-02",
- "count": 492,
+ "generated": "2026-11-07",
+ "count": 491,
  "books": [
   {
    "id": "12-eyl-l-k-lt-r",
@@ -51,7 +51,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1348990566i/5470.jpg",
    "goodreads": "https://www.goodreads.com/book/show/5470"
   },
   {
@@ -933,7 +933,7 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655988385i/40121378.jpg",
    "goodreads": "https://www.goodreads.com/book/show/40121378"
   },
   {
@@ -986,7 +986,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1396834246i/130734.jpg",
    "goodreads": "https://www.goodreads.com/book/show/130734"
   },
   {
@@ -1096,6 +1096,32 @@
    "goodreads": null
   },
   {
+   "id": "benim-h-z-nl-orospular-mmemories-of-my-melancholy-whores",
+   "title": "Benim Hüzünlü OrospularımMemories of My Melancholy Whores",
+   "authors": [
+    "Gabriel García Márquez"
+   ],
+   "year": 2004,
+   "pages": 115,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2007-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1472122859i/8715354.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/8715354-benim-h-z-nl-orospular-m"
+  },
+  {
    "id": "beraber-y-r-d-k-biz-bu-y-llarda",
    "title": "Beraber Yürüdük Biz Bu Yıllarda",
    "authors": [
@@ -1116,7 +1142,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1383480059i/18456274.jpg",
    "goodreads": "https://www.goodreads.com/book/show/18456274"
   },
   {
@@ -1140,7 +1166,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1423424091i/24875177.jpg",
    "goodreads": "https://www.goodreads.com/book/show/24875177"
   },
   {
@@ -1173,7 +1199,7 @@
    "id": "bitmemi-yk-ler",
    "title": "Bitmemiş Öyküler",
    "authors": [
-    "J. R. R. Tolkien"
+    "J.R.R. Tolkien"
    ],
    "year": 2015,
    "pages": null,
@@ -1271,7 +1297,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1381695409i/18666900.jpg",
    "goodreads": "https://www.goodreads.com/book/show/18666900"
   },
   {
@@ -1462,32 +1488,6 @@
    "goodreads": null
   },
   {
-   "id": "brave-new-world",
-   "title": "Brave New World",
-   "authors": [
-    "Aldous Huxley"
-   ],
-   "year": 1932,
-   "pages": 288,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": 5,
-   "topics": [
-    "Science Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2010-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/5129"
-  },
-  {
    "id": "breakpoint-the-changing-marketplace-for-higher-education",
    "title": "Breakpoint - The Changing Marketplace for Higher Education",
    "authors": [
@@ -1666,7 +1666,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625641102i/58507681.jpg",
    "goodreads": "https://www.goodreads.com/book/show/58507681"
   },
   {
@@ -1694,6 +1694,32 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "cesur-yeni-d-nya",
+   "title": "Cesur Yeni Dünya",
+   "authors": [
+    "Aldous Huxley"
+   ],
+   "year": 1932,
+   "pages": 288,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": 5,
+   "topics": [
+    "Science Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2010-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1448025664i/23256064.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/23256064-cesur-yeni-d-nya"
   },
   {
    "id": "chapterhouse-dune",
@@ -2087,7 +2113,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697188256l/199629440.jpg",
    "goodreads": "https://www.goodreads.com/book/show/199629440"
   },
   {
@@ -2230,7 +2256,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1596977533i/54861542.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54861542"
   },
   {
@@ -2364,7 +2390,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1585305917i/6482590.jpg",
    "goodreads": "https://www.goodreads.com/book/show/6482590"
   },
   {
@@ -2950,8 +2976,8 @@
    "goodreads": "https://www.goodreads.com/book/show/65215684"
   },
   {
-   "id": "fight-club-2",
-   "title": "Fight Club (2)",
+   "id": "fight-club-book",
+   "title": "Fight Club - Book",
    "authors": [
     "Chuck Palahniuk"
    ],
@@ -2972,7 +2998,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1558216416i/36236124.jpg",
    "goodreads": "https://www.goodreads.com/book/show/36236124"
   },
   {
@@ -3212,7 +3238,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1649313831i/58261060.jpg",
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/58962511-four-thousand-weeks"
   },
   {
    "id": "frankenstein-in-baghdad",
@@ -3267,8 +3293,8 @@
    "goodreads": "https://www.goodreads.com/book/show/5113"
   },
   {
-   "id": "freakonomics-a-rogue-economist-explores-the-hidden-side-of-everything",
-   "title": "Freakonomics - A Rogue Economist Explores the Hidden Side of Everything",
+   "id": "freakonomics",
+   "title": "Freakonomics",
    "authors": [
     "Steven D. Levitt",
     "Stephen J. Dubner"
@@ -3290,8 +3316,8 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/1202"
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1345493756i/945976.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/945976.Freakonomics"
   },
   {
    "id": "free",
@@ -3741,7 +3767,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1532871583i/40974821.jpg",
    "goodreads": "https://www.goodreads.com/book/show/40974821"
   },
   {
@@ -4166,7 +4192,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1626949720i/58606721.jpg",
    "goodreads": "https://www.goodreads.com/book/show/58606721"
   },
   {
@@ -4223,7 +4249,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1407112405i/22668729.jpg",
    "goodreads": "https://www.goodreads.com/book/show/22668729"
   },
   {
@@ -4303,7 +4329,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1545694179i/43343616.jpg",
    "goodreads": "https://www.goodreads.com/book/show/43343616"
   },
   {
@@ -4753,7 +4779,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1559847987i/44595007.jpg",
    "goodreads": "https://www.goodreads.com/book/show/44595007"
   },
   {
@@ -4916,6 +4942,60 @@
    "goodreads": "https://www.goodreads.com/book/show/28367520"
   },
   {
+   "id": "kaptan-yeme-e-kt-ve-tayfalar-gemiyi-ele-ge-irdi",
+   "title": "Kaptan Yemeğe Çıktı ve Tayfalar Gemiyi Ele Geçirdi",
+   "authors": [
+    "Charles Bukowski",
+    "Robert Crumb"
+   ],
+   "year": 1999,
+   "pages": 144,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2005-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1504552186i/15788435.jpg",
+   "goodreads": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1504552186i/15788435.jpg"
+  },
+  {
+   "id": "kar",
+   "title": "Kar",
+   "authors": [
+    "Orhan Pamuk",
+    "Maureen Freely"
+   ],
+   "year": 2002,
+   "pages": 463,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2008-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1427622832i/1933651.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/1933651.Kar"
+  },
+  {
    "id": "kara-kitap",
    "title": "Kara Kitap",
    "authors": [
@@ -5072,7 +5152,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1557775799i/45014921.jpg",
    "goodreads": "https://www.goodreads.com/book/show/45014921"
   },
   {
@@ -5150,7 +5230,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1415734881i/265677.jpg",
    "goodreads": "https://www.goodreads.com/book/show/265677"
   },
   {
@@ -5205,36 +5285,6 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1737294324i/220161159.jpg",
    "goodreads": "https://www.goodreads.com/book/show/220161159-lean-learning"
-  },
-  {
-   "id": "les-mis-rables",
-   "title": "Les Misérables",
-   "authors": [
-    "Victor Hugo",
-    "Norman MacAfee",
-    "Charles E. Wilbour",
-    "Lee Fahnestock",
-    "Isabel Florence Hapgood"
-   ],
-   "year": 1862,
-   "pages": 1488,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": 5,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2007-08-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/24280"
   },
   {
    "id": "life-3-0",
@@ -5347,7 +5397,7 @@
    "id": "lizbon-ku-atmas-n-n-tarihi",
    "title": "Lizbon Kuşatmasının Tarihi",
    "authors": [
-    "Jose Saramago"
+    "José Saramago"
    ],
    "year": null,
    "pages": null,
@@ -5500,8 +5550,8 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": null
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1508699316i/36458712.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/36458712-making-work-visible?ref=nav_sb_ss_1_19"
   },
   {
    "id": "manifest",
@@ -5533,7 +5583,7 @@
    "id": "mapping-ideology",
    "title": "Mapping Ideology",
    "authors": [
-    "Slavoj Zizek"
+    "Slavoj Žižek"
    ],
    "year": null,
    "pages": null,
@@ -5688,33 +5738,6 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
-  },
-  {
-   "id": "memories-of-my-melancholy-whores",
-   "title": "Memories of My Melancholy Whores",
-   "authors": [
-    "Gabriel García Márquez",
-    "Edith Grossman"
-   ],
-   "year": 2004,
-   "pages": 115,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2007-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/760"
   },
   {
    "id": "meselenin-z",
@@ -6036,7 +6059,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741531792i/207614416.jpg",
    "goodreads": "https://www.goodreads.com/book/show/207614416"
   },
   {
@@ -6091,7 +6114,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1596822886i/54844978.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54844978"
   },
   {
@@ -6378,7 +6401,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1309975522i/3263559.jpg",
    "goodreads": "https://www.goodreads.com/book/show/3263559"
   },
   {
@@ -6703,7 +6726,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394309085i/10802346.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10802346"
   },
   {
@@ -6758,7 +6781,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1714442841i/212342565.jpg",
    "goodreads": "https://www.goodreads.com/book/show/212342565"
   },
   {
@@ -6791,7 +6814,7 @@
    "id": "power-and-progress",
    "title": "Power and Progress",
    "authors": [
-    "Daron Acemoglu"
+    "Daron Acemoğlu"
    ],
    "year": 2023,
    "pages": 560,
@@ -6868,8 +6891,8 @@
    "goodreads": "https://www.goodreads.com/book/show/16129883"
   },
   {
-   "id": "prisoners-of-geography-ten-maps-that-tell-you-everything-you-need-to-know-about-global-politics",
-   "title": "Prisoners of Geography - Ten Maps That Tell You Everything You Need to Know About Global Politics",
+   "id": "prisoners-of-geography",
+   "title": "Prisoners of Geography",
    "authors": [
     "Tim Marshall"
    ],
@@ -6891,7 +6914,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1432827094i/25135194.jpg",
    "goodreads": "https://www.goodreads.com/book/show/25135194"
   },
   {
@@ -7028,7 +7051,7 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1764703833i/54493401.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54493401"
   },
   {
@@ -7141,7 +7164,7 @@
    "id": "redesigning-ai",
    "title": "Redesigning AI",
    "authors": [
-    "Daron Acemoglu"
+    "Daron Acemoğlu"
    ],
    "year": 2021,
    "pages": null,
@@ -7426,7 +7449,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552722813i/44441095.jpg",
    "goodreads": "https://www.goodreads.com/book/show/44441095"
   },
   {
@@ -7587,6 +7610,36 @@
    "goodreads": null
   },
   {
+   "id": "sefiller",
+   "title": "Sefiller",
+   "authors": [
+    "Victor Hugo",
+    "Norman MacAfee",
+    "Charles E. Wilbour",
+    "Lee Fahnestock",
+    "Isabel Florence Hapgood"
+   ],
+   "year": 1862,
+   "pages": 1488,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": 5,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2007-08-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1387208152i/18656483.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/18656483-sefiller"
+  },
+  {
    "id": "semerkant",
    "title": "Semerkant",
    "authors": [
@@ -7610,7 +7663,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1606910058i/6772939.jpg",
    "goodreads": "https://www.goodreads.com/book/show/6772939"
   },
   {
@@ -7746,7 +7799,7 @@
    "id": "shah-of-shahs",
    "title": "Shah of Shahs",
    "authors": [
-    "Ryszard Kapuscinski"
+    "Ryszard Kapuściński"
    ],
    "year": 1982,
    "pages": 160,
@@ -7792,7 +7845,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1584654112i/52509996.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52509996"
   },
   {
@@ -7927,7 +7980,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1608553282i/56357900.jpg",
    "goodreads": "https://www.goodreads.com/book/show/56357900"
   },
   {
@@ -7983,33 +8036,6 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
-  },
-  {
-   "id": "snow",
-   "title": "Snow",
-   "authors": [
-    "Orhan Pamuk",
-    "Maureen Freely"
-   ],
-   "year": 2002,
-   "pages": 463,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2008-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/11691"
   },
   {
    "id": "social-skills-handbook-practical-activities-for-social-communication",
@@ -8545,7 +8571,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1483412266i/865.jpg",
    "goodreads": "https://www.goodreads.com/book/show/865"
   },
   {
@@ -8736,33 +8762,6 @@
    "goodreads": null
   },
   {
-   "id": "the-captain-is-out-to-lunch-and-the-sailors-have-taken-over-the-ship",
-   "title": "The Captain is Out to Lunch and the Sailors Have Taken Over the Ship",
-   "authors": [
-    "Charles Bukowski",
-    "Robert Crumb"
-   ],
-   "year": 1999,
-   "pages": 144,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2005-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/61354"
-  },
-  {
    "id": "the-catcher-in-the-rye",
    "title": "The Catcher in the Rye",
    "authors": [
@@ -8894,7 +8893,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697297946l/199737925.jpg",
    "goodreads": "https://www.goodreads.com/book/show/199737925"
   },
   {
@@ -9111,7 +9110,7 @@
    "id": "the-general-in-his-labyrinth",
    "title": "The General in His Labyrinth",
    "authors": [
-    "Gabriel Garcia Marquez"
+    "Gabriel García Márquez"
    ],
    "year": null,
    "pages": null,
@@ -9278,7 +9277,7 @@
     "Kindle",
     "Audible"
    ],
-   "status": "To Read",
+   "status": "Reading",
    "rating": null,
    "topics": [
     "Science Fiction"
@@ -9420,7 +9419,7 @@
    ],
    "genre": [],
    "depth": "Deep reads",
-   "dateRead": null,
+   "dateRead": "2026-09-30",
    "added": "2026-04-30",
    "isbn13": null,
    "isbn": null,
@@ -9450,7 +9449,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1437920445i/984152.jpg",
    "goodreads": "https://www.goodreads.com/book/show/984152"
   },
   {
@@ -9480,32 +9479,6 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1620048257i/56587382.jpg",
    "goodreads": "https://www.goodreads.com/book/show/61223186-the-island-of-missing-trees"
-  },
-  {
-   "id": "the-kite-runner",
-   "title": "The Kite Runner",
-   "authors": [
-    "Khaled Hosseini"
-   ],
-   "year": 2003,
-   "pages": 371,
-   "language": "English",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": 5,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2017-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/77203"
   },
   {
    "id": "the-last-temptation-of-christ",
@@ -10077,7 +10050,7 @@
    "id": "the-other",
    "title": "The Other",
    "authors": [
-    "Ryszard Kapuscinski"
+    "Ryszard Kapuściński"
    ],
    "year": null,
    "pages": null,
@@ -10261,7 +10234,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1530436826i/35133269.jpg",
    "goodreads": "https://www.goodreads.com/book/show/35133269"
   },
   {
@@ -10875,7 +10848,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1349042586i/567897.jpg",
    "goodreads": "https://www.goodreads.com/book/show/567897"
   },
   {
@@ -11616,7 +11589,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1439411539i/13402801.jpg",
    "goodreads": "https://www.goodreads.com/book/show/13402801"
   },
   {
@@ -11670,7 +11643,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1478591826i/32915371.jpg",
    "goodreads": "https://www.goodreads.com/book/show/32915371"
   },
   {
@@ -11911,8 +11884,34 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1420544594i/17935550.jpg",
    "goodreads": "https://www.goodreads.com/book/show/17935550"
+  },
+  {
+   "id": "u-urtma-avc-s",
+   "title": "Uçurtma Avcısı",
+   "authors": [
+    "Khaled Hosseini"
+   ],
+   "year": 2003,
+   "pages": 371,
+   "language": "English",
+   "formats": [
+    "Paperback"
+   ],
+   "status": "Read",
+   "rating": 5,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2017-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1516447458i/6863831.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/6863831-u-urtma-avc-s"
   },
   {
    "id": "varolman-n-dayan-lmaz-hafiflig-i",
@@ -11966,32 +11965,6 @@
    "goodreads": "https://www.goodreads.com/book/show/9844646"
   },
   {
-   "id": "ve-o-hi-birsey-demedi",
-   "title": "Ve O Hiçbirsey Demedi",
-   "authors": [
-    "Hernick Böll"
-   ],
-   "year": null,
-   "pages": null,
-   "language": "Turkish",
-   "formats": [
-    "Paperback"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": null,
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/23343124"
-  },
-  {
    "id": "veba-geceleri",
    "title": "Veba Geceleri",
    "authors": [
@@ -12014,7 +11987,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1615886781i/53331754.jpg",
    "goodreads": "https://www.goodreads.com/book/show/53331754"
   },
   {
@@ -12155,7 +12128,7 @@
    "id": "what-happened-to-liberal-democracy-remaking-a-politics-of-shared-prosperity",
    "title": "What Happened to Liberal Democracy- - Remaking a Politics of Shared Prosperity",
    "authors": [
-    "Daron Acemoglu"
+    "Daron Acemoğlu"
    ],
    "year": 2026,
    "pages": null,
@@ -12394,7 +12367,7 @@
    "title": "Why Nations Fail - The Origins of Power, Prosperity, and Poverty",
    "authors": [
     "Daron Acemoğlu",
-    "James Robinson"
+    "James A. Robinson"
    ],
    "year": 2012,
    "pages": null,
@@ -12522,7 +12495,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1589288353i/53401159.jpg",
    "goodreads": "https://www.goodreads.com/book/show/53401159"
   },
   {
@@ -12797,7 +12770,7 @@
    "id": "y-z-klerin-efendisi-tek-cilt",
    "title": "Yüzüklerin Efendisi (Tek Cilt)",
    "authors": [
-    "J. R. R. Tolkien"
+    "J.R.R. Tolkien"
    ],
    "year": 2012,
    "pages": null,
@@ -12841,14 +12814,14 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610539259i/56655316.jpg",
    "goodreads": "https://www.goodreads.com/book/show/56655316"
   },
   {
    "id": "ocuklu-un-sonu",
    "title": "Çocukluğun Sonu",
    "authors": [
-    "Arthur Charles Clarke"
+    "Arthur C. Clarke"
    ],
    "year": null,
    "pages": null,
@@ -12999,7 +12972,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1381776917i/10958139.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10958139"
   },
   {
