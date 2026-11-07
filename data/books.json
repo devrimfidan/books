@@ -134,7 +134,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1533314545i/41034731.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41034731"
   },
   {
@@ -478,7 +478,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1505979940i/36277835.jpg",
    "goodreads": "https://www.goodreads.com/book/show/36277835"
   },
   {
@@ -504,7 +504,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328346799i/8724461.jpg",
    "goodreads": "https://www.goodreads.com/book/show/8724461"
   },
   {
@@ -530,7 +530,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1539467301i/42296784.jpg",
    "goodreads": "https://www.goodreads.com/book/show/42296784"
   },
   {
@@ -638,35 +638,8 @@
    "added": "2026-06-21",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1517039126i/35003282.jpg",
    "goodreads": "https://www.goodreads.com/book/show/35003282-an-orchestra-of-minorities?ref=nav_sb_ss_1_26"
-  },
-  {
-   "id": "animal-farm-1984",
-   "title": "Animal Farm - 1984",
-   "authors": [
-    "George Orwell",
-    "Christopher Hitchens"
-   ],
-   "year": 2003,
-   "pages": 400,
-   "language": "English",
-   "formats": [
-    "Hard Cover"
-   ],
-   "status": "Read",
-   "rating": null,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": "2018-01-01",
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/5472"
   },
   {
    "id": "animal-farm",
@@ -1324,7 +1297,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1742526277i/2526.jpg",
    "goodreads": "https://www.goodreads.com/book/show/2526"
   },
   {
@@ -1377,7 +1350,7 @@
    "added": "2026-06-21",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1473867911i/29780253.jpg",
    "goodreads": "https://www.goodreads.com/book/show/29780253"
   },
   {
@@ -1430,7 +1403,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1595084564i/43532430.jpg",
    "goodreads": "https://www.goodreads.com/book/show/43532430"
   },
   {
@@ -1510,7 +1483,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1445189130i/26449589.jpg",
    "goodreads": "https://www.goodreads.com/book/show/26449589"
   },
   {
@@ -1536,7 +1509,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1541816726i/41551710.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41551710"
   },
   {
@@ -1875,7 +1848,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1394267095i/8703232.jpg",
    "goodreads": "https://www.goodreads.com/book/show/8703232"
   },
   {
@@ -1953,7 +1926,7 @@
    "added": "2026-06-21",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1405467461i/50091.jpg",
    "goodreads": "https://www.goodreads.com/book/show/50091"
   },
   {
@@ -2030,7 +2003,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1571863149i/38352279.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38352279"
   },
   {
@@ -2086,7 +2059,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1634414338i/58491394.jpg",
    "goodreads": "https://www.goodreads.com/book/show/58491394"
   },
   {
@@ -2230,7 +2203,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1596296995i/49231485.jpg",
    "goodreads": "https://www.goodreads.com/book/show/49231485"
   },
   {
@@ -2364,7 +2337,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1573284843i/48737377.jpg",
    "goodreads": "https://www.goodreads.com/book/show/48737377"
   },
   {
@@ -2603,7 +2576,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1518291452i/25541028.jpg",
    "goodreads": "https://www.goodreads.com/book/show/25541028"
   },
   {
@@ -2732,7 +2705,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1384806887i/18742268.jpg",
    "goodreads": "https://www.goodreads.com/book/show/18742268"
   },
   {
@@ -2972,7 +2945,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1689704853i/65215684.jpg",
    "goodreads": "https://www.goodreads.com/book/show/65215684"
   },
   {
@@ -3052,7 +3025,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1585152553i/52553902.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52553902"
   },
   {
@@ -3105,7 +3078,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1430055209i/76679.jpg",
    "goodreads": "https://www.goodreads.com/book/show/76679"
   },
   {
@@ -3157,7 +3130,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1391454612i/29581.jpg",
    "goodreads": "https://www.goodreads.com/book/show/29581"
   },
   {
@@ -3209,7 +3182,7 @@
    "added": "2026-06-21",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1417900846i/29579.jpg",
    "goodreads": "https://www.goodreads.com/book/show/29579"
   },
   {
@@ -3526,7 +3499,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1519068554i/38621056.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38621056"
   },
   {
@@ -3712,7 +3685,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1654004532i/61200997.jpg",
    "goodreads": "https://www.goodreads.com/book/show/61200997"
   },
   {
@@ -3795,7 +3768,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1647886347i/60666907.jpg",
    "goodreads": "https://www.goodreads.com/book/show/60666907"
   },
   {
@@ -3822,7 +3795,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328309938i/10307135.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10307135"
   },
   {
@@ -4061,6 +4034,32 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "hayvan-iftli-i",
+   "title": "Hayvan Çiftliği",
+   "authors": [
+    "George Orwell"
+   ],
+   "year": 2003,
+   "pages": 400,
+   "language": "English",
+   "formats": [
+    "Hard Cover"
+   ],
+   "status": "Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": "2018-01-01",
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1444567224i/7174618.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/7174618-hayvan-iftli-i?ac=1&from_search=true&qid=5yDr7yFgS9&rank=1"
   },
   {
    "id": "hay-r-demeyi-bilmek",
@@ -4460,7 +4459,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1698168626l/200597008.jpg",
    "goodreads": "https://www.goodreads.com/book/show/200597008"
   },
   {
@@ -4538,7 +4537,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552885037i/39074550.jpg",
    "goodreads": "https://www.goodreads.com/book/show/39074550"
   },
   {
@@ -4641,7 +4640,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1609035271i/41804.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41804"
   },
   {
@@ -4858,7 +4857,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1557343311i/10210.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10210"
   },
   {
@@ -5629,7 +5628,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1610559290i/54768598.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54768598"
   },
   {
@@ -5818,7 +5817,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1698077904i/147924772.jpg",
    "goodreads": "https://www.goodreads.com/book/show/147924772"
   },
   {
@@ -5977,7 +5976,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1595711242i/49688928.jpg",
    "goodreads": "https://www.goodreads.com/book/show/49688928"
   },
   {
@@ -6032,7 +6031,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1454705914i/28522470.jpg",
    "goodreads": "https://www.goodreads.com/book/show/28522470"
   },
   {
@@ -6454,7 +6453,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1327881361i/320.jpg",
    "goodreads": "https://www.goodreads.com/book/show/320"
   },
   {
@@ -6887,7 +6886,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1357162289i/16129883.jpg",
    "goodreads": "https://www.goodreads.com/book/show/16129883"
   },
   {
@@ -6940,7 +6939,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1653319660i/61153453.jpg",
    "goodreads": "https://www.goodreads.com/book/show/61153453"
   },
   {
@@ -6969,7 +6968,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1509420536i/36507075.jpg",
    "goodreads": "https://www.goodreads.com/book/show/36507075"
   },
   {
@@ -6996,7 +6995,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1386924256i/62659.jpg",
    "goodreads": "https://www.goodreads.com/book/show/62659"
   },
   {
@@ -7343,7 +7342,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1526988931i/40177542.jpg",
    "goodreads": "https://www.goodreads.com/book/show/40177542"
   },
   {
@@ -7369,7 +7368,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1659946439i/76688.jpg",
    "goodreads": "https://www.goodreads.com/book/show/76688"
   },
   {
@@ -7502,7 +7501,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1524227447i/39834567.jpg",
    "goodreads": "https://www.goodreads.com/book/show/39834567"
   },
   {
@@ -7528,7 +7527,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1703329310i/23692271.jpg",
    "goodreads": "https://www.goodreads.com/book/show/23692271"
   },
   {
@@ -7554,7 +7553,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1443815657i/26853963.jpg",
    "goodreads": "https://www.goodreads.com/book/show/26853963"
   },
   {
@@ -8195,7 +8194,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1644109349i/60314371.jpg",
    "goodreads": "https://www.goodreads.com/book/show/60314371"
   },
   {
@@ -8651,7 +8650,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1570543855l/52648540.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52648540"
   },
   {
@@ -8810,7 +8809,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1335782224i/41811.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41811"
   },
   {
@@ -8971,7 +8970,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720313229i/968.jpg",
    "goodreads": "https://www.goodreads.com/book/show/968"
   },
   {
@@ -9155,7 +9154,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1347220693i/14743.jpg",
    "goodreads": "https://www.goodreads.com/book/show/14743"
   },
   {
@@ -9289,7 +9288,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/I/51gSJR1+82L._SL500_.jpg",
-   "goodreads": null
+   "goodreads": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1589351571i/53405613.jpg"
   },
   {
    "id": "the-hobbit-illustrated-by-the-author",
@@ -9583,7 +9582,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1367545443i/157993.jpg",
    "goodreads": "https://www.goodreads.com/book/show/157993"
   },
   {
@@ -9773,7 +9772,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1384971700i/18872437.jpg",
    "goodreads": "https://www.goodreads.com/book/show/18872437"
   },
   {
@@ -9880,7 +9879,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1655932374i/30016.jpg",
    "goodreads": "https://www.goodreads.com/book/show/30016"
   },
   {
@@ -9908,7 +9907,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1561313575l/52884091.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52884091"
   },
   {
@@ -9989,7 +9988,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1633643710i/59237563.jpg",
    "goodreads": "https://www.goodreads.com/book/show/59237563"
   },
   {
@@ -10180,7 +10179,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1467471941i/651964.jpg",
    "goodreads": "https://www.goodreads.com/book/show/651964"
   },
   {
@@ -10340,7 +10339,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1713516065i/272773.jpg",
    "goodreads": "https://www.goodreads.com/book/show/272773"
   },
   {
@@ -10419,7 +10418,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1351030933i/41810.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41810"
   },
   {
@@ -11220,7 +11219,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1708114013i/37781.jpg",
    "goodreads": "https://www.goodreads.com/book/show/37781"
   },
   {
@@ -11273,7 +11272,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1619962079i/55347785.jpg",
    "goodreads": "https://www.goodreads.com/book/show/55347785"
   },
   {
@@ -11456,7 +11455,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1293871416i/10088590.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10088590"
   },
   {
@@ -11695,7 +11694,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1511685316i/10481078.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10481078"
   },
   {
@@ -11723,7 +11722,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602439760i/22070954.jpg",
    "goodreads": "https://www.goodreads.com/book/show/22070954"
   },
   {
@@ -11749,7 +11748,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1544735124i/41716904.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41716904"
   },
   {
@@ -11802,7 +11801,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1328339492i/8545302.jpg",
    "goodreads": "https://www.goodreads.com/book/show/8545302"
   },
   {
@@ -11830,7 +11829,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625148174i/58466758.jpg",
    "goodreads": "https://www.goodreads.com/book/show/58466758"
   },
   {
@@ -11857,7 +11856,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1570808839l/52707257.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52707257"
   },
   {
@@ -12042,7 +12041,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1615509973i/57381633.jpg",
    "goodreads": "https://www.goodreads.com/book/show/57381633"
   },
   {
@@ -12306,7 +12305,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1456093732i/28514478.jpg",
    "goodreads": "https://www.goodreads.com/book/show/28514478"
   },
   {
@@ -12575,7 +12574,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1612953797i/57018724.jpg",
    "goodreads": "https://www.goodreads.com/book/show/57018724"
   },
   {
@@ -12602,7 +12601,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1518170411i/38467490.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38467490"
   },
   {
@@ -12681,7 +12680,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552771068i/44446425.jpg",
    "goodreads": "https://www.goodreads.com/book/show/44446425"
   },
   {
