@@ -25,7 +25,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://covers.openlibrary.org/b/id/10739729-M.jpg",
    "goodreads": "https://www.goodreads.com/book/show/17732538"
   },
   {
@@ -79,7 +79,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1483103331i/10357575.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10357575"
   },
   {
@@ -555,33 +555,6 @@
    "goodreads": "https://www.goodreads.com/book/show/42296784"
   },
   {
-   "id": "alice-s-adventures-in-wonderland",
-   "title": "Alice's Adventures in Wonderland",
-   "authors": [
-    "Lewis Carroll"
-   ],
-   "year": 1865,
-   "pages": 96,
-   "language": "English",
-   "formats": [
-    "Apple Books",
-    "Kindle"
-   ],
-   "status": "Read",
-   "rating": 4,
-   "topics": [
-    "Contemporary Fiction"
-   ],
-   "genre": [],
-   "depth": null,
-   "dateRead": null,
-   "added": "2026-08-16",
-   "isbn13": null,
-   "isbn": null,
-   "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/6324090"
-  },
-  {
    "id": "americanah",
    "title": "Americanah",
    "authors": [
@@ -683,7 +656,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1424037542i/7613.jpg",
    "goodreads": "https://www.goodreads.com/book/show/7613"
   },
   {
@@ -818,7 +791,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1465031334i/2992697.jpg",
    "goodreads": "https://www.goodreads.com/book/show/2992697"
   },
   {
@@ -953,6 +926,33 @@
    "goodreads": null
   },
   {
+   "id": "a-klamal-notlar-yla-alice-alice-harikalar-diyar-nda-aynan-n-i-inden",
+   "title": "Açıklamalı Notlarıyla Alice - Alice Harikalar Diyarında & Aynanın İçinden",
+   "authors": [
+    "Lewis Carroll"
+   ],
+   "year": 1865,
+   "pages": 96,
+   "language": "English",
+   "formats": [
+    "Apple Books",
+    "Kindle"
+   ],
+   "status": "Read",
+   "rating": 4,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-08-16",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1578669812i/50386789.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/50386789-a-klamal-notlar-yla-alice?ref=nav_sb_ss_1_47"
+  },
+  {
    "id": "barfly",
    "title": "Barfly",
    "authors": [
@@ -1001,7 +1001,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1472584670i/31748050.jpg",
    "goodreads": "https://www.goodreads.com/book/show/31748050"
   },
   {
@@ -1027,7 +1027,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1327580560i/10306845.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10306845"
   },
   {
@@ -1255,7 +1255,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1572556950i/13419379.jpg",
    "goodreads": "https://www.goodreads.com/book/show/13419379"
   },
   {
@@ -1281,7 +1281,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1403010834i/12028555.jpg",
    "goodreads": "https://www.goodreads.com/book/show/12028555"
   },
   {
@@ -1646,7 +1646,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1321436308i/7605880.jpg",
    "goodreads": "https://www.goodreads.com/book/show/7605880"
   },
   {
@@ -1854,7 +1854,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1624579622i/29059.jpg",
    "goodreads": "https://www.goodreads.com/book/show/29059"
   },
   {
@@ -2241,7 +2241,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1552490219i/44422781.jpg",
    "goodreads": "https://www.goodreads.com/book/show/44422781"
   },
   {
@@ -2265,7 +2265,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1551277487i/976.jpg",
    "goodreads": "https://www.goodreads.com/book/show/976"
   },
   {
@@ -2381,7 +2381,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1503846419i/9269143.jpg",
    "goodreads": "https://www.goodreads.com/book/show/9269143"
   },
   {
@@ -2514,7 +2514,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1546112331i/3836.jpg",
    "goodreads": "https://www.goodreads.com/book/show/3836"
   },
   {
@@ -2620,7 +2620,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1554469764i/44790727.jpg",
    "goodreads": "https://www.goodreads.com/book/show/44790727"
   },
   {
@@ -2775,7 +2775,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1265318307i/7693998.jpg",
    "goodreads": "https://www.goodreads.com/book/show/7693998"
   },
   {
@@ -2799,7 +2799,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1510709644i/16059835.jpg",
    "goodreads": "https://www.goodreads.com/book/show/16059835"
   },
   {
@@ -2956,7 +2956,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1396295517i/21805959.jpg",
    "goodreads": "https://www.goodreads.com/book/show/21805959"
   },
   {
@@ -2982,7 +2982,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1672739447i/497199.jpg",
    "goodreads": "https://www.goodreads.com/book/show/497199"
   },
   {
@@ -3008,7 +3008,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1586176931i/6482583.jpg",
    "goodreads": "https://www.goodreads.com/book/show/6482583"
   },
   {
@@ -3034,7 +3034,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1438300216i/14894462.jpg",
    "goodreads": "https://www.goodreads.com/book/show/14894462"
   },
   {
@@ -3407,7 +3407,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1439279762i/7871499.jpg",
    "goodreads": "https://www.goodreads.com/book/show/5113"
   },
   {
@@ -4014,7 +4014,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1496422927i/13491349.jpg",
    "goodreads": "https://www.goodreads.com/book/show/13491349"
   },
   {
@@ -5072,7 +5072,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1432222358i/71728.jpg",
    "goodreads": "https://www.goodreads.com/book/show/71728"
   },
   {
@@ -5098,7 +5098,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1452714100i/28367520.jpg",
    "goodreads": "https://www.goodreads.com/book/show/28367520"
   },
   {
@@ -5280,7 +5280,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1441653411i/26245937.jpg",
    "goodreads": "https://www.goodreads.com/book/show/26245937"
   },
   {
@@ -5624,8 +5624,8 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": null
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631416785i/34921573.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/34921573-lost-connections?ref=nav_sb_ss_1_16"
   },
   {
    "id": "love-machines-how-artificial-intelligence-is-transforming-our-relationships",
@@ -5910,7 +5910,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1324464805i/13271906.jpg",
    "goodreads": "https://www.goodreads.com/book/show/13271906"
   },
   {
@@ -6124,7 +6124,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1368186563i/17906005.jpg",
    "goodreads": "https://www.goodreads.com/book/show/17906005"
   },
   {
@@ -6228,7 +6228,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1586280521i/15752565.jpg",
    "goodreads": "https://www.goodreads.com/book/show/15752565"
   },
   {
@@ -6519,7 +6519,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1678698525i/38502.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38502"
   },
   {
@@ -6595,7 +6595,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1352982776i/16091034.jpg",
    "goodreads": "https://www.goodreads.com/book/show/16091034"
   },
   {
@@ -6917,7 +6917,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1365739628i/1232658.jpg",
    "goodreads": "https://www.goodreads.com/book/show/2897"
   },
   {
@@ -6971,8 +6971,8 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": null
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1719020952i/214152124.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/214152124"
   },
   {
    "id": "politics-on-the-edge",
@@ -7025,7 +7025,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1555887577i/40409718.jpg",
    "goodreads": "https://www.goodreads.com/book/show/40409718"
   },
   {
@@ -7638,7 +7638,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1407707361i/50452.jpg",
    "goodreads": "https://www.goodreads.com/book/show/50452"
   },
   {
@@ -8000,7 +8000,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1315511258i/12558782.jpg",
    "goodreads": "https://www.goodreads.com/book/show/12558782"
   },
   {
@@ -8240,8 +8240,8 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": null
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1692883158i/197773418.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/197773418-slow-productivity?ref=nav_sb_ss_1_17"
   },
   {
    "id": "small-talk-how-to-start-a-conversation-truly-connect-with-others-and-make-a-killer-first-impression",
@@ -8344,7 +8344,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1435192163i/16457988.jpg",
    "goodreads": "https://www.goodreads.com/book/show/16457988"
   },
   {
@@ -8396,7 +8396,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1360936414i/7108725.jpg",
    "goodreads": "https://www.goodreads.com/book/show/7108725"
   },
   {
@@ -8611,7 +8611,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1333961876i/13588905.jpg",
    "goodreads": "https://www.goodreads.com/book/show/13588905"
   },
   {
@@ -8663,7 +8663,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1595675528i/54668729.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54668729"
   },
   {
@@ -8692,7 +8692,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718895703i/208939915.jpg",
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/208939915-technology-is-not-the-problem?ac=1&from_search=true&qid=vwSobGLyQI&rank=1"
   },
   {
    "id": "tell-your-story",
@@ -9059,7 +9059,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1398034300i/5107.jpg",
    "goodreads": "https://www.goodreads.com/book/show/5107"
   },
   {
@@ -9197,7 +9197,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1524171011i/36325705.jpg",
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/39722303-the-communication-book"
   },
   {
    "id": "the-currents-of-space",
@@ -9508,7 +9508,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1375670575i/18114322.jpg",
    "goodreads": "https://www.goodreads.com/book/show/18114322"
   },
   {
@@ -10041,7 +10041,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1602190253i/52578297.jpg",
    "goodreads": "https://www.goodreads.com/book/show/52578297"
   },
   {
@@ -10123,7 +10123,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1425270461i/50451.jpg",
    "goodreads": "https://www.goodreads.com/book/show/50451"
   },
   {
@@ -10473,7 +10473,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1598998064i/55207260.jpg",
    "goodreads": "https://www.goodreads.com/book/show/55207260"
   },
   {
@@ -10608,7 +10608,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg",
    "goodreads": "https://www.goodreads.com/book/show/41881472"
   },
   {
@@ -11164,8 +11164,8 @@
    "added": "2025-12-28",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
-   "goodreads": null
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1471279329i/31381282.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/31381282-smart-solution-book-the?ref=nav_sb_ss_4_23"
   },
   {
    "id": "the-soccer-war",
@@ -11243,7 +11243,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1738704267i/49552.jpg",
    "goodreads": "https://www.goodreads.com/book/show/49552"
   },
   {
@@ -11877,7 +11877,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1355936080i/17156762.jpg",
    "goodreads": "https://www.goodreads.com/book/show/17156762"
   },
   {
@@ -11903,7 +11903,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1359571613i/17306494.jpg",
    "goodreads": "https://www.goodreads.com/book/show/17306494"
   },
   {
@@ -12799,7 +12799,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1325028693i/38500.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38500"
   },
   {
@@ -12878,7 +12878,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1476542181i/10561870.jpg",
    "goodreads": "https://www.goodreads.com/book/show/10561870"
   },
   {
@@ -12904,7 +12904,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1474059308i/20313702.jpg",
    "goodreads": "https://www.goodreads.com/book/show/20313702"
   },
   {
@@ -13009,7 +13009,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1563261652i/11533410.jpg",
    "goodreads": "https://www.goodreads.com/book/show/11533410"
   },
   {
@@ -13140,7 +13140,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1538998047i/42238444.jpg",
    "goodreads": "https://www.goodreads.com/book/show/42238444"
   },
   {
@@ -13243,7 +13243,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1596032236i/54745535.jpg",
    "goodreads": "https://www.goodreads.com/book/show/54745535"
   },
   {
@@ -13455,7 +13455,7 @@
    "added": "2026-08-16",
    "isbn13": null,
    "isbn": null,
-   "cover": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1316932278i/11362351.jpg",
    "goodreads": "https://www.goodreads.com/book/show/11362351"
   }
  ]
