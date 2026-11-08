@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-08",
- "count": 491,
+ "count": 510,
  "books": [
   {
    "id": "12-eyl-l-k-lt-r",
@@ -238,6 +238,30 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1387018828i/19458775.jpg",
    "goodreads": "https://www.goodreads.com/book/show/227463"
+  },
+  {
+   "id": "a-crime-in-the-neighborhood",
+   "title": "A Crime in the Neighborhood",
+   "authors": [
+    "Suzanne Berne"
+   ],
+   "year": 1997,
+   "pages": 256,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780140273328",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1582599051l/51708055.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/51708055"
   },
   {
    "id": "a-deepness-in-the-sky",
@@ -1133,6 +1157,30 @@
    "goodreads": "https://www.goodreads.com/book/show/24875177"
   },
   {
+   "id": "between-the-assassinations",
+   "title": "Between the Assassinations",
+   "authors": [
+    "Aravind Adiga"
+   ],
+   "year": 2008,
+   "pages": 352,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781848871212",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1347496048l/6659962.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/6659962"
+  },
+  {
    "id": "beyaz-kale",
    "title": "Beyaz Kale",
    "authors": [
@@ -1526,6 +1574,30 @@
    "goodreads": "https://www.goodreads.com/book/show/17902.Broken_April"
   },
   {
+   "id": "building-and-dwelling",
+   "title": "Building and Dwelling",
+   "authors": [
+    "Richard Sennett"
+   ],
+   "year": 2018,
+   "pages": 368,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Ideas & Society"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-10-29",
+   "isbn13": "9780713998757",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1520095422l/22711627.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/22711627"
+  },
+  {
    "id": "busy-idiots-learn-the-brain-science-and-productivity-hacks-to-get-ahead-without-the-stress",
    "title": "Busy Idiots - Learn the Brain Science and Productivity Hacks to Get Ahead without the Stress",
    "authors": [
@@ -1628,6 +1700,30 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1625641102i/58507681.jpg",
    "goodreads": "https://www.goodreads.com/book/show/58507681"
+  },
+  {
+   "id": "caledonian-road",
+   "title": "Caledonian Road",
+   "authors": [
+    "Andrew O'Hagan"
+   ],
+   "year": 2024,
+   "pages": 656,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780571381371",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1734065188l/222532942.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/222532942"
   },
   {
    "id": "career-cheat-codes",
@@ -1813,6 +1909,28 @@
    "goodreads": "https://www.goodreads.com/book/show/10475421"
   },
   {
+   "id": "cloudless",
+   "title": "Cloudless",
+   "authors": [
+    "Rupert Dastur"
+   ],
+   "year": null,
+   "pages": 336,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780241654705",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1722417905l/217019064.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/217019064"
+  },
+  {
    "id": "coaching-agile-teams-a-companion-for-scrummasters-agile-coaches-and-project-managers-in-transition",
    "title": "Coaching Agile Teams - A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition",
    "authors": [
@@ -1942,6 +2060,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "conflicted",
+   "title": "Conflicted",
+   "authors": [
+    "Ian Leslie"
+   ],
+   "year": 2021,
+   "pages": 257,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Thinking & Decision Making"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780571346943",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1600932403l/49198589.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/49198589"
   },
   {
    "id": "conversations-on-love",
@@ -2585,6 +2727,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "empire",
+   "title": "Empire",
+   "authors": [
+    "Niall Ferguson"
+   ],
+   "year": 2003,
+   "pages": 422,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "History & Culture"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780141975542",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1360418603l/17343047.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/17343047"
   },
   {
    "id": "erken-kaybedenler",
@@ -3479,6 +3645,30 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1519068554i/38621056.jpg",
    "goodreads": "https://www.goodreads.com/book/show/38621056"
+  },
+  {
+   "id": "generations",
+   "title": "Generations",
+   "authors": [
+    "Bobby Duffy"
+   ],
+   "year": null,
+   "pages": 304,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Ideas & Society"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-03-14",
+   "isbn13": "9781786499721",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1619445722l/57860997.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/57860997"
   },
   {
    "id": "gen-ler-i-in-bat-felsefesi",
@@ -4912,6 +5102,30 @@
    "goodreads": "https://www.goodreads.com/book/show/28367520"
   },
   {
+   "id": "kairos",
+   "title": "Kairos",
+   "authors": [
+    "Jenny Erpenbeck"
+   ],
+   "year": 2021,
+   "pages": 293,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781783786138",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1769190032l/247013642.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/247013642"
+  },
+  {
    "id": "kaptan-yeme-e-kt-ve-tayfalar-gemiyi-ele-ge-irdi",
    "title": "Kaptan Yemeğe Çıktı ve Tayfalar Gemiyi Ele Geçirdi",
    "authors": [
@@ -5439,6 +5653,54 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761338969i/243159695.jpg",
    "goodreads": "https://www.goodreads.com/book/show/243159695-love-machines"
+  },
+  {
+   "id": "love-in-the-big-city",
+   "title": "Love in the Big City",
+   "authors": [
+    "Sang Young Park"
+   ],
+   "year": 2019,
+   "pages": 217,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781911284659",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1627907641l/56918103.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/56918103"
+  },
+  {
+   "id": "lunch-with-the-ft-2",
+   "title": "Lunch with the FT 2",
+   "authors": [
+    "Lionel Barber"
+   ],
+   "year": null,
+   "pages": 336,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Ideas & Society"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-06-07",
+   "isbn13": "9780241400685",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1566053498l/44564934.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/44564934"
   },
   {
    "id": "machines-of-loving-grace",
@@ -7930,6 +8192,30 @@
    "goodreads": "https://www.goodreads.com/book/show/56357900"
   },
   {
+   "id": "slow-horses-book",
+   "title": "Slow Horses - book",
+   "authors": [
+    "Mick Herron"
+   ],
+   "year": 2010,
+   "pages": 328,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781473641105",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1470118335l/31316618.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/31316618"
+  },
+  {
    "id": "slow-productivity",
    "title": "Slow Productivity",
    "authors": [
@@ -8570,6 +8856,30 @@
    "goodreads": "https://www.goodreads.com/book/show/195391751-the-anthropologists?ac=1&from_search=true&qid=p4fV8aQt5B&rank=1"
   },
   {
+   "id": "the-architecture-of-happiness",
+   "title": "The Architecture of Happiness",
+   "authors": [
+    "Alain de Botton"
+   ],
+   "year": 2006,
+   "pages": 280,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Ideas & Society"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780241970058",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1462152147l/23035985.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/23035985"
+  },
+  {
    "id": "the-art-of-agile-product-ownership-a-guide-for-product-managers-business-analysts-and-entrepreneurs",
    "title": "The Art of Agile Product Ownership - A Guide for Product Managers, Business Analysts, and Entrepreneurs",
    "authors": [
@@ -8674,6 +8984,30 @@
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1739284757i/39813845.jpg",
    "goodreads": "https://www.goodreads.com/book/show/39813845-the-art-of-statistics"
+  },
+  {
+   "id": "the-battle-of-venezuela",
+   "title": "The Battle of Venezuela",
+   "authors": [
+    "Michael McCaughan"
+   ],
+   "year": 2005,
+   "pages": 100,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "History & Culture"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781899365623",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1662446985l/6850762.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/6850762"
   },
   {
    "id": "the-capitalist-manifesto",
@@ -9339,6 +9673,30 @@
    "goodreads": "https://www.goodreads.com/book/show/30962053-the-idiot"
   },
   {
+   "id": "the-impossible-fortune",
+   "title": "The Impossible Fortune",
+   "authors": [
+    "Richard Osman"
+   ],
+   "year": 2025,
+   "pages": 432,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780241743980",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1752699283l/221397017.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/221397017"
+  },
+  {
    "id": "the-infinity-machine",
    "title": "The Infinity Machine",
    "authors": [
@@ -9901,6 +10259,30 @@
    "isbn": null,
    "cover": "https://images2.penguinrandomhouse.com/cover/9780525566700",
    "goodreads": "https://www.goodreads.com/book/show/40921633-the-new-silk-roads"
+  },
+  {
+   "id": "the-new-spaniards",
+   "title": "The New Spaniards",
+   "authors": [
+    "John Hooper"
+   ],
+   "year": 1987,
+   "pages": 458,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "History & Culture"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780141016092",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1388383337l/182129.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/182129"
   },
   {
    "id": "the-nine-lives-of-pakistan-dispatches-from-a-divided-nation",
@@ -10572,6 +10954,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "the-sellout",
+   "title": "The Sellout",
+   "authors": [
+    "Paul Beatty"
+   ],
+   "year": 2015,
+   "pages": 289,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781786070159",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1456419980l/28923995.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/28923995"
   },
   {
    "id": "the-seven-principles-for-making-marriage-work",
@@ -12320,6 +12726,30 @@
    "goodreads": null
   },
   {
+   "id": "why-war",
+   "title": "Why War?",
+   "authors": [
+    "Richard Overy"
+   ],
+   "year": null,
+   "pages": null,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "History & Culture"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9780241567609",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1718980147l/215085061.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/215085061"
+  },
+  {
    "id": "win-bigly",
    "title": "Win Bigly",
    "authors": [
@@ -12635,6 +13065,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "you-are-here",
+   "title": "You Are Here",
+   "authors": [
+    "David Nicholls"
+   ],
+   "year": 2024,
+   "pages": 368,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-07",
+   "isbn13": "9781444715460",
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1741090022l/222532885.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/222532885"
   },
   {
    "id": "you-look-like-a-thing-and-i-love-you",
