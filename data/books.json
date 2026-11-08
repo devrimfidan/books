@@ -8652,7 +8652,9 @@
   {
    "id": "the-art-of-statistics-learning-from-data",
    "title": "The Art of Statistics - Learning from Data",
-   "authors": [],
+   "authors": [
+    "David Spiegelhalter"
+   ],
    "year": 2019,
    "pages": 426,
    "language": "English",

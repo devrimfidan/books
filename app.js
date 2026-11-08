@@ -19,10 +19,11 @@
       pages: (n) => `${n} pages`,
       books: (n) => `${n} ${n === 1 ? "book" : "books"}`,
       undated: "Undated",
+      noTopic: "No topic",
       emptyShelf: "No books on this shelf.",
       emptySearch: "No matching books.",
       loadError: "Couldn't load the library. Check your connection and try again.",
-      sort: { dateRead: "Date read", added: "Date added", title: "Title", author: "Author", rating: "My rating", year: "Publication year" },
+      sort: { dateRead: "Date read", added: "Date added", title: "Title", author: "Author", rating: "My rating", year: "Publication year", topic: "Topic" },
       sortLabel: "Sort", layoutGrid: "Covers", layoutList: "List", layoutLabel: "Layout", shelvesLabel: "Shelves",
       searchPh: "Search title or author",
       all: { status: "All shelves", topic: "All topics", format: "All formats", lang: "All languages" },
@@ -51,10 +52,11 @@
       pages: (n) => `${n} sayfa`,
       books: (n) => `${n} kitap`,
       undated: "Tarihsiz",
+      noTopic: "Konusuz",
       emptyShelf: "Bu rafta kitap yok.",
       emptySearch: "Eşleşen kitap bulunamadı.",
       loadError: "Kitaplık yüklenemedi. İnternet bağlantını kontrol edip tekrar dene.",
-      sort: { dateRead: "Okunma tarihi", added: "Eklenme tarihi", title: "Başlık", author: "Yazar", rating: "Puanım", year: "Yayın yılı" },
+      sort: { dateRead: "Okunma tarihi", added: "Eklenme tarihi", title: "Başlık", author: "Yazar", rating: "Puanım", year: "Yayın yılı", topic: "Konu" },
       sortLabel: "Sırala", layoutGrid: "Kapaklar", layoutList: "Liste", layoutLabel: "Görünüm", shelvesLabel: "Raflar",
       searchPh: "Başlık veya yazar ara",
       all: { status: "Tüm raflar", topic: "Tüm konular", format: "Tüm formatlar", lang: "Tüm diller" },
@@ -221,11 +223,17 @@
     author: (a, b) => collator.compare(surname(a), surname(b)) || collator.compare(a.authors[0] || "~", b.authors[0] || "~") || collator.compare(a.title, b.title),
     rating: (a, b) => (b.rating || 0) - (a.rating || 0) || (b.dateRead || "").localeCompare(a.dateRead || ""),
     year: (a, b) => (b.year || -1e4) - (a.year || -1e4) || collator.compare(a.title, b.title),
+    topic: (a, b) => collator.compare(a.title, b.title),
   };
   const READ_SHELVES = ["Read", "Did Not Finish"];
   const defaultSort = (shelf) => (READ_SHELVES.includes(shelf) ? "dateRead" : "added");
   // Date read and my rating only make sense for books I've read.
-  const sortsFor = (shelf) => Object.keys(SORTS).filter((k) => READ_SHELVES.includes(shelf) || (k !== "dateRead" && k !== "rating"));
+  const TOPIC_SHELVES = ["Read", "Backlog"];
+  const sortsFor = (shelf) => Object.keys(SORTS).filter((k) => {
+    if (k === "dateRead" || k === "rating") return READ_SHELVES.includes(shelf);
+    if (k === "topic") return TOPIC_SHELVES.includes(shelf);
+    return true;
+  });
   function surname(b) {
     const a = (b.authors[0] || "").trim();
     return a ? a.split(/\s+/).pop() : "~";
@@ -235,15 +243,19 @@
     const c = s === "~" ? "" : s.charAt(0).toLocaleUpperCase("tr");
     return /\p{L}/u.test(c) ? c : "#";
   }
-  function grouped(list, keyOf) {
+  // keyOf may return several keys: the book is then listed under each of them.
+  function grouped(list, keyOf, order) {
     const groups = new Map();
     for (const b of list) {
-      const k = keyOf(b);
-      if (!groups.has(k)) groups.set(k, []);
-      groups.get(k).push(b);
+      for (const k of [].concat(keyOf(b))) {
+        if (!groups.has(k)) groups.set(k, []);
+        groups.get(k).push(b);
+      }
     }
+    let entries = [...groups];
+    if (order) entries = entries.sort(order);
     let html = "";
-    for (const [k, items] of groups) {
+    for (const [k, items] of entries) {
       html += `<div class="group-h"><h2>${esc(k)}</h2><span>${esc(L.books(items.length))}</span></div>` + collection(items, state.layout);
     }
     return html;
@@ -286,6 +298,11 @@
     let html = "";
     if (sortKey === "dateRead") html = grouped(list, (b) => (b.dateRead ? b.dateRead.slice(0, 4) : L.undated));
     else if (sortKey === "author") html = grouped(list, initial);
+    else if (sortKey === "year") html = grouped(list, (b) => (b.year ? String(b.year) : L.undated));
+    else if (sortKey === "topic") {
+      html = grouped(list, (b) => (b.topics.length ? b.topics : L.noTopic),
+        ([a], [b]) => (a === L.noTopic) - (b === L.noTopic) || collator.compare(a, b));
+    }
     else html = collection(list, state.layout);
     $("#shelf-body").innerHTML = html || collection([], state.layout);
     hydrateCovers($("#view-shelves"));
