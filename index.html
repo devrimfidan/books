@@ -33,6 +33,7 @@
     <div id="reading-now"></div>
     <nav class="chips" id="shelf-chips" aria-label="Raflar"></nav>
     <div class="toolbar">
+      <div class="toolbar-l">
       <label class="select">
         <span class="sr-only">Sort</span>
         <select id="shelf-sort">
@@ -44,6 +45,11 @@
           <option value="year">Publication year</option>
         </select>
       </label>
+      <label class="select" id="shelf-format-wrap" hidden>
+        <span class="sr-only">Format</span>
+        <select id="shelf-format"></select>
+      </label>
+      </div>
       <div class="seg" role="group" aria-label="Görünüm">
         <button type="button" data-layout="grid" aria-label="Kapaklar"><svg viewBox="0 0 24 24"><path d="M4 4h6v7H4zM14 4h6v7h-6zM4 13h6v7H4zM14 13h6v7h-6z"/></svg></button>
         <button type="button" data-layout="list" aria-label="Liste"><svg viewBox="0 0 24 24"><path d="M4 5h16v2H4zM4 11h16v2H4zM4 17h16v2H4z"/></svg></button>

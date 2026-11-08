@@ -1,5 +1,5 @@
 /* Kitaplığım service worker: uygulama kabuğu önbellekte, veri ağdan (çevrimdışıysa önbellekten), kapaklar önbellekten. */
-const SHELL = "kitapligim-shell-v2";
+const SHELL = "kitapligim-shell-v3";
 const COVERS = "kitapligim-covers-v1";
 const COVER_LIMIT = 700;
 const ASSETS = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "data/books.json",

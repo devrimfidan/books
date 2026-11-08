@@ -31,7 +31,7 @@
       noDate: (n) => `${n} read ${n === 1 ? "book has" : "books have"} no date.`,
       topics: "Topics I've read", authors: "Most-read authors", library: "Library",
       formats: "Formats", formatsNote: "A book can be in more than one format.",
-      language: "Language", longest: "Longest book read",
+      language: "Language",
       facts: { read: "Read", year: "Published", pages: "Pages", lang: "Language", depth: "Reading", isbn: "ISBN" },
       format: "Format", topicsH: "Topics", goodreads: "Open on Goodreads",
       stars: (n) => `${n} of 5 stars`, close: "Close", switchTo: "Türkçe", switchShort: "TR",
@@ -63,7 +63,7 @@
       noDate: (n) => `${n} kitabın okunma tarihi yok.`,
       topics: "Okuduğum konular", authors: "En çok okuduğum yazarlar", library: "Kitaplık",
       formats: "Formatlar", formatsNote: "Bir kitap birden çok formatta olabilir.",
-      language: "Dil", longest: "En uzun okuduğum",
+      language: "Dil",
       facts: { read: "Okundu", year: "Yayın", pages: "Sayfa", lang: "Dil", depth: "Okuma", isbn: "ISBN" },
       format: "Format", topicsH: "Konular", goodreads: "Goodreads'te aç",
       stars: (n) => `${n} / 5 yıldız`, close: "Kapat", switchTo: "English", switchShort: "EN",
@@ -84,7 +84,7 @@
   const norm = (s) => String(s || "").toLocaleLowerCase("tr").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
 
   const state = Object.assign(
-    { tab: "shelves", shelf: "Read", sort: {}, layout: "grid", uiLang: "en", q: "", status: "", topic: "", format: "", lang: "" },
+    { tab: "shelves", shelf: "Read", sort: {}, layout: "grid", uiLang: "en", q: "", status: "", topic: "", format: "", lang: "", shelfFormat: "" },
     store.get("kitapligim:ui", {})
   );
   if (!(state.uiLang in I18N)) state.uiLang = "en";
@@ -218,11 +218,36 @@
     dateRead: (a, b) => (b.dateRead || "").localeCompare(a.dateRead || "") || collator.compare(a.title, b.title),
     added: (a, b) => (b.added || "").localeCompare(a.added || "") || collator.compare(a.title, b.title),
     title: (a, b) => collator.compare(a.title, b.title),
-    author: (a, b) => collator.compare(a.authors[0] || "~", b.authors[0] || "~") || collator.compare(a.title, b.title),
+    author: (a, b) => collator.compare(surname(a), surname(b)) || collator.compare(a.authors[0] || "~", b.authors[0] || "~") || collator.compare(a.title, b.title),
     rating: (a, b) => (b.rating || 0) - (a.rating || 0) || (b.dateRead || "").localeCompare(a.dateRead || ""),
     year: (a, b) => (b.year || -1e4) - (a.year || -1e4) || collator.compare(a.title, b.title),
   };
-  const defaultSort = (shelf) => (shelf === "Read" || shelf === "Did Not Finish" ? "dateRead" : "added");
+  const READ_SHELVES = ["Read", "Did Not Finish"];
+  const defaultSort = (shelf) => (READ_SHELVES.includes(shelf) ? "dateRead" : "added");
+  // Date read and my rating only make sense for books I've read.
+  const sortsFor = (shelf) => Object.keys(SORTS).filter((k) => READ_SHELVES.includes(shelf) || (k !== "dateRead" && k !== "rating"));
+  function surname(b) {
+    const a = (b.authors[0] || "").trim();
+    return a ? a.split(/\s+/).pop() : "~";
+  }
+  function initial(b) {
+    const s = surname(b);
+    const c = s === "~" ? "" : s.charAt(0).toLocaleUpperCase("tr");
+    return /\p{L}/u.test(c) ? c : "#";
+  }
+  function grouped(list, keyOf) {
+    const groups = new Map();
+    for (const b of list) {
+      const k = keyOf(b);
+      if (!groups.has(k)) groups.set(k, []);
+      groups.get(k).push(b);
+    }
+    let html = "";
+    for (const [k, items] of groups) {
+      html += `<div class="group-h"><h2>${esc(k)}</h2><span>${esc(L.books(items.length))}</span></div>` + collection(items, state.layout);
+    }
+    return html;
+  }
 
   /* ---------- Shelves ---------- */
   function renderShelves() {
@@ -241,25 +266,27 @@
       .map((s) => `<button type="button" class="chip ${s === state.shelf ? "active" : ""}" data-shelf="${s}">${esc(L.status[s])} <b>${counts[s]}</b></button>`)
       .join("");
 
-    const sortKey = state.sort[state.shelf] || defaultSort(state.shelf);
+    const allowed = sortsFor(state.shelf);
+    const sortKey = allowed.includes(state.sort[state.shelf]) ? state.sort[state.shelf] : defaultSort(state.shelf);
+    $$("#shelf-sort option").forEach((o) => (o.hidden = o.disabled = !allowed.includes(o.value)));
     $("#shelf-sort").value = sortKey;
+
+    // Owned shelf: extra format filter
+    const onShelf = BOOKS.filter((b) => b.status === state.shelf);
+    const showFormat = state.shelf === "Backlog";
+    $("#shelf-format-wrap").hidden = !showFormat;
+    if (showFormat) {
+      const fmts = [...new Set(onShelf.flatMap((b) => b.formats))].sort(collator.compare);
+      if (!fmts.includes(state.shelfFormat)) state.shelfFormat = "";
+      fillSelect($("#shelf-format"), L.all.format, fmts, state.shelfFormat);
+    }
     $$(".seg button").forEach((x) => x.classList.toggle("active", x.dataset.layout === state.layout));
 
-    const list = BOOKS.filter((b) => b.status === state.shelf).sort(SORTS[sortKey]);
+    const list = onShelf.filter((b) => !showFormat || !state.shelfFormat || b.formats.includes(state.shelfFormat)).sort(SORTS[sortKey]);
     let html = "";
-    if (sortKey === "dateRead") {
-      const groups = new Map();
-      for (const b of list) {
-        const k = b.dateRead ? b.dateRead.slice(0, 4) : L.undated;
-        if (!groups.has(k)) groups.set(k, []);
-        groups.get(k).push(b);
-      }
-      for (const [k, items] of groups) {
-        html += `<div class="group-h"><h2>${esc(k)}</h2><span>${esc(L.books(items.length))}</span></div>` + collection(items, state.layout);
-      }
-    } else {
-      html = collection(list, state.layout);
-    }
+    if (sortKey === "dateRead") html = grouped(list, (b) => (b.dateRead ? b.dateRead.slice(0, 4) : L.undated));
+    else if (sortKey === "author") html = grouped(list, initial);
+    else html = collection(list, state.layout);
     $("#shelf-body").innerHTML = html || collection([], state.layout);
     hydrateCovers($("#view-shelves"));
   }
@@ -331,7 +358,6 @@
     const formats = countBy(BOOKS, (b) => b.formats);
     const langs = countBy(BOOKS, (b) => b.language);
     const total = BOOKS.length;
-    const longest = read.filter((b) => b.pages).sort((a, b) => b.pages - a.pages)[0];
 
     $("#stats-body").innerHTML = `
       <div class="kpis">
@@ -350,7 +376,6 @@
       ${langs.length ? `<div class="card"><h2>${esc(L.language)}</h2>
         <div class="split">${langs.map(([, n]) => `<i style="width:${(n / total) * 100}%"></i>`).join("")}</div>
         <div class="legend">${langs.map(([k, n], i) => `<span><b style="background:${i ? "var(--star)" : "var(--accent)"}"></b>${esc(L.lang[k] || k)} ${n}</span>`).join("")}</div></div>` : ""}
-      ${longest ? `<div class="card"><h2>${esc(L.longest)}</h2>${row(longest)}</div>` : ""}
     `;
     hydrateCovers($("#stats-body"));
   }
@@ -486,6 +511,7 @@
     }
   });
   $("#shelf-sort").addEventListener("change", (e) => { state.sort[state.shelf] = e.target.value; save(); renderShelves(); });
+  $("#shelf-format").addEventListener("change", (e) => { state.shelfFormat = e.target.value; renderShelves(); });
   let qTimer;
   $("#q").addEventListener("input", (e) => { clearTimeout(qTimer); qTimer = setTimeout(() => { state.q = e.target.value; renderSearch(); }, 120); });
   [["#f-status", "status"], ["#f-topic", "topic"], ["#f-format", "format"], ["#f-lang", "lang"]].forEach(([sel, key]) =>

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07",
+ "generated": "2026-11-08",
  "count": 491,
  "books": [
   {
@@ -7612,11 +7612,7 @@
    "id": "sefiller",
    "title": "Sefiller",
    "authors": [
-    "Victor Hugo",
-    "Norman MacAfee",
-    "Charles E. Wilbour",
-    "Lee Fahnestock",
-    "Isabel Florence Hapgood"
+    "Victor Hugo"
    ],
    "year": 1862,
    "pages": 1488,
