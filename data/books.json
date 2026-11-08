@@ -329,7 +329,7 @@
    "formats": [
     "Hard Cover"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "History & Culture"
@@ -341,7 +341,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/7956189-a-history-of-the-world-in-100-objects"
+   "goodreads": "https://www.goodreads.com/book/show/13124205"
   },
   {
    "id": "a-little-luck",
@@ -1559,7 +1559,7 @@
    "formats": [
     "Paperback"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Contemporary Fiction"
@@ -4728,7 +4728,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/I/51RIKu29fRL._SL500_.jpg",
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/77566"
   },
   {
    "id": "i-am-pilgrim",
@@ -5191,7 +5191,7 @@
     "Paperback",
     "Apple Books"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Contemporary Fiction"
@@ -5203,7 +5203,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1430092897i/25434478.jpg",
-   "goodreads": "https://www.goodreads.com/book/show/25434478-kara-kitap?ref=nav_sb_ss_4_10"
+   "goodreads": "https://www.goodreads.com/book/show/41054332"
   },
   {
    "id": "karanl-k-orman",
@@ -6018,7 +6018,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1631529536i/58987600.jpg",
-   "goodreads": "https://www.goodreads.com/book/show/8147318-midnight-s-children"
+   "goodreads": "https://www.goodreads.com/book/show/14836"
   },
   {
    "id": "million-dollar-weekend-the-surprisingly-simple-way-to-launch-a-7-figure-business-in-48-hours",
@@ -6416,7 +6416,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1709986452i/204927599.jpg",
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/204927599"
   },
   {
    "id": "no-one-writes-to-the-colonel",
@@ -6811,7 +6811,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1339959174i/1048339.jpg",
-   "goodreads": "https://www.goodreads.com/book/show/1048339.Other_Colours"
+   "goodreads": "https://www.goodreads.com/book/show/2496111"
   },
   {
    "id": "parenting-the-first-twelve-years",
@@ -7389,7 +7389,7 @@
    "formats": [
     "Kindle"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Artificial Intelligence",
@@ -7402,7 +7402,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": null,
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/58090304"
   },
   {
    "id": "reset-how-to-change-what-s-not-working",
@@ -8971,7 +8971,7 @@
    "formats": [
     "Paperback"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Thinking & Decision Making"
@@ -9790,7 +9790,7 @@
    "formats": [
     "Apple Books"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Contemporary Fiction"
@@ -9802,7 +9802,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": null,
-   "goodreads": "https://www.goodreads.com/book/show/8737.The_Last_Temptation_of_Christ"
+   "goodreads": "https://www.goodreads.com/book/show/62201435"
   },
   {
    "id": "the-latin-americans-their-love-hate-relationship-with-the-united-states",
@@ -12470,7 +12470,7 @@
    "formats": [
     "Kindle"
    ],
-   "status": "Backlog",
+   "status": "To Read",
    "rating": null,
    "topics": [
     "Ideas & Society"
@@ -12482,7 +12482,7 @@
    "isbn13": null,
    "isbn": null,
    "cover": null,
-   "goodreads": null
+   "goodreads": "https://www.goodreads.com/book/show/243856566"
   },
   {
    "id": "what-they-don-t-teach-you-about-money",
