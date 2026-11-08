@@ -1,6 +1,6 @@
 {
  "generated": "2026-11-08",
- "count": 510,
+ "count": 512,
  "books": [
   {
    "id": "12-eyl-l-k-lt-r",
@@ -394,6 +394,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "a-monk-s-guide-to-a-clean-house-mind",
+   "title": "A Monk's Guide to a Clean House & Mind",
+   "authors": [
+    "Shoukei Matsumoto"
+   ],
+   "year": 2011,
+   "pages": 130,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Productivity & Habits"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-08",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1511760639i/35656221.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/35656221-a-monk-s-guide-to-a-clean-house-mind"
   },
   {
    "id": "a-promised-land",
@@ -8534,6 +8558,30 @@
    "isbn": null,
    "cover": null,
    "goodreads": null
+  },
+  {
+   "id": "tales-of-ordinary-madness",
+   "title": "Tales of Ordinary Madness",
+   "authors": [
+    "Charles Bukowski"
+   ],
+   "year": 1983,
+   "pages": 234,
+   "language": "English",
+   "formats": [],
+   "status": "To Read",
+   "rating": null,
+   "topics": [
+    "Contemporary Fiction"
+   ],
+   "genre": [],
+   "depth": null,
+   "dateRead": null,
+   "added": "2026-11-08",
+   "isbn13": null,
+   "isbn": null,
+   "cover": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1742584438i/3038403.jpg",
+   "goodreads": "https://www.goodreads.com/book/show/3038403-tales-of-ordinary-madness"
   },
   {
    "id": "talk-like-ted",
