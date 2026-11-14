@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08",
+ "generated": "2026-11-14",
  "count": 512,
  "books": [
   {
@@ -9600,8 +9600,8 @@
     "Kindle",
     "Audible"
    ],
-   "status": "Reading",
-   "rating": null,
+   "status": "Read",
+   "rating": 4,
    "topics": [
     "Science Fiction"
    ],
@@ -10480,8 +10480,8 @@
     "Kindle",
     "Audible"
    ],
-   "status": "Reading",
-   "rating": null,
+   "status": "Read",
+   "rating": 3,
    "topics": [
     "Science Fiction"
    ],
