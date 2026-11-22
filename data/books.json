@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14",
+ "generated": "2026-11-22",
  "count": 512,
  "books": [
   {
@@ -8595,7 +8595,7 @@
    "formats": [
     "Paperback"
    ],
-   "status": "Reading",
+   "status": "Read",
    "rating": null,
    "topics": [
     "Leadership & Career",
